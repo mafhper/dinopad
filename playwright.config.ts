@@ -7,6 +7,7 @@ export default defineConfig({
   reporter: [['html', { outputFolder: '.dev/playwright/report', open: 'never' }], ['list']],
   use: {
     baseURL: 'http://127.0.0.1:4173/dinopad/',
+    serviceWorkers: 'block',
     trace: 'retain-on-failure',
   },
   projects: [

@@ -19,31 +19,35 @@ test('abre atlas, ficha e navega entre organismos relacionados', async ({ page }
   await expect(page.getByRole('heading', { name: 'Tricerátopo' })).toBeVisible();
 });
 
-test('continua navegável sem rede depois de aquecer as rotas', async ({ page, context }, testInfo) => {
-  test.skip(testInfo.project.name !== 'desktop', 'O cache offline é independente do viewport e é validado uma vez no desktop.');
-  await page.goto('#/');
-  await page.getByRole('link', { name: 'Abrir o atlas' }).click();
-  await expect(page.getByRole('heading', { name: 'Atlas', level: 1 })).toBeVisible();
-  await page.getByRole('link', { name: 'Tempo' }).click();
-  await expect(page.getByRole('heading', { name: 'Tempo profundo' })).toBeVisible();
-  await page.evaluate(() => navigator.serviceWorker?.ready);
-  await expect.poll(() => page.evaluate(async () => {
-    if (!navigator.serviceWorker.controller) return false;
-    const cacheName = (await caches.keys()).find((name) => name.startsWith('dinopad-atlas-'));
-    if (!cacheName) return false;
-    const requests = await (await caches.open(cacheName)).keys();
-    return requests.some(({ url }) => url.includes('/assets/ArvoreEvolutiva-'));
-  }), { timeout: 30_000 }).toBe(true);
-  await context.setOffline(true);
-  await page.goto('#/cartas?item=archaefructus');
-  await expect(page.getByRole('heading', { name: 'Arqueofruto' })).toBeVisible();
-  const imagemDaPlanta = page.locator('.detail-gallery img').first();
-  await expect.poll(() => imagemDaPlanta.evaluate((imagem: HTMLImageElement) => imagem.naturalWidth)).toBeGreaterThan(0);
-  await page.goto('#/arvore?raiz=archaefructus-lineage&item=archaefructus&modo=cladograma');
-  await expect(page.getByRole('heading', { name: 'Arqueofruto' })).toBeVisible();
-  await page.goto('#/publicacoes');
-  await expect(page.getByRole('heading', { name: 'Biblioteca' })).toBeVisible();
-  await context.setOffline(false);
+test.describe('cache offline', () => {
+  test.use({ serviceWorkers: 'allow' });
+
+  test('continua navegável sem rede depois de aquecer as rotas', async ({ page, context }, testInfo) => {
+    test.skip(testInfo.project.name !== 'desktop', 'O cache offline é independente do viewport e é validado uma vez no desktop.');
+    await page.goto('#/');
+    await page.getByRole('link', { name: 'Abrir o atlas' }).click();
+    await expect(page.getByRole('heading', { name: 'Atlas', level: 1 })).toBeVisible();
+    await page.getByRole('link', { name: 'Tempo' }).click();
+    await expect(page.getByRole('heading', { name: 'Tempo profundo' })).toBeVisible();
+    await page.evaluate(() => navigator.serviceWorker?.ready);
+    await expect.poll(() => page.evaluate(async () => {
+      if (!navigator.serviceWorker.controller) return false;
+      const cacheName = (await caches.keys()).find((name) => name.startsWith('dinopad-atlas-'));
+      if (!cacheName) return false;
+      const requests = await (await caches.open(cacheName)).keys();
+      return requests.some(({ url }) => url.includes('/assets/ArvoreEvolutiva-'));
+    }), { timeout: 30_000 }).toBe(true);
+    await context.setOffline(true);
+    await page.goto('#/cartas?item=archaefructus');
+    await expect(page.getByRole('heading', { name: 'Arqueofruto' })).toBeVisible();
+    const imagemDaPlanta = page.locator('.detail-gallery img').first();
+    await expect.poll(() => imagemDaPlanta.evaluate((imagem: HTMLImageElement) => imagem.naturalWidth)).toBeGreaterThan(0);
+    await page.goto('#/arvore?raiz=archaefructus-lineage&item=archaefructus&modo=cladograma');
+    await expect(page.getByRole('heading', { name: 'Arqueofruto' })).toBeVisible();
+    await page.goto('#/publicacoes');
+    await expect(page.getByRole('heading', { name: 'Biblioteca' })).toBeVisible();
+    await context.setOffline(false);
+  });
 });
 
 test('ficha de pterossauro usa envergadura sem inventar comprimento', async ({ page }) => {
