@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Atlas interativo mobile-first sobre a história da Terra, evolução, fósseis e dinossauros" />
+    <meta name="theme-color" content="#16150f" />
+    <script>
+      (() => {
+        const themes = ['light', 'dark', 'gold', 'purple'];
+        let preference = 'gold';
+        try {
+          const stored = localStorage.getItem('dinopad.theme');
+          if (stored === 'system' || themes.includes(stored)) preference = stored;
+        } catch {}
+        const theme = preference === 'system'
+          ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : preference;
+        const colors = { light: '#f5f0e4', dark: '#141619', gold: '#16150f', purple: '#17121d' };
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themePreference = preference;
+        document.querySelector('meta[name="theme-color"]').content = colors[theme];
+      })();
+    </script>
+    <title>Dinopad — Atlas do tempo profundo</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

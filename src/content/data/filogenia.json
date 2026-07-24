@@ -1,0 +1,2056 @@
+[
+  {
+    "id": "eukaryota",
+    "nomeCientifico": "Eukaryota",
+    "nomePt": "Eucariotos",
+    "nomeEn": "Eukaryotes",
+    "nivelTaxonomico": "dominio",
+    "paiId": null,
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Células com núcleo delimitado"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "archaeplastida",
+    "nomeCientifico": "Archaeplastida",
+    "nomePt": "Plantas e parentes fotossintetizantes",
+    "nomeEn": "Archaeplastids",
+    "nivelTaxonomico": "clado",
+    "paiId": "eukaryota",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Plastídios primários derivados de endossimbiose"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "viridiplantae",
+    "nomeCientifico": "Viridiplantae",
+    "nomePt": "Plantas verdes",
+    "nomeEn": "Green plants",
+    "nivelTaxonomico": "clado",
+    "paiId": "archaeplastida",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Clorofilas a e b"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "tracheophyta",
+    "nomeCientifico": "Tracheophyta",
+    "nomePt": "Plantas vasculares",
+    "nomeEn": "Vascular plants",
+    "nivelTaxonomico": "filo",
+    "paiId": "viridiplantae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Tecidos que transportam água e açúcares"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "lycophyta",
+    "nomeCientifico": "Lycophyta",
+    "nomePt": "Licófitas",
+    "nomeEn": "Lycophytes",
+    "nivelTaxonomico": "clado",
+    "paiId": "tracheophyta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Folhas do tipo micrófilo"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "isoetales",
+    "nomeCientifico": "Isoëtales",
+    "nomePt": "Isoetales",
+    "nomeEn": "Quillwort lineage",
+    "nivelTaxonomico": "ordem",
+    "paiId": "lycophyta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Esporos de dois tamanhos e base caulinar especializada"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "pleuromeia-2021"
+    ]
+  },
+  {
+    "id": "pleuromeiaceae",
+    "nomeCientifico": "Pleuromeiaceae",
+    "nomePt": "Família de Pleuromeia",
+    "nomeEn": "Pleuromeia family",
+    "nivelTaxonomico": "familia",
+    "paiId": "isoetales",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Caule simples com folhas em espiral e estróbilo terminal"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "pleuromeia-2021"
+    ]
+  },
+  {
+    "id": "spermatophyta",
+    "nomeCientifico": "Spermatophyta",
+    "nomePt": "Plantas com sementes",
+    "nomeEn": "Seed plants",
+    "nivelTaxonomico": "clado",
+    "paiId": "euphyllophyta",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Reprodução por sementes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "corystospermales",
+    "nomeCientifico": "Corystospermales",
+    "nomePt": "Corystospermas",
+    "nomeEn": "Corystosperms",
+    "nivelTaxonomico": "ordem",
+    "paiId": "spermatophyta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Folhas frequentemente bifurcadas atribuídas a Dicroidium"
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "A associação entre folhas, madeira e órgãos reprodutivos depende de fósseis encontrados juntos.",
+    "fonteIds": [
+      "dicroidium-1968",
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "gymnospermae",
+    "nomeCientifico": "Gymnospermae",
+    "nomePt": "Gimnospermas",
+    "nomeEn": "Gymnosperms",
+    "nivelTaxonomico": "clado",
+    "paiId": "spermatophyta",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Sementes não encerradas em frutos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "coniferales",
+    "nomeCientifico": "Coniferales",
+    "nomePt": "Coníferas",
+    "nomeEn": "Conifers",
+    "nivelTaxonomico": "ordem",
+    "paiId": "gymnospermae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Cones reprodutivos e madeira com traqueídes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "araucariaceae",
+    "nomeCientifico": "Araucariaceae",
+    "nomePt": "Araucariáceas",
+    "nomeEn": "Araucaria family",
+    "nivelTaxonomico": "familia",
+    "paiId": "coniferales",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Escamas dos cones associadas a uma semente"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "araucaria-1978",
+      "araucaria-2026"
+    ]
+  },
+  {
+    "id": "gnetophyta",
+    "nomeCientifico": "Gnetophyta",
+    "nomePt": "Gnetófitas",
+    "nomeEn": "Gnetophytes",
+    "nivelTaxonomico": "clado",
+    "paiId": "gymnospermae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Grupo de plantas com sementes e vasos especializados"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "cratonia-2003",
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "angiospermae",
+    "nomeCientifico": "Angiospermae",
+    "nomePt": "Plantas com flores",
+    "nomeEn": "Flowering plants",
+    "nivelTaxonomico": "clado",
+    "paiId": "spermatophyta",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Óvulos encerrados em carpelos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "magnoliales",
+    "nomeCientifico": "Magnoliales",
+    "nomePt": "Magnoliales",
+    "nomeEn": "Magnoliales",
+    "nivelTaxonomico": "ordem",
+    "paiId": "angiospermae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Flores com múltiplas peças e carpelos separados em vários membros"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "endressinia-2004"
+    ]
+  },
+  {
+    "id": "monocotyledoneae",
+    "nomeCientifico": "Monocotyledoneae",
+    "nomePt": "Monocotiledôneas",
+    "nomeEn": "Monocots",
+    "nivelTaxonomico": "clado",
+    "paiId": "angiospermae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Um cotilédone e padrões característicos de nervação em muitos grupos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "opisthokonta",
+    "nomeCientifico": "Opisthokonta",
+    "nomePt": "Animais, fungos e parentes",
+    "nomeEn": "Opisthokonts",
+    "nivelTaxonomico": "clado",
+    "paiId": "eukaryota",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ancestral com flagelo posterior"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "metazoa",
+    "nomeCientifico": "Metazoa",
+    "nomePt": "Animais",
+    "nomeEn": "Animals",
+    "nivelTaxonomico": "reino",
+    "paiId": "opisthokonta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Multicelularidade e desenvolvimento embrionário"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "chordata",
+    "nomeCientifico": "Chordata",
+    "nomePt": "Cordados",
+    "nomeEn": "Chordates",
+    "nivelTaxonomico": "filo",
+    "paiId": "metazoa",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Notocorda em alguma fase da vida"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "amniota",
+    "nomeCientifico": "Amniota",
+    "nomePt": "Amniotas",
+    "nomeEn": "Amniotes",
+    "nivelTaxonomico": "clado",
+    "paiId": "tetrapoda",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Embrião protegido por membranas amnióticas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "synapsida",
+    "nomeCientifico": "Synapsida",
+    "nomePt": "Sinapsídeos",
+    "nomeEn": "Synapsids",
+    "nivelTaxonomico": "clado",
+    "paiId": "amniota",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Uma abertura temporal de cada lado do crânio"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "sphenacodontidae",
+    "nomeCientifico": "Sphenacodontidae",
+    "nomePt": "Esfenacodontídeos",
+    "nomeEn": "Sphenacodontids",
+    "nivelTaxonomico": "familia",
+    "paiId": "synapsida",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Crânio profundo e dentes diferenciados em vários membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life",
+      "nps-permian-dimetrodon"
+    ]
+  },
+  {
+    "id": "mammalia",
+    "nomeCientifico": "Mammalia",
+    "nomePt": "Mamíferos",
+    "nomeEn": "Mammals",
+    "nivelTaxonomico": "classe",
+    "paiId": "synapsida",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Pelos e produção de leite"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "carnivora",
+    "nomeCientifico": "Carnivora",
+    "nomePt": "Carnívoros mamíferos",
+    "nomeEn": "Carnivorans",
+    "nivelTaxonomico": "ordem",
+    "paiId": "mammalia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Dentes carniceiros especializados em muitos membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "felidae",
+    "nomeCientifico": "Felidae",
+    "nomePt": "Felinos",
+    "nomeEn": "Cats",
+    "nivelTaxonomico": "familia",
+    "paiId": "carnivora",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Garras retráteis ou semirretráteis e crânio felino"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "machairodontinae",
+    "nomeCientifico": "Machairodontinae",
+    "nomePt": "Felinos-dente-de-sabre",
+    "nomeEn": "Sabre-toothed cats",
+    "nivelTaxonomico": "clado",
+    "paiId": "felidae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Caninos superiores muito alongados"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smilodon-2020"
+    ]
+  },
+  {
+    "id": "sauropsida",
+    "nomeCientifico": "Sauropsida",
+    "nomePt": "Sauropsídeos",
+    "nomeEn": "Sauropsids",
+    "nivelTaxonomico": "clado",
+    "paiId": "amniota",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo que inclui répteis e aves"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "lepidosauromorpha",
+    "nomeCientifico": "Lepidosauromorpha",
+    "nomePt": "Lepidosauromorfos",
+    "nomeEn": "Lepidosauromorphs",
+    "nivelTaxonomico": "clado",
+    "paiId": "sauropsida",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo dos lagartos, serpentes e parentes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "squamata",
+    "nomeCientifico": "Squamata",
+    "nomePt": "Escamados",
+    "nomeEn": "Squamates",
+    "nivelTaxonomico": "ordem",
+    "paiId": "lepidosauromorpha",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Troca periódica da camada externa da pele"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "mosasauroidea",
+    "nomeCientifico": "Mosasauroidea",
+    "nomePt": "Mosassauros",
+    "nomeEn": "Mosasaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "squamata",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Lagartos marinhos com membros transformados em nadadeiras"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-mosasaur-guide"
+    ]
+  },
+  {
+    "id": "archosauromorpha",
+    "nomeCientifico": "Archosauromorpha",
+    "nomePt": "Arcossauromorfos",
+    "nomeEn": "Archosauromorphs",
+    "nivelTaxonomico": "clado",
+    "paiId": "sauropsida",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo que inclui arcossauros e parentes próximos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "archosauria",
+    "nomeCientifico": "Archosauria",
+    "nomePt": "Arcossauros",
+    "nomeEn": "Archosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "archosauromorpha",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Abertura antorbital em muitos membros fósseis"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "pterosauria",
+    "nomeCientifico": "Pterosauria",
+    "nomePt": "Pterossauros",
+    "nomeEn": "Pterosaurs",
+    "nivelTaxonomico": "ordem",
+    "paiId": "archosauria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Asa sustentada principalmente pelo quarto dedo"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life",
+      "amnh-pteranodon"
+    ]
+  },
+  {
+    "id": "pterodactyloidea",
+    "nomeCientifico": "Pterodactyloidea",
+    "nomePt": "Pterodactiloides",
+    "nomeEn": "Pterodactyloids",
+    "nivelTaxonomico": "clado",
+    "paiId": "pterosauria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Cauda curta e metacarpos alongados"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life",
+      "tapejara-2012"
+    ]
+  },
+  {
+    "id": "pteranodontidae",
+    "nomeCientifico": "Pteranodontidae",
+    "nomePt": "Pteranodontídeos",
+    "nomeEn": "Pteranodontids",
+    "nivelTaxonomico": "familia",
+    "paiId": "pterodactyloidea",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Bico sem dentes e grande crista em Pteranodon"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "amnh-pteranodon"
+    ]
+  },
+  {
+    "id": "tapejaridae",
+    "nomeCientifico": "Tapejaridae",
+    "nomePt": "Tapejarídeos",
+    "nomeEn": "Tapejarids",
+    "nivelTaxonomico": "familia",
+    "paiId": "pterodactyloidea",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Crânio curto e profundo com crista"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "tapejara-2012"
+    ]
+  },
+  {
+    "id": "dinosauria",
+    "nomeCientifico": "Dinosauria",
+    "nomePt": "Dinossauros",
+    "nomeEn": "Dinosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "archosauria",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Postura ereta com membros sob o corpo"
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "A composição de Dinosauria é robusta, mas a ordem dos primeiros grandes ramos continua debatida.",
+    "fonteIds": [
+      "dinosauria-phylogeny-2024"
+    ]
+  },
+  {
+    "id": "saurischia",
+    "nomeCientifico": "Saurischia",
+    "nomePt": "Saurísquios",
+    "nomeEn": "Saurischians",
+    "nivelTaxonomico": "clado",
+    "paiId": "dinosauria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Conjunto tradicional que reúne terópodes e sauropodomorfos"
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "A hipótese tradicional Saurischia–Ornithischia é mostrada por clareza e marcada como debatida.",
+    "fonteIds": [
+      "dinosauria-phylogeny-2024"
+    ]
+  },
+  {
+    "id": "herrerasauria",
+    "nomeCientifico": "Herrerasauria",
+    "nomePt": "Herrerasaurídeos e parentes",
+    "nomeEn": "Herrerasaurians",
+    "nivelTaxonomico": "clado",
+    "paiId": "saurischia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Dinossauros predadores muito antigos com mosaico de características"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "gnathovorax-2019",
+      "staurikosaurus-2009"
+    ]
+  },
+  {
+    "id": "herrerasauridae",
+    "nomeCientifico": "Herrerasauridae",
+    "nomePt": "Herrerasaurídeos",
+    "nomeEn": "Herrerasaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "herrerasauria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Mandíbulas com dentes recurvados e corpo bípede"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "gnathovorax-2019",
+      "staurikosaurus-2009"
+    ]
+  },
+  {
+    "id": "eusaurischia",
+    "nomeCientifico": "Eusaurischia",
+    "nomePt": "Saurísquios derivados",
+    "nomeEn": "Derived saurischians",
+    "nivelTaxonomico": "clado",
+    "paiId": "saurischia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo que separa sauropodomorfos e terópodes na hipótese tradicional"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "dinosauria-phylogeny-2024"
+    ]
+  },
+  {
+    "id": "sauropodomorpha",
+    "nomeCientifico": "Sauropodomorpha",
+    "nomePt": "Sauropodomorfos",
+    "nomeEn": "Sauropodomorphs",
+    "nivelTaxonomico": "clado",
+    "paiId": "eusaurischia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Pescoço alongado e tendência a dietas vegetais em formas derivadas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "dinosauria-phylogeny-2024",
+      "buriolestes-2021"
+    ]
+  },
+  {
+    "id": "buriolestidae",
+    "nomeCientifico": "Buriolestidae",
+    "nomePt": "Buriolestídeos",
+    "nomeEn": "Buriolestids",
+    "nivelTaxonomico": "familia",
+    "paiId": "sauropodomorpha",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Sauropodomorfos muito antigos ainda com dentes de predador"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "buriolestes-2021"
+    ]
+  },
+  {
+    "id": "plateosauridae",
+    "nomeCientifico": "Plateosauridae",
+    "nomePt": "Plateossaurídeos",
+    "nomeEn": "Plateosaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "sauropodomorpha",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Corpo robusto e pescoço alongado"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-plateosaurus"
+    ]
+  },
+  {
+    "id": "sauropoda",
+    "nomeCientifico": "Sauropoda",
+    "nomePt": "Saurópodes",
+    "nomeEn": "Sauropods",
+    "nivelTaxonomico": "clado",
+    "paiId": "sauropodomorpha",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Corpo quadrúpede, pescoço e cauda longos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "diplodocidae",
+    "nomeCientifico": "Diplodocidae",
+    "nomePt": "Diplodocídeos",
+    "nomeEn": "Diplodocids",
+    "nivelTaxonomico": "familia",
+    "paiId": "sauropoda",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Crânio pequeno e cauda muito alongada"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-diplodocus"
+    ]
+  },
+  {
+    "id": "macronaria",
+    "nomeCientifico": "Macronaria",
+    "nomePt": "Macronários",
+    "nomeEn": "Macronarians",
+    "nivelTaxonomico": "clado",
+    "paiId": "sauropoda",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Narinas externas ampliadas em muitos membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "brachiosauridae",
+    "nomeCientifico": "Brachiosauridae",
+    "nomePt": "Braquiossaurídeos",
+    "nomeEn": "Brachiosaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "macronaria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Membros anteriores relativamente longos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-brachiosaurus"
+    ]
+  },
+  {
+    "id": "titanosauria",
+    "nomeCientifico": "Titanosauria",
+    "nomePt": "Titanossauros",
+    "nomeEn": "Titanosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "macronaria",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Vértebras caudais procelosas em muitos membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "austroposeidon-2016",
+      "uberabatitan-2008"
+    ]
+  },
+  {
+    "id": "theropoda",
+    "nomeCientifico": "Theropoda",
+    "nomePt": "Terópodes",
+    "nomeEn": "Theropods",
+    "nivelTaxonomico": "clado",
+    "paiId": "eusaurischia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Bípedes; três dedos principais nos pés em muitos membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "dinosauria-phylogeny-2024"
+    ]
+  },
+  {
+    "id": "coelophysoidea",
+    "nomeCientifico": "Coelophysoidea",
+    "nomePt": "Celofisoides",
+    "nomeEn": "Coelophysoids",
+    "nivelTaxonomico": "clado",
+    "paiId": "theropoda",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Corpo esguio e pescoço alongado"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-coelophysis"
+    ]
+  },
+  {
+    "id": "ceratosauria",
+    "nomeCientifico": "Ceratosauria",
+    "nomePt": "Ceratossauros",
+    "nomeEn": "Ceratosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "theropoda",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo de terópodes com crânios frequentemente ornamentados"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "berthasaura-2021",
+      "carnotaurus-1990"
+    ]
+  },
+  {
+    "id": "noasauridae",
+    "nomeCientifico": "Noasauridae",
+    "nomePt": "Noassaurídeos",
+    "nomeEn": "Noasaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "ceratosauria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Grande diversidade de tamanhos e dietas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "berthasaura-2021"
+    ]
+  },
+  {
+    "id": "abelisauridae",
+    "nomeCientifico": "Abelisauridae",
+    "nomePt": "Abelissaurídeos",
+    "nomeEn": "Abelisaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "ceratosauria",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Crânio curto e braços muito reduzidos em formas derivadas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "carnotaurus-1990",
+      "carnotaurus-2011"
+    ]
+  },
+  {
+    "id": "tetanurae",
+    "nomeCientifico": "Tetanurae",
+    "nomePt": "Tetanúros",
+    "nomeEn": "Tetanurans",
+    "nivelTaxonomico": "clado",
+    "paiId": "theropoda",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Cauda relativamente rígida e mãos com três dedos principais"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "megalosauroidea",
+    "nomeCientifico": "Megalosauroidea",
+    "nomePt": "Megalosauroides",
+    "nomeEn": "Megalosauroids",
+    "nivelTaxonomico": "clado",
+    "paiId": "tetanurae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Terópodes de porte médio a grande"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "spinosauridae",
+    "nomeCientifico": "Spinosauridae",
+    "nomePt": "Espinossaurídeos",
+    "nomeEn": "Spinosaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "megalosauroidea",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Focinho alongado e dentes cônicos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "sereno-spinosaurus",
+      "irritator-2020"
+    ]
+  },
+  {
+    "id": "avetheropoda",
+    "nomeCientifico": "Avetheropoda",
+    "nomePt": "Aveterópodes",
+    "nomeEn": "Avetheropods",
+    "nivelTaxonomico": "clado",
+    "paiId": "tetanurae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo que reúne alossauroides e celurossauros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "allosauroidea",
+    "nomeCientifico": "Allosauroidea",
+    "nomePt": "Alossauroides",
+    "nomeEn": "Allosauroids",
+    "nivelTaxonomico": "clado",
+    "paiId": "avetheropoda",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Grandes predadores com três dedos funcionais nas mãos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-allosaurus"
+    ]
+  },
+  {
+    "id": "coelurosauria",
+    "nomeCientifico": "Coelurosauria",
+    "nomePt": "Celurossauros",
+    "nomeEn": "Coelurosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "avetheropoda",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Penas ou estruturas filamentosas em muitos membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "tyrannosauroidea",
+    "nomeCientifico": "Tyrannosauroidea",
+    "nomePt": "Tiranossauroides",
+    "nomeEn": "Tyrannosauroids",
+    "nivelTaxonomico": "clado",
+    "paiId": "coelurosauria",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Crânio robusto em formas derivadas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-tyrannosaurus"
+    ]
+  },
+  {
+    "id": "maniraptora",
+    "nomeCientifico": "Maniraptora",
+    "nomePt": "Manirraptores",
+    "nomeEn": "Maniraptorans",
+    "nivelTaxonomico": "clado",
+    "paiId": "coelurosauria",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Braços alongados e penas complexas em muitos membros"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "deinonychus-1969",
+      "nhm-archaeopteryx"
+    ]
+  },
+  {
+    "id": "dromaeosauridae",
+    "nomeCientifico": "Dromaeosauridae",
+    "nomePt": "Dromeossaurídeos",
+    "nomeEn": "Dromaeosaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "maniraptora",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Garra ampliada no segundo dedo do pé"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "deinonychus-1969",
+      "nhm-velociraptor"
+    ]
+  },
+  {
+    "id": "avialae",
+    "nomeCientifico": "Avialae",
+    "nomePt": "Avialanos",
+    "nomeEn": "Avialans",
+    "nivelTaxonomico": "clado",
+    "paiId": "maniraptora",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Asas com penas de voo"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-archaeopteryx"
+    ]
+  },
+  {
+    "id": "ornithischia",
+    "nomeCientifico": "Ornithischia",
+    "nomePt": "Ornitísquios",
+    "nomeEn": "Ornithischians",
+    "nivelTaxonomico": "clado",
+    "paiId": "dinosauria",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Osso predentário formando um bico inferior"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "dinosauria-phylogeny-2024"
+    ]
+  },
+  {
+    "id": "thyreophora",
+    "nomeCientifico": "Thyreophora",
+    "nomePt": "Tireóforos",
+    "nomeEn": "Thyreophorans",
+    "nivelTaxonomico": "clado",
+    "paiId": "ornithischia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Osteodermos formando armadura na pele"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "stegosauria",
+    "nomeCientifico": "Stegosauria",
+    "nomePt": "Estegossauros",
+    "nomeEn": "Stegosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "thyreophora",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Placas dorsais e espinhos caudais"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-stegosaurus"
+    ]
+  },
+  {
+    "id": "ankylosauria",
+    "nomeCientifico": "Ankylosauria",
+    "nomePt": "Anquilossauros",
+    "nomeEn": "Ankylosaurs",
+    "nivelTaxonomico": "clado",
+    "paiId": "thyreophora",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Armadura corporal extensa"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-ankylosaurus"
+    ]
+  },
+  {
+    "id": "neornithischia",
+    "nomeCientifico": "Neornithischia",
+    "nomePt": "Neornitísquios",
+    "nomeEn": "Neornithischians",
+    "nivelTaxonomico": "clado",
+    "paiId": "ornithischia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Dentes e mandíbulas especializados em processar plantas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "marginocephalia",
+    "nomeCientifico": "Marginocephalia",
+    "nomePt": "Marginocéfalos",
+    "nomeEn": "Marginocephalians",
+    "nivelTaxonomico": "clado",
+    "paiId": "neornithischia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Margem óssea ampliada na parte posterior do crânio"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "ceratopsia",
+    "nomeCientifico": "Ceratopsia",
+    "nomePt": "Ceratopsianos",
+    "nomeEn": "Ceratopsians",
+    "nivelTaxonomico": "clado",
+    "paiId": "marginocephalia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Bico semelhante ao de papagaio"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "amnh-psittacosaurus",
+      "nhm-triceratops"
+    ]
+  },
+  {
+    "id": "psittacosauridae",
+    "nomeCientifico": "Psittacosauridae",
+    "nomePt": "Psitacossaurídeos",
+    "nomeEn": "Psittacosaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "ceratopsia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ceratopsianos bípedes de crânio curto"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "psittacosaurus-2024",
+      "amnh-psittacosaurus"
+    ]
+  },
+  {
+    "id": "ceratopsidae",
+    "nomeCientifico": "Ceratopsidae",
+    "nomePt": "Ceratopsídeos",
+    "nomeEn": "Ceratopsids",
+    "nivelTaxonomico": "familia",
+    "paiId": "ceratopsia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Gola óssea ampliada e, em muitos membros, chifres"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-triceratops"
+    ]
+  },
+  {
+    "id": "ornithopoda",
+    "nomeCientifico": "Ornithopoda",
+    "nomePt": "Ornitópodes",
+    "nomeEn": "Ornithopods",
+    "nivelTaxonomico": "clado",
+    "paiId": "neornithischia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Pés com três dedos principais e baterias dentárias em formas derivadas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "iguanodontia",
+    "nomeCientifico": "Iguanodontia",
+    "nomePt": "Iguanodontes e hadrossauros",
+    "nomeEn": "Iguanodontians",
+    "nivelTaxonomico": "clado",
+    "paiId": "ornithopoda",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Bico largo e mastigação complexa"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-iguanodon",
+      "edmontosaurus-2017"
+    ]
+  },
+  {
+    "id": "iguanodontidae",
+    "nomeCientifico": "Iguanodontidae",
+    "nomePt": "Iguanodontídeos",
+    "nomeEn": "Iguanodontids",
+    "nivelTaxonomico": "familia",
+    "paiId": "iguanodontia",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Polegar em espinho em Iguanodon"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-iguanodon"
+    ]
+  },
+  {
+    "id": "hadrosauridae",
+    "nomeCientifico": "Hadrosauridae",
+    "nomePt": "Hadrossaurídeos",
+    "nomeEn": "Hadrosaurids",
+    "nivelTaxonomico": "familia",
+    "paiId": "iguanodontia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Bico largo e baterias de centenas de dentes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "edmontosaurus-2017",
+      "nhm-parasaurolophus"
+    ]
+  },
+  {
+    "id": "saurolophinae",
+    "nomeCientifico": "Saurolophinae",
+    "nomePt": "Hadrossauros sem crista tubular",
+    "nomeEn": "Saurolophines",
+    "nivelTaxonomico": "clado",
+    "paiId": "hadrosauridae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Crânio sem a crista tubular dos lambeossauríneos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "edmontosaurus-2017"
+    ]
+  },
+  {
+    "id": "lambeosaurinae",
+    "nomeCientifico": "Lambeosaurinae",
+    "nomePt": "Hadrossauros de crista oca",
+    "nomeEn": "Lambeosaurines",
+    "nivelTaxonomico": "clado",
+    "paiId": "hadrosauridae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Crista craniana com passagens de ar"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "nhm-parasaurolophus"
+    ]
+  },
+  {
+    "id": "ginkgoales",
+    "nomeCientifico": "Ginkgoales",
+    "nomePt": "Ginkgoales",
+    "nomeEn": "Ginkgoales",
+    "nivelTaxonomico": "ordem",
+    "paiId": "gymnospermae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Folhas com nervuras que se dividem em duas e sementes não encerradas em frutos."
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "ginkgo-huttonii-1971"
+    ]
+  },
+  {
+    "id": "ginkgoites-lineage",
+    "nomeCientifico": "Ginkgoites",
+    "nomePt": "Ramo de Ginkgoites",
+    "nomeEn": "Ginkgoites lineage",
+    "nivelTaxonomico": "genero",
+    "paiId": "ginkgoales",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Folhas fósseis em leque, reconhecidas principalmente por forma, nervação e cutícula."
+    ],
+    "certeza": "provavel",
+    "notaEditorial": "Ginkgoites é um gênero-forma; folhas isoladas não revelam sozinhas toda a planta.",
+    "fonteIds": [
+      "ginkgo-huttonii-1971"
+    ]
+  },
+  {
+    "id": "archaefructaceae",
+    "nomeCientifico": "Archaefructaceae",
+    "nomePt": "Archaefructáceas",
+    "nomeEn": "Archaefructaceae",
+    "nivelTaxonomico": "familia",
+    "paiId": "angiospermae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Plantas herbáceas aquáticas fósseis com eixos férteis alongados."
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "A posição exata entre as angiospermas iniciais mudou em análises posteriores.",
+    "fonteIds": [
+      "archaefructus-2002"
+    ]
+  },
+  {
+    "id": "archaefructus-lineage",
+    "nomeCientifico": "Archaefructus",
+    "nomePt": "Ramo de Archaefructus",
+    "nomeEn": "Archaefructus lineage",
+    "nivelTaxonomico": "genero",
+    "paiId": "archaefructaceae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Planta completa conhecida, com raízes, caules e estruturas reprodutivas preservadas."
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "archaefructus-2002"
+    ]
+  },
+  {
+    "id": "duartenia-lineage",
+    "nomeCientifico": "Duartenia",
+    "nomePt": "Ramo de Duartenia",
+    "nomeEn": "Duartenia lineage",
+    "nivelTaxonomico": "incertae-sedis",
+    "paiId": "coniferales",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Eixo lenhoso sinuoso, bifurcações e ramos finos em arranjo pseudo-helicoidal."
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "A afinidade com Cheirolepidiaceae é uma hipótese e não uma classificação fechada.",
+    "fonteIds": [
+      "duartenia-2012",
+      "duartenia-2021"
+    ]
+  },
+  {
+    "id": "vertebrata",
+    "nomeCientifico": "Vertebrata",
+    "nomePt": "Vertebrados",
+    "nomeEn": "Vertebrata",
+    "nivelTaxonomico": "clado",
+    "paiId": "chordata",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de vertebrados"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "tetrapodomorpha",
+    "nomeCientifico": "Tetrapodomorpha",
+    "nomePt": "Tetrapodomorfos",
+    "nomeEn": "Tetrapodomorpha",
+    "nivelTaxonomico": "clado",
+    "paiId": "vertebrata",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de tetrapodomorfos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "tiktaalik-2006"
+    ]
+  },
+  {
+    "id": "elpistostegalia",
+    "nomeCientifico": "Elpistostegalia",
+    "nomePt": "Elpistostegálios",
+    "nomeEn": "Elpistostegalia",
+    "nivelTaxonomico": "clado",
+    "paiId": "tetrapodomorpha",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de elpistostegálios"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "tiktaalik-2006"
+    ]
+  },
+  {
+    "id": "tetrapoda",
+    "nomeCientifico": "Tetrapoda",
+    "nomePt": "Tetrápodes",
+    "nomeEn": "Tetrapoda",
+    "nivelTaxonomico": "clado",
+    "paiId": "tetrapodomorpha",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de tetrápodes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "acanthostega-2002",
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "acanthostegidae",
+    "nomeCientifico": "Acanthostegidae",
+    "nomePt": "Acanthostegídeos",
+    "nomeEn": "Acanthostegidae",
+    "nivelTaxonomico": "familia",
+    "paiId": "tetrapoda",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de acanthostegídeos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "acanthostega-2002"
+    ]
+  },
+  {
+    "id": "arthropoda",
+    "nomeCientifico": "Arthropoda",
+    "nomePt": "Artrópodes",
+    "nomeEn": "Arthropoda",
+    "nivelTaxonomico": "clado",
+    "paiId": "metazoa",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de artrópodes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "radiodonta",
+    "nomeCientifico": "Radiodonta",
+    "nomePt": "Radiodontes",
+    "nomeEn": "Radiodonta",
+    "nivelTaxonomico": "clado",
+    "paiId": "arthropoda",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de radiodontes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "rom-anomalocaris"
+    ]
+  },
+  {
+    "id": "anomalocarididae",
+    "nomeCientifico": "Anomalocarididae",
+    "nomePt": "Anomalocaridídeos",
+    "nomeEn": "Anomalocarididae",
+    "nivelTaxonomico": "familia",
+    "paiId": "radiodonta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de anomalocaridídeos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "rom-anomalocaris"
+    ]
+  },
+  {
+    "id": "dickinsoniidae",
+    "nomeCientifico": "Dickinsoniidae",
+    "nomePt": "Dickinsoniídeos",
+    "nomeEn": "Dickinsoniidae",
+    "nivelTaxonomico": "familia",
+    "paiId": "metazoa",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de dickinsoniídeos"
+    ],
+    "certeza": "provavel",
+    "notaEditorial": "A posição exata dentro de Metazoa permanece debatida.",
+    "fonteIds": [
+      "dickinsonia-biomarker-2018"
+    ]
+  },
+  {
+    "id": "primates",
+    "nomeCientifico": "Primates",
+    "nomePt": "Primatas",
+    "nomeEn": "Primates",
+    "nivelTaxonomico": "ordem",
+    "paiId": "mammalia",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de primatas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "haplorhini",
+    "nomeCientifico": "Haplorhini",
+    "nomePt": "Haplorrinos",
+    "nomeEn": "Haplorhini",
+    "nivelTaxonomico": "clado",
+    "paiId": "primates",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de haplorrinos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "simiiformes",
+    "nomeCientifico": "Simiiformes",
+    "nomePt": "Símios",
+    "nomeEn": "Simiiformes",
+    "nivelTaxonomico": "clado",
+    "paiId": "haplorhini",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de símios"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "catarrhini",
+    "nomeCientifico": "Catarrhini",
+    "nomePt": "Catarrinos",
+    "nomeEn": "Catarrhini",
+    "nivelTaxonomico": "clado",
+    "paiId": "simiiformes",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de catarrinos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "hominoidea",
+    "nomeCientifico": "Hominoidea",
+    "nomePt": "Hominoides",
+    "nomeEn": "Hominoidea",
+    "nivelTaxonomico": "clado",
+    "paiId": "catarrhini",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de hominoides"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "hominidae",
+    "nomeCientifico": "Hominidae",
+    "nomePt": "Hominídeos",
+    "nomeEn": "Hominidae",
+    "nivelTaxonomico": "familia",
+    "paiId": "hominoidea",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de hominídeos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "ponginae",
+    "nomeCientifico": "Ponginae",
+    "nomePt": "Pongíneos",
+    "nomeEn": "Ponginae",
+    "nivelTaxonomico": "clado",
+    "paiId": "hominidae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de pongíneos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "pongo",
+    "nomeCientifico": "Pongo",
+    "nomePt": "Orangotangos",
+    "nomeEn": "Pongo",
+    "nivelTaxonomico": "genero",
+    "paiId": "ponginae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de orangotangos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "homininae",
+    "nomeCientifico": "Homininae",
+    "nomePt": "Hominíneos",
+    "nomeEn": "Homininae",
+    "nivelTaxonomico": "clado",
+    "paiId": "hominidae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de hominíneos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "gorillini",
+    "nomeCientifico": "Gorillini",
+    "nomePt": "Gorilas e parentes",
+    "nomeEn": "Gorillini",
+    "nivelTaxonomico": "clado",
+    "paiId": "homininae",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de gorilas e parentes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "gorilla",
+    "nomeCientifico": "Gorilla",
+    "nomePt": "Gorilas",
+    "nomeEn": "Gorilla",
+    "nivelTaxonomico": "genero",
+    "paiId": "gorillini",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de gorilas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "hominini",
+    "nomeCientifico": "Hominini",
+    "nomePt": "Humanos, chimpanzés e parentes",
+    "nomeEn": "Hominini",
+    "nivelTaxonomico": "clado",
+    "paiId": "homininae",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de humanos, chimpanzés e parentes"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "panina",
+    "nomeCientifico": "Panina",
+    "nomePt": "Chimpanzés e bonobos",
+    "nomeEn": "Panina",
+    "nivelTaxonomico": "clado",
+    "paiId": "hominini",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de chimpanzés e bonobos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "pan",
+    "nomeCientifico": "Pan",
+    "nomePt": "Chimpanzés e bonobos",
+    "nomeEn": "Pan",
+    "nivelTaxonomico": "genero",
+    "paiId": "panina",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de chimpanzés e bonobos"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "hominina",
+    "nomeCientifico": "Hominina",
+    "nomePt": "Hominínios",
+    "nomeEn": "Hominina",
+    "nivelTaxonomico": "clado",
+    "paiId": "hominini",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de hominínios"
+    ],
+    "certeza": "provavel",
+    "notaEditorial": "A ordem dos primeiros ramos hominínios não está completamente resolvida.",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "sahelanthropus-lineage",
+    "nomeCientifico": "Sahelanthropus",
+    "nomePt": "Ramo de Sahelanthropus",
+    "nomeEn": "Sahelanthropus",
+    "nivelTaxonomico": "genero",
+    "paiId": "hominina",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de ramo de sahelanthropus"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "orrorin-lineage",
+    "nomeCientifico": "Orrorin",
+    "nomePt": "Ramo de Orrorin",
+    "nomeEn": "Orrorin",
+    "nivelTaxonomico": "genero",
+    "paiId": "hominina",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de ramo de orrorin"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "ardipithecus",
+    "nomeCientifico": "Ardipithecus",
+    "nomePt": "Ardipitecos",
+    "nomeEn": "Ardipithecus",
+    "nivelTaxonomico": "genero",
+    "paiId": "hominina",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de ardipitecos"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "australopithecina",
+    "nomeCientifico": "Australopithecina",
+    "nomePt": "Australopitecíneos",
+    "nomeEn": "Australopithecina",
+    "nivelTaxonomico": "clado",
+    "paiId": "hominina",
+    "ordemVisual": 3,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de australopitecíneos"
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "A topologia entre Australopithecus, Kenyanthropus, Paranthropus e Homo varia entre análises.",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "australopithecus",
+    "nomeCientifico": "Australopithecus",
+    "nomePt": "Australopitecos",
+    "nomeEn": "Australopithecus",
+    "nivelTaxonomico": "genero",
+    "paiId": "australopithecina",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de australopitecos"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "kenyanthropus",
+    "nomeCientifico": "Kenyanthropus",
+    "nomePt": "Kenyanthropus",
+    "nomeEn": "Kenyanthropus",
+    "nivelTaxonomico": "genero",
+    "paiId": "australopithecina",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de kenyanthropus"
+    ],
+    "certeza": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "paranthropus",
+    "nomeCientifico": "Paranthropus",
+    "nomePt": "Parantropos",
+    "nomeEn": "Paranthropus",
+    "nivelTaxonomico": "genero",
+    "paiId": "australopithecina",
+    "ordemVisual": 2,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de parantropos"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "homo",
+    "nomeCientifico": "Homo",
+    "nomePt": "Humanos",
+    "nomeEn": "Homo",
+    "nivelTaxonomico": "genero",
+    "paiId": "australopithecina",
+    "ordemVisual": 3,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de humanos"
+    ],
+    "certeza": "em-debate",
+    "notaEditorial": "As relações entre as espécies fósseis de Homo não formam uma escada simples.",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ]
+  },
+  {
+    "id": "euphyllophyta",
+    "nomeCientifico": "Euphyllophyta",
+    "nomePt": "Eufilófitas",
+    "nomeEn": "Euphyllophyta",
+    "nivelTaxonomico": "clado",
+    "paiId": "tracheophyta",
+    "ordemVisual": 1,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de eufilófitas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "open-tree-of-life"
+    ]
+  },
+  {
+    "id": "rhyniopsida",
+    "nomeCientifico": "Rhyniopsida",
+    "nomePt": "Riniópsidas",
+    "nomeEn": "Rhyniopsida",
+    "nivelTaxonomico": "clado",
+    "paiId": "tracheophyta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de riniópsidas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "aberdeen-rhynie"
+    ]
+  },
+  {
+    "id": "rhyniaceae",
+    "nomeCientifico": "Rhyniaceae",
+    "nomePt": "Riniáceas",
+    "nomeEn": "Rhyniaceae",
+    "nivelTaxonomico": "familia",
+    "paiId": "rhyniopsida",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de riniáceas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "aberdeen-rhynie"
+    ]
+  },
+  {
+    "id": "sphenopsida",
+    "nomeCientifico": "Sphenopsida",
+    "nomePt": "Esfenopsidas",
+    "nomeEn": "Sphenopsida",
+    "nivelTaxonomico": "clado",
+    "paiId": "euphyllophyta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de esfenopsidas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "ucmp-calamites"
+    ]
+  },
+  {
+    "id": "calamitaceae",
+    "nomeCientifico": "Calamitaceae",
+    "nomePt": "Calamitáceas",
+    "nomeEn": "Calamitaceae",
+    "nivelTaxonomico": "familia",
+    "paiId": "sphenopsida",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de calamitáceas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "ucmp-calamites"
+    ]
+  },
+  {
+    "id": "glossopteridales",
+    "nomeCientifico": "Glossopteridales",
+    "nomePt": "Glossopteridales",
+    "nomeEn": "Glossopteridales",
+    "nivelTaxonomico": "ordem",
+    "paiId": "spermatophyta",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de glossopteridales"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "nps-glossopteris"
+    ]
+  },
+  {
+    "id": "glossopteridaceae",
+    "nomeCientifico": "Glossopteridaceae",
+    "nomePt": "Glossopteridáceas",
+    "nomeEn": "Glossopteridaceae",
+    "nivelTaxonomico": "familia",
+    "paiId": "glossopteridales",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de glossopteridáceas"
+    ],
+    "certeza": "provavel",
+    "fonteIds": [
+      "nps-glossopteris"
+    ]
+  },
+  {
+    "id": "bennettitales",
+    "nomeCientifico": "Bennettitales",
+    "nomePt": "Bennettitales",
+    "nomeEn": "Bennettitales",
+    "nivelTaxonomico": "ordem",
+    "paiId": "gymnospermae",
+    "ordemVisual": 3,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de bennettitales"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-cycadeoidea"
+    ]
+  },
+  {
+    "id": "bennettitaceae",
+    "nomeCientifico": "Bennettitaceae",
+    "nomePt": "Bennettitáceas",
+    "nomeEn": "Bennettitaceae",
+    "nivelTaxonomico": "familia",
+    "paiId": "bennettitales",
+    "ordemVisual": 0,
+    "caracteristicasCompartilhadas": [
+      "Ramo reconhecido por um conjunto de características de bennettitáceas"
+    ],
+    "certeza": "estabelecida",
+    "fonteIds": [
+      "smithsonian-cycadeoidea"
+    ]
+  }
+]

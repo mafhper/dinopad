@@ -1,0 +1,1459 @@
+[
+  {
+    "id": "arvore-ou-escada",
+    "slug": "arvore-ou-escada",
+    "titulo": "Árvore ou escada?",
+    "modo": "sintese-dinopad",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 8,
+    "fonteOriginal": {
+      "titulo": "Síntese original Dinopad",
+      "url": "https://mafhper.github.io/dinopad/",
+      "licenca": "MIT",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Síntese original Dinopad em linguagem adequada para leitura acompanhada.",
+    "camadaEssencial": [
+      {
+        "id": "arvore-ou-escada-essencial-1",
+        "tipo": "destaque",
+        "titulo": "A ideia principal",
+        "texto": "A evolução não é uma fila que sobe em direção aos humanos. Ela se parece mais com uma árvore: populações se separam, ramos coexistem e muitos terminam sem deixar descendentes atuais."
+      },
+      {
+        "id": "arvore-ou-escada-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Como ler o desenho",
+        "texto": "As pontas representam os grupos estudados; os encontros entre galhos representam ancestrais comuns inferidos. A posição no alto ou à direita não significa ser melhor, mais inteligente ou “mais evoluído”."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "arvore-ou-escada-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "A fila parece simples — e por isso engana",
+        "texto": "Talvez você já tenha visto uma sequência que começa com um animal curvado e termina em uma pessoa andando ereta. A imagem parece contar uma história clara, mas mistura parentesco, passagem do tempo e uma ideia de progresso. Evolução não possui uma linha de chegada. Populações vivem em ambientes concretos, acumulam diferenças e às vezes se dividem. Enquanto um ramo muda, outros continuam existindo. Uma fila apaga essa coexistência e transforma parentes próximos em degraus."
+      },
+      {
+        "id": "arvore-ou-escada-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Um galho é uma hipótese que pode ser testada",
+        "texto": "Para construir uma filogenia, pesquisadores comparam características herdadas. Em fósseis, podem ser detalhes dos dentes, do crânio, da bacia ou dos membros; em organismos atuais e em alguns fósseis recentes, sequências de DNA também entram na análise. Programas calculam quais arranjos explicam melhor o conjunto de semelhanças e diferenças. Novas espécies, novos fósseis ou outro método podem mudar o desenho. Isso não torna a árvore inútil: mostra que ela registra a melhor hipótese sustentada pelos dados disponíveis."
+      },
+      {
+        "id": "arvore-ou-escada-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "O nó não é uma espécie conhecida",
+        "texto": "Quando dois galhos se encontram, o nó representa o ancestral comum mais recente inferido para aqueles grupos. Em geral, não sabemos qual população fóssil ocupava exatamente esse ponto. Por isso o Dinopad não apresenta Tyrannosaurus como ancestral de uma ave atual nem um australopiteco conhecido como “o avô” de Homo sapiens. Uma espécie fóssil pode estar perto do ramo ancestral sem ser, necessariamente, a ancestral direta."
+      },
+      {
+        "id": "arvore-ou-escada-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Primos podem viver ao mesmo tempo",
+        "texto": "Parentesco não obriga uma espécie a desaparecer quando outra surge. Homo sapiens conviveu com Neandertais e com populações denisovanas; em períodos mais antigos, várias espécies de australopitecos e de Paranthropus também ocuparam intervalos sobrepostos. O mesmo vale para a história dos dinossauros: dois ramos próximos podem dividir uma paisagem ou viver separados por oceanos. A árvore diz quem compartilha ancestrais mais recentes; a linha do tempo diz quando houve coexistência."
+      },
+      {
+        "id": "arvore-ou-escada-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Quando a resposta ainda tem mais de uma forma",
+        "texto": "Às vezes os dados sustentam um grupo, mas não resolvem qual separação ocorreu primeiro. O desenho então pode mostrar uma polytomia, com três ou mais galhos partindo do mesmo ponto. Isso não afirma que as separações aconteceram no mesmo instante. É uma maneira honesta de registrar que a ordem continua incerta. Galhos tracejados e notas de debate cumprem função parecida: deixam a dúvida visível em vez de escondê-la."
+      },
+      {
+        "id": "arvore-ou-escada-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Uma árvore de genes pode contar outra história",
+        "texto": "Cada trecho de DNA percorre sua própria genealogia. Por recombinação, acaso e fluxo gênico, uma árvore construída com um gene pode discordar da história predominante das populações. Pesquisadores comparam muitos trechos e somam fósseis, geografia e datação. É por isso que as conexões entre humanos modernos, Neandertais e Denisovanos aparecem sobre a árvore do Dinopad: houve troca de genes, mas isso não transforma a relação em uma escada nem em um único galho."
+      },
+      {
+        "id": "arvore-ou-escada-aprofundar-7",
+        "tipo": "lista",
+        "titulo": "Três perguntas para levar a qualquer árvore",
+        "itens": [
+          "Quais organismos ou fósseis foram comparados e quais evidências sustentam os galhos?",
+          "O comprimento dos ramos representa tempo, quantidade de mudança ou apenas espaço para organizar o desenho?",
+          "Onde a incerteza está registrada — em polytomias, linhas tracejadas, notas ou diferentes hipóteses?"
+        ]
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [],
+    "dossieIds": [
+      "arvore-nao-escada"
+    ],
+    "fonteIds": [
+      "smithsonian-human-species",
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "familia-humana",
+    "slug": "familia-humana",
+    "titulo": "Quem pertence à família humana?",
+    "modo": "sintese-dinopad",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 8,
+    "fonteOriginal": {
+      "titulo": "Síntese original Dinopad",
+      "url": "https://mafhper.github.io/dinopad/",
+      "licenca": "MIT",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Síntese original Dinopad em linguagem adequada para leitura acompanhada.",
+    "camadaEssencial": [
+      {
+        "id": "familia-humana-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Uma família compartilhada",
+        "texto": "Hominidae reúne os grandes símios atuais — orangotangos, gorilas, chimpanzés, bonobos e humanos — e seus parentes extintos. “Hominídeo” não é sinônimo de “humano antigo”."
+      },
+      {
+        "id": "familia-humana-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Um ramo mais estreito",
+        "texto": "Hominínios, no uso adotado pelo Dinopad, são os membros do ramo humano depois da separação do ramo de chimpanzés e bonobos. A posição de fósseis muito antigos ainda pode ser debatida."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "familia-humana-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Nossa família começa maior do que parece",
+        "texto": "Na linguagem cotidiana, “família humana” pode sugerir somente pessoas. Na classificação biológica, porém, a família Hominidae inclui todos os grandes símios atuais. Isso quer dizer que humanos não estão fora da natureza nem no topo de uma classificação: somos uma das espécies desse conjunto. A Mammal Diversity Database reconhece hoje oito espécies viventes na família, distribuídas entre Homo, Pan, Gorilla e Pongo."
+      },
+      {
+        "id": "familia-humana-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Grupos dentro de grupos",
+        "texto": "Os nomes funcionam como caixas aninhadas. Hominidae contém os grandes símios. Homininae reúne gorilas, chimpanzés, bonobos, humanos e parentes mais próximos, deixando os orangotangos em outro ramo. Hominini aproxima o ramo de Pan do ramo humano. Hominina, ou hominínios em português, designa o ramo humano depois da separação em relação a Pan. Por fim, Homo é apenas um gênero dentro dessa história muito mais antiga."
+      },
+      {
+        "id": "familia-humana-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Por que as palavras confundem",
+        "texto": "Hominídeo, hominíneo e hominínio diferem por poucas letras e nem todos os livros traduzem os níveis da mesma forma. Em textos antigos, “hominídeo” muitas vezes foi usado para o que hoje se chama hominínio. O caminho mais seguro é observar o nome científico do grupo — Hominidae, Homininae ou Hominina — e a definição dada pelo autor. O glossário do Dinopad informa o uso escolhido sem fingir que a terminologia histórica sempre foi uniforme."
+      },
+      {
+        "id": "familia-humana-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Onde entram os fósseis",
+        "texto": "Espécies fósseis são posicionadas pela combinação de idade, lugar e anatomia preservada. Sahelanthropus, Orrorin e Ardipithecus estão próximos da base do ramo humano, mas suas posições exatas continuam discutidas. Australopithecus e Paranthropus mostram outra dificuldade: uma espécie pode combinar traços semelhantes aos de grupos diferentes. Um crânio, um dente ou uma bacia não recebe sozinho o poder de resolver toda a árvore."
+      },
+      {
+        "id": "familia-humana-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "“Humano” pode ter dois sentidos",
+        "texto": "Em conversa, humano normalmente significa Homo sapiens, a única espécie humana viva. Em paleoantropologia, alguns autores usam “humanos” para todo o gênero Homo, incluindo Neandertais, Homo erectus e outras espécies. O contexto precisa deixar claro qual sentido está em jogo. Chamar um fóssil de humano também não significa que ele pensava, falava ou vivia exatamente como nós; cada afirmação comportamental exige evidência própria."
+      },
+      {
+        "id": "familia-humana-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Classificar não é distribuir medalhas",
+        "texto": "Categorias taxonômicas descrevem parentesco, não valor, inteligência ou importância. Chimpanzés atuais não são nossos ancestrais: eles e nós descendemos de populações ancestrais compartilhadas. Gorilas não são versões “anteriores” de chimpanzés. E fósseis com cérebros menores não ocupam automaticamente posições mais antigas. O tamanho do cérebro, a postura e a fabricação de ferramentas tiveram histórias diferentes e não formam um pacote que avança em uma só direção."
+      },
+      {
+        "id": "familia-humana-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "Uma classificação é uma fotografia revisável",
+        "texto": "Novos fósseis podem revelar combinações inesperadas; novos genomas podem mostrar fluxo gênico; revisões podem unir ou separar espécies propostas. Bases taxonômicas registram decisões atuais, enquanto artigos explicam as evidências e divergências. No Dinopad, uma mudança de nome ou de posição deve trazer fonte e data de revisão. A árvore fica mais útil quando mostra tanto o que é bem sustentado quanto o que continua em debate."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens"
+    ],
+    "linhagemIds": [],
+    "dossieIds": [
+      "termos-familia-humana"
+    ],
+    "fonteIds": [
+      "mdd-hominidae",
+      "smithsonian-human-species"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "eva-mitocondrial-explicada",
+    "slug": "eva-mitocondrial-explicada",
+    "titulo": "O que “Eva mitocondrial” realmente significa?",
+    "modo": "sintese-dinopad",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 8,
+    "fonteOriginal": {
+      "titulo": "Síntese original Dinopad",
+      "url": "https://mafhper.github.io/dinopad/",
+      "licenca": "MIT",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Síntese original Dinopad em linguagem adequada para leitura acompanhada.",
+    "camadaEssencial": [
+      {
+        "id": "eva-mitocondrial-explicada-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Uma ancestral de uma linha genética",
+        "texto": "Seguindo para trás o DNA das mitocôndrias de pessoas atuais, as linhagens acabam convergindo em uma ancestral comum. O apelido “Eva mitocondrial” descreve esse resultado genealógico."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "O apelido não diz",
+        "texto": "Ela não foi a primeira mulher, a única mulher viva nem nossa única ancestral. Outras pessoas de seu tempo podem ser ancestrais de todos nós por milhares de outros caminhos no genoma."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Comece pelas mitocôndrias",
+        "texto": "Quase todas as células do corpo possuem mitocôndrias, estruturas que ajudam a liberar energia dos alimentos. Elas carregam um pequeno genoma próprio, separado da maior parte do DNA que fica no núcleo. Em humanos, esse DNA mitocondrial costuma ser transmitido pela mãe. Filhos e filhas o recebem, mas em geral apenas as filhas continuam essa linha de transmissão. Essa regra cria uma trilha genealógica particular, não um retrato de toda a ancestralidade."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Voltar no tempo é juntar linhas",
+        "texto": "Imagine várias cópias atuais de DNA mitocondrial. Ao seguir suas transmissões para trás, algumas linhas se encontram em mães compartilhadas; continuando, todas as linhas amostradas convergem em uma mulher. Esse encontro recebe o nome de coalescência. A identidade exata da pessoa é desconhecida: o resultado é uma posição calculada em uma genealogia genética, estimada com amostras, modelos de mutação e hipóteses sobre populações."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Por que ela não era a única mulher",
+        "texto": "Uma linhagem mitocondrial pode terminar mesmo quando a família continua. Basta que, em algum ponto, uma mulher tenha apenas filhos homens, ou que suas filhas não transmitam aquela linhagem adiante. Outras mulheres que viveram na mesma época podem ter deixado muitos descendentes por cromossomos nucleares, mas nenhuma linha mitocondrial contínua até as pessoas amostradas hoje. “Ancestral comum desta linhagem” é muito diferente de “única ancestral”."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Seu genoma contém muitas genealogias",
+        "texto": "O DNA nuclear mistura cópias recebidas de mães e pais e é embaralhado pela recombinação. Por isso, cada trecho pode chegar a ancestrais comuns em épocas diferentes. O cromossomo Y, quando transmitido de pai para filho, permite seguir outra linha específica e produz outro ancestral comum. Nenhum desses resultados identifica um casal original. Quanto mais partes do genoma observamos, mais percebemos uma rede enorme de ancestrais sobrepostos."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "O que o estudo de 1987 realmente fez",
+        "texto": "Cann, Stoneking e Wilson compararam DNA mitocondrial de 147 pessoas associadas a diferentes populações geográficas usando técnicas disponíveis antes do sequenciamento genômico atual. As amostras africanas apresentaram maior diversidade, e a árvore calculada apoiou uma origem africana recente para as linhagens mitocondriais estudadas. O trabalho foi historicamente importante, mas suas amostras, métodos e datas foram revistos por pesquisas posteriores."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Datas genéticas vêm com condições",
+        "texto": "Para transformar diferenças de DNA em tempo, é preciso estimar a velocidade com que mutações se acumulam e usar modelos sobre tamanho e história das populações. Mudanças na taxa, nas amostras ou no modelo deslocam o resultado. Por isso estudos atuais apresentam intervalos de incerteza, e não o aniversário de uma pessoa. “Eva mitocondrial” pode até mudar de posição à medida que novas linhagens são amostradas ou antigas deixam de ter descendentes."
+      },
+      {
+        "id": "eva-mitocondrial-explicada-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "O melhor jeito de usar o apelido",
+        "texto": "O nome é memorável, mas carrega uma comparação bíblica que facilmente cria conclusões erradas. Ao encontrá-lo, complete mentalmente a frase: “ancestral comum mais recente, pela linha materna mitocondrial, das pessoas incluídas na análise”. A expressão fica menos misteriosa e mais científica. Ela conta uma história importante sobre uma parte do DNA, não uma origem solitária de toda a humanidade."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [],
+    "dossieIds": [
+      "eva-mitocondrial",
+      "coalescencia"
+    ],
+    "fonteIds": [
+      "cann-mtdna-1987",
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "migracoes-e-encontros",
+    "slug": "migracoes-e-encontros",
+    "titulo": "Migrações e encontros entre diferentes humanos",
+    "modo": "sintese-dinopad",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 9,
+    "fonteOriginal": {
+      "titulo": "Síntese original Dinopad",
+      "url": "https://mafhper.github.io/dinopad/",
+      "licenca": "MIT",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Síntese original Dinopad em linguagem adequada para leitura acompanhada.",
+    "camadaEssencial": [
+      {
+        "id": "migracoes-e-encontros-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Movimentos em muitas direções",
+        "texto": "Homo sapiens surgiu na África, mas a história posterior não foi uma única saída em linha reta. Populações se expandiram, se separaram, voltaram e encontraram outros grupos humanos."
+      },
+      {
+        "id": "migracoes-e-encontros-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Ramos que voltaram a se tocar",
+        "texto": "Genomas antigos mostraram fluxo gênico entre ancestrais de humanos modernos, Neandertais e Denisovanos. A árvore descreve separações; conexões adicionais registram os reencontros."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "migracoes-e-encontros-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "A origem africana não cabe em uma única seta",
+        "texto": "Os fósseis mais antigos atribuídos a Homo sapiens são africanos, e a diversidade genética atual também sustenta raízes profundas no continente. Isso não significa que uma pequena população surgiu em um ponto isolado e marchou diretamente para ocupar o mundo. Diferentes populações africanas trocaram pessoas e genes por longos períodos. Fora da África também houve expansões, recuos e novas dispersões. Um mapa com uma seta é um resumo útil, mas nunca a viagem inteira."
+      },
+      {
+        "id": "migracoes-e-encontros-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "O genoma Neandertal mudou a pergunta",
+        "texto": "Antes de 2010, fósseis já mostravam que Neandertais e humanos modernos haviam vivido em regiões próximas. O rascunho do genoma Neandertal permitiu comparar milhões de posições de DNA. Populações atuais fora da África compartilhavam mais variantes com Neandertais do que as populações africanas usadas naquela análise. O padrão foi interpretado como fluxo gênico entre Neandertais e ancestrais de parte dos humanos modernos depois de uma dispersão para fora da África."
+      },
+      {
+        "id": "migracoes-e-encontros-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Denisova revelou uma população quase invisível aos ossos",
+        "texto": "Um pequeno fragmento de falange encontrado na caverna de Denisova preservou DNA suficiente para revelar uma linhagem diferente. O genoma publicado em 2010 mostrou parentesco próximo com Neandertais, mas uma história populacional própria. Também encontrou contribuição denisovana em ancestrais de populações atuais da Melanésia estudadas naquele momento. Depois, outras amostras e genomas mostraram que os encontros foram mais variados do que um único episódio."
+      },
+      {
+        "id": "migracoes-e-encontros-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Ter um segmento não é ser uma porcentagem de outra espécie",
+        "texto": "Quando pessoas dizem que alguém é “dois por cento Neandertal”, estão resumindo segmentos do genoma cuja história se aproxima de genomas neandertais de referência. Indivíduos carregam conjuntos diferentes, e uma população pode preservar coletivamente muito mais variação do que qualquer pessoa sozinha. Esses segmentos não dividem uma identidade em fatias nem dizem como alguém se parece, pensa ou vive. Eles registram ancestrais e recombinações em uma genealogia complexa."
+      },
+      {
+        "id": "migracoes-e-encontros-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Como o DNA separa encontro de semelhança antiga",
+        "texto": "Espécies próximas compartilham DNA porque herdaram variantes de ancestrais comuns. Para detectar fluxo gênico posterior, pesquisadores procuram padrões assimétricos em muitas regiões do genoma: um grupo compartilha variantes demais com outro para que apenas a separação antiga explique o resultado. Testes repetidos, amostras diferentes e modelos populacionais ajudam a distinguir introgressão de contaminação, erro de sequenciamento ou estrutura antiga das populações."
+      },
+      {
+        "id": "migracoes-e-encontros-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "A geografia também muda",
+        "texto": "Climas, desertos, geleiras, rios e níveis do mar alteraram rotas possíveis. Um lugar ocupado durante milhares de anos pode ter funcionado como passagem em um período e como barreira em outro. Além disso, o mapa atual não é o mapa vivido pelas populações antigas. Por isso datas e sítios arqueológicos precisam acompanhar qualquer narrativa genética. Genes indicam conexões; fósseis, sedimentos e objetos ajudam a situá-las no espaço e no tempo."
+      },
+      {
+        "id": "migracoes-e-encontros-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "Árvore para os ramos, rede para os encontros",
+        "texto": "Uma árvore continua útil para representar as separações principais entre populações. O problema surge quando ela é obrigada a esconder todo reencontro. No Dinopad, conexões sobrepostas mostram fluxo gênico sem transformar Neandertais, Denisovanos e Homo sapiens em degraus. A imagem mais fiel é uma árvore com alguns galhos que, depois de separados, voltaram a trocar sementes."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "dossieIds": [
+      "origem-africana-dispersoes",
+      "neandertais-denisovanos"
+    ],
+    "fonteIds": [
+      "green-neanderthal-2010",
+      "reich-denisovan-2010",
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "fosseis-e-dna-antigo",
+    "slug": "fosseis-e-dna-antigo",
+    "titulo": "Como fósseis e DNA antigo produzem conhecimento",
+    "modo": "sintese-dinopad",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 9,
+    "fonteOriginal": {
+      "titulo": "Síntese original Dinopad",
+      "url": "https://mafhper.github.io/dinopad/",
+      "licenca": "MIT",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Síntese original Dinopad em linguagem adequada para leitura acompanhada.",
+    "camadaEssencial": [
+      {
+        "id": "fosseis-e-dna-antigo-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Evidências diferentes se completam",
+        "texto": "Fósseis registram anatomia e, quando o contexto é preservado, lugar e idade. DNA antigo pode revelar parentesco e fluxo gênico. Nenhuma dessas linhas responde sozinha a todas as perguntas."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Preservação decide o que podemos perguntar",
+        "texto": "DNA se quebra, sofre alterações químicas e recebe contaminação moderna. Calor e umidade aceleram a perda, portanto muitos fósseis importantes jamais fornecerão um genoma utilizável."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Um fóssil começa antes de sair do chão",
+        "texto": "O osso ou dente chama atenção, mas seu contexto também é evidência. A camada de sedimento, a posição no sítio, objetos próximos, marcas de transporte e minerais ajudam a reconstruir o que aconteceu. Se uma peça perde sua localização exata, parte da informação desaparece para sempre. Escavação científica é lenta porque registra relações: fotografias, coordenadas, profundidade, amostras de solo e a sequência das camadas acompanham cada retirada."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "A idade não vem escrita no osso",
+        "texto": "Alguns materiais podem ser datados diretamente; outros dependem de cinzas vulcânicas, sedimentos ou objetos associados. Cada método funciona apenas em determinados intervalos e materiais. Pesquisadores cruzam resultados e verificam se a amostra foi deslocada. Uma forma anatômica considerada “primitiva” não prova idade antiga. Homo naledi mostrou isso com clareza: sua combinação de traços parecia inesperada quando fósseis foram depois datados entre cerca de 236 e 335 mil anos."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Anatomia transforma fragmentos em comparações",
+        "texto": "Crânios, dentes, mãos, pés e outras partes não mudam todos no mesmo ritmo. Pesquisadores descrevem medidas e formas, procuram variações dentro de uma espécie e comparam indivíduos de idades diferentes. Um único dente pode ser informativo, mas raramente conta toda a história. Quanto mais partes e indivíduos um conjunto preserva, melhor é possível distinguir uma característica da espécie de uma diferença por idade, sexo, doença ou variação individual."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "DNA antigo chega como um quebra-cabeça danificado",
+        "texto": "Depois da morte, enzimas, água, calor e microrganismos quebram as moléculas em pedaços curtos. Algumas bases sofrem alterações químicas previsíveis. Ao mesmo tempo, DNA de quem escavou, manipulou ou analisou o material pode se misturar à amostra. O laboratório não encontra um cromossomo intacto: encontra milhões de fragmentos e precisa identificar quais são antigos, quais pertencem ao organismo e como se sobrepõem."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Como testar autenticidade",
+        "texto": "Laboratórios usam áreas limpas, roupas de proteção, superfícies descontaminadas e controles sem amostra. Depois procuram sinais típicos de moléculas antigas, como fragmentos curtos e padrões de dano nas extremidades. Resultados importantes são comparados com DNA das pessoas envolvidas e, quando possível, repetidos em outra porção ou outro laboratório. Nenhum sinal isolado basta: autenticidade nasce da concordância entre controles e padrões independentes."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Uma amostra minúscula pode ampliar a árvore",
+        "texto": "Denisova 3 era apenas um fragmento de falange, mas seu DNA revelou uma população humana arcaica que os ossos disponíveis não permitiam reconhecer. Esse sucesso não torna o DNA superior ao fóssil. Sem o sítio, a datação e o próprio fragmento, faltaria contexto. Em outros casos, a molécula não sobrevive e a anatomia é a única janela. A pergunta científica deve se adaptar ao material preservado, e não o contrário."
+      },
+      {
+        "id": "fosseis-e-dna-antigo-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "Conhecimento forte é uma convergência",
+        "texto": "Uma conclusão ganha confiança quando anatomia, geologia, datação, arqueologia e genética apontam para uma explicação compatível. Quando discordam, a discordância vira uma nova pergunta: a camada foi misturada? a amostra está contaminada? a característica evoluiu mais de uma vez? Ciência não é completar lacunas com certeza; é tornar visíveis os testes, os limites e as alternativas."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "dossieIds": [
+      "dna-antigo-metodo"
+    ],
+    "fonteIds": [
+      "smithsonian-human-fossils",
+      "green-neanderthal-2010",
+      "reich-denisovan-2010"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "revolucao-dna-antigo",
+    "slug": "revolucao-dna-antigo",
+    "titulo": "A revolução do DNA antigo — o que a genética conta sobre o passado?",
+    "modo": "traducao-autorizada",
+    "traducaoIntegral": true,
+    "autores": [
+      "Yoav Mathov",
+      "Liran Carmel"
+    ],
+    "tradutor": "Equipe editorial Dinopad",
+    "idiomaOriginal": "Inglês",
+    "minutosLeitura": 16,
+    "fonteOriginal": {
+      "titulo": "The Revolution of Ancient DNA—What Does Genetics Tell Us About the Past?",
+      "url": "https://kids.frontiersin.org/articles/10.3389/frym.2019.00024",
+      "doi": "10.3389/frym.2019.00024",
+      "licenca": "CC BY 4.0",
+      "urlLicenca": "https://creativecommons.org/licenses/by/4.0/",
+      "permiteTraducaoIntegral": true
+    },
+    "notaEditorial": "Tradução PT-BR do texto principal sob CC BY 4.0. Figuras foram omitidas até auditoria individual; notas de atualização do Dinopad aparecem separadas da tradução.",
+    "camadaEssencial": [
+      {
+        "id": "revolucao-dna-antigo-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Resumo",
+        "texto": "O DNA contém instruções para construir e manter organismos. Novas técnicas permitem recuperar DNA de restos antigos e investigar mudanças evolutivas, Neandertais, Denisovanos e extinções."
+      },
+      {
+        "id": "revolucao-dna-antigo-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "A grande ideia",
+        "texto": "Sequenciar DNA antigo abre uma janela independente dos ossos e objetos, mas moléculas degradadas e contaminação exigem métodos rigorosos."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "revolucao-dna-antigo-contexto-dinopad",
+        "tipo": "destaque",
+        "titulo": "Antes da tradução — contexto Dinopad",
+        "texto": "Este artigo foi publicado em 2019 para leitores jovens. Ele apresenta ideias centrais do DNA antigo com exemplos de Neandertais, Denisovanos e mamutes. A tradução integral começa no bloco “Resumo”; os dois blocos iniciais são uma preparação editorial do Dinopad."
+      },
+      {
+        "id": "revolucao-dna-antigo-guia-dinopad",
+        "tipo": "paragrafo",
+        "titulo": "O que observar durante a leitura",
+        "texto": "Separe três etapas: recuperar fragmentos antigos, testar se eles são autênticos e interpretar diferenças entre genomas. A tecnologia avançou rapidamente desde a publicação, mas os limites básicos continuam: preservação desigual, contaminação, amostras pequenas e modelos que precisam declarar incerteza. Afirmações sobre aparência ou comportamento exigem mais cautela do que relações de parentesco bem repetidas no genoma."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Resumo",
+        "texto": "O DNA é um componente central das células de todos os seres vivos e contém informações fundamentais para construir o corpo e manter seus processos biológicos. Hoje, graças a novos desenvolvimentos tecnológicos, cientistas conseguem obter DNA diretamente de restos de seres humanos e de outros organismos que morreram há muito tempo. A capacidade de ler DNA antigo permite descobrir fatos sobre a vida de povos do passado, estudar mudanças genéticas que moldaram os organismos atuais e examinar questões evolutivas fascinantes — por exemplo, como os Neandertais evoluíram e por que os mamutes foram extintos. O DNA antigo também revelou um grupo misterioso de humanos arcaicos, embora quase nada se saiba sobre sua aparência. Outras informações importantes podem ser investigadas pela epigenética, conjunto de mecanismos que afetam o funcionamento dos genes. O artigo apresenta, como exemplo, uma hipótese sobre mudanças na estrutura da laringe dos humanos modernos que poderiam ter contribuído para a produção de uma variedade maior de sons e para o desenvolvimento de linguagem complexa. A revolução do DNA antigo oferece novas ferramentas para investigar acontecimentos de muitos anos atrás."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Aprendendo a ler DNA antigo",
+        "texto": "O DNA é uma das coisas mais extraordinárias da natureza. Embora seja uma molécula minúscula, invisível a olho nu, contém as informações necessárias para formar um ser vivo a partir de uma única célula e manter seus processos biológicos. Podemos comparar o DNA a uma biblioteca enorme: seus livros, chamados genes, contêm instruções para quase todos os processos que acontecem no corpo. O DNA é escrito em uma linguagem chamada código genético, composta por apenas quatro letras. Se soubermos decifrar essa linguagem, poderemos entender melhor como o corpo funciona."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "O sequenciamento",
+        "texto": "Por isso foram desenvolvidos vários métodos para ler a sequência de letras de uma molécula de DNA, processo chamado sequenciamento de DNA. Com o tempo, o sequenciamento tornou-se eficiente, rápido e relativamente barato. Hoje já foram lidas as sequências de DNA de dezenas de milhares de pessoas e de dezenas de milhares de outros organismos. Essa capacidade abriu possibilidades de pesquisa que antes pareciam ficção científica. Uma das mais fascinantes é o estudo do DNA antigo: sequenciar DNA retirado de ossos e de outros restos de organismos que morreram muitos anos atrás. Isso é possível porque moléculas de DNA podem permanecer preservadas por períodos muito longos; em condições excepcionais, a informação genética pode sobreviver por centenas de milhares de anos."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Uma tarefa difícil",
+        "texto": "Estudar o passado remoto é muito desafiador. Arqueólogos investigam ferramentas deixadas por antigos seres humanos, enquanto geólogos procuram compreender como continentes e oceanos mudaram. Apesar de muitos sucessos, ainda é difícil responder a perguntas básicas, como “por que os mamutes foram extintos?” ou “quando os seres humanos desenvolveram linguagem?”. Sequenciar o DNA de organismos antigos cria novas oportunidades para responder a questões que antes estavam fora de alcance."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Dos primeiros erros aos primeiros resultados",
+        "texto": "O começo foi difícil, pois as primeiras sequências de DNA antigo continham muitos erros. Passo a passo, os resultados se tornaram mais confiáveis. A primeira realização importante foi publicada em 1984, quando Russell Higuchi e colaboradores relataram ter sequenciado um pequeno trecho de DNA de um quaga, parente extinto da zebra que desapareceu no século XIX. Desde então, cada vez mais sequências antigas foram publicadas. Hoje há material genético de centenas de pessoas do passado; de humanos arcaicos, como os Neandertais; de cultivos agrícolas de milhares de anos; de animais da última era glacial, como mamutes e preguiças-gigantes; e de animais extintos recentemente, como o dodô das Ilhas Maurício, o tilacino da Austrália e o pombo-passageiro da América do Norte."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "A história dos Neandertais",
+        "texto": "Atualmente, todos os seres humanos vivos pertencem ao grupo que costuma ser chamado de humanos modernos. Até dezenas de milhares de anos atrás, porém, outros grupos humanos existiam ao mesmo tempo. Os mais conhecidos são os Neandertais. Eles viveram durante muitos milhares de anos na Europa, na Ásia e no Oriente Médio, enquanto os humanos modernos evoluíam na África. Os dois grupos se encontraram quando populações de humanos modernos começaram a sair da África e a se espalhar por outros continentes."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "O que os esqueletos contam",
+        "texto": "A natureza dos encontros entre esses grupos ainda guarda mistérios, mas o resultado final é conhecido: humanos modernos permanecem, enquanto os Neandertais deixaram de existir como população distinta. Eles eram muito parecidos conosco, embora apresentassem diferenças. Tinham o crânio mais baixo e um pouco alongado, cérebro ligeiramente maior em média, face projetada, dentes maiores e ossos mais largos, o que indica um corpo mais robusto. Essas características aparecem nos muitos esqueletos encontrados ao longo dos anos. Grande parte do que sabemos sobre Neandertais vem do esqueleto, porque ossos e dentes costumam sobreviver melhor do que outros tecidos."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-8",
+        "tipo": "paragrafo",
+        "titulo": "Perguntas que os ossos não respondem sozinhos",
+        "texto": "Mesmo tantos esqueletos não responderam a várias perguntas fascinantes. Os Neandertais desenvolveram linguagem semelhante à dos humanos modernos? Tinham cultura? Como ela era? Os encontros entre os grupos foram violentos ou pacíficos? A presença de humanos modernos contribuiu para seu desaparecimento? Neandertais e humanos modernos tiveram descendentes juntos? Para algumas dessas questões, o DNA antigo trouxe um novo tipo de evidência."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-9",
+        "tipo": "paragrafo",
+        "titulo": "O genoma Neandertal",
+        "texto": "Ao longo dos anos, foi possível sequenciar cada vez mais DNA de restos neandertais encontrados em diferentes regiões. Em 2014, Svante Pääbo e colaboradores publicaram uma sequência de alta qualidade do DNA de uma Neandertal que viveu dezenas de milhares de anos atrás na Sibéria. Eles observaram que 99,7% da sequência neandertal era idêntica à nossa, e muitos pesquisadores passaram a investigar o significado biológico das diferenças restantes."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-10",
+        "tipo": "paragrafo",
+        "titulo": "Pele, cabelo e encontros",
+        "texto": "O artigo apresenta como exemplo uma variante do gene MC1R, relacionado à pigmentação da pele e dos cabelos. Pesquisadores propuseram que uma versão encontrada em Neandertais poderia produzir pele clara e cabelos avermelhados em alguns indivíduos. Esse tipo de informação não poderia ser deduzido diretamente de achados arqueológicos, pois pele e cabelo raramente se preservam. Sobre a interação entre os grupos, comparações genômicas indicaram que uma pequena parte do DNA de muitas pessoas atuais com ancestralidade fora da África veio de Neandertais. Isso significa que Neandertais e humanos modernos tiveram descendentes férteis e que parte de seu DNA chegou às populações atuais."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-11",
+        "tipo": "paragrafo",
+        "titulo": "Os Denisovanos — nossos parentes misteriosos",
+        "texto": "Uma das histórias mais surpreendentes do DNA antigo começa na caverna de Denisova, na Sibéria. Pesquisadores encontraram ali um pequeno fragmento de osso de um dedo mínimo e alguns dentes, inicialmente atribuídos a Neandertais. Quando o DNA foi sequenciado, porém, revelou-se bastante diferente tanto do DNA neandertal quanto do DNA dos humanos modernos. Os pesquisadores concluíram que se tratava de outro grupo humano, até então desconhecido, chamado Denisovanos. Foi a primeira vez que a existência de uma população humana arcaica foi identificada principalmente por seu DNA. Ainda sabemos pouco sobre sua aparência, seu modo de vida, sua cultura e suas capacidades cognitivas."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-12",
+        "tipo": "paragrafo",
+        "titulo": "Pistas deixadas no DNA atual",
+        "texto": "O DNA denisovano permite aprender algumas coisas sobre esses humanos misteriosos. Traços de sua ancestralidade foram encontrados em genomas de populações atuais da Oceania e de partes da Ásia. Isso indica que os Denisovanos viveram não apenas na Sibéria, mas também em outras regiões asiáticas, onde encontraram humanos modernos. Variantes associadas à ancestralidade denisovana também foram relacionadas à adaptação de populações tibetanas a grandes altitudes. O artigo menciona ainda variantes em povos inuítes e propõe relações com a adaptação ao frio. Restos humanos arcaicos foram encontrados em várias regiões do leste da Ásia; alguns podem estar ligados aos Denisovanos, mas é preciso comparar evidências genéticas e anatômicas para estabelecer essas relações com segurança."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-13",
+        "tipo": "paragrafo",
+        "titulo": "Por que os mamutes foram extintos?",
+        "texto": "A revolução do DNA antigo trouxe descobertas não apenas sobre humanos, mas também sobre outras espécies. Um exemplo famoso é o mamute-lanoso, parente dos elefantes atuais. Mamutes-lanosos viveram nas regiões setentrionais da América e da Ásia. A maioria desapareceu há cerca de 10 mil anos, talvez por aquecimento do clima, caça por humanos ou uma combinação de fatores. Uma pequena população, no entanto, sobreviveu em uma ilha do oceano Ártico, onde o clima era mais frio e não havia caçadores humanos. Ela persistiu por milhares de anos e desapareceu há menos de 4 mil anos — quando as pirâmides já haviam sido construídas no Egito, ainda existiam mamutes na Terra."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-14",
+        "tipo": "paragrafo",
+        "titulo": "Uma população pequena e isolada",
+        "texto": "O frio ajudou a preservar o DNA de mamutes de diferentes épocas. O genoma de um mamute de uma ilha ártica apresentou muitas mutações potencialmente prejudiciais, capazes de contribuir para doenças. Em uma ilha pequena, o ambiente sustenta poucos indivíduos. Assim, parentes próximos têm maior probabilidade de gerar descendentes entre si, o que pode aumentar a frequência de variantes prejudiciais. Ao longo do tempo, o acúmulo dessas variantes pode ter tornado a população mais vulnerável ao colapso. O resultado não significa que exista uma causa única para a extinção: tamanho populacional, isolamento, clima e ação humana precisam ser considerados em conjunto."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-15",
+        "tipo": "paragrafo",
+        "titulo": "Caixa — trazer Neandertais e mamutes de volta?",
+        "texto": "Há poucos anos, trazer humanos antigos e animais extintos de volta à vida parecia pura ficção científica. O desenvolvimento começa quando óvulo e espermatozoide se unem e formam uma célula chamada zigoto. O zigoto contém DNA do pai e da mãe, e essa informação participa da formação do embrião. Em teoria, alguém poderia imaginar retirar o DNA de uma célula reprodutiva de elefante, substituí-lo por DNA de mamute e reintroduzir a célula em uma fêmea de elefante, que daria à luz um mamute ou um híbrido. Há grupos que estudam aspectos dessa possibilidade, mas existem grandes obstáculos: o útero de um elefante não é idêntico ao de um mamute, genomas antigos são fragmentários e ainda é tecnicamente difícil transformar DNA de elefante em DNA de mamute. O desenvolvimento também depende de sinais epigenéticos. Além das dificuldades técnicas, é indispensável perguntar se trazer de volta animais extintos — especialmente grupos humanos extintos — seria moral e eticamente correto."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-16",
+        "tipo": "paragrafo",
+        "titulo": "Epigenética — uma nova maneira de compreender o passado",
+        "texto": "Quando um girino se transforma em sapo adulto, seu DNA não muda, embora sua forma mude muito. O girino tem cauda, não tem pernas e respira debaixo d’água; o adulto não tem cauda, tem quatro pernas e respira em terra. Como o mesmo DNA pode participar da formação de organismos tão diferentes? A resposta envolve a regulação gênica. Retomando a comparação do DNA com uma biblioteca, imagine que uma corda bloqueie o acesso a algumas estantes. Os livros continuam ali, mas ninguém consegue lê-los. No girino, certos genes usados no adulto ficam menos acessíveis; no sapo adulto, outros genes são regulados de modo diferente."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-17",
+        "tipo": "paragrafo",
+        "titulo": "Marcas que regulam os genes",
+        "texto": "Um componente importante da regulação gênica são as alterações químicas no DNA ou na maneira como ele é empacotado na célula. O conjunto desses mecanismos recebe o nome de epigenética. Uma mudança genética altera a sequência de letras do DNA. Uma mudança epigenética, por outro lado, pode alterar o acesso a um gene sem mudar sua sequência. A metilação do DNA é um desses mecanismos: certas marcas químicas ajudam a tornar uma região mais ou menos acessível à maquinaria celular."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-18",
+        "tipo": "paragrafo",
+        "titulo": "Reconstruindo padrões antigos",
+        "texto": "Como o DNA de humanos modernos e arcaicos é muito semelhante, pesquisadores investigam se parte das diferenças entre os grupos pode resultar de mudanças na regulação dos genes, e não apenas de mudanças na sequência. Reconstruir atividade gênica a partir de DNA antigo é difícil. Em 2014, o grupo dos autores, em colaboração com Eran Meshorer, apresentou um método para reconstruir padrões de metilação em DNA antigo. O objetivo era inferir quais regiões poderiam ter funcionado de maneiras distintas quando esses organismos viviam."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-19",
+        "tipo": "paragrafo",
+        "titulo": "Hipóteses sobre anatomia e voz",
+        "texto": "Os pesquisadores reconstruíram padrões de metilação de Neandertais e Denisovanos e identificaram genes com sequências semelhantes entre grupos humanos, mas com padrões epigenéticos diferentes. A lista incluía genes ligados ao cérebro, a doenças neurológicas e à estrutura da face e da laringe. Comparações anatômicas mostram que a laringe de outros grandes primatas fica mais alta na garganta e que a face é mais projetada. O artigo propõe que mudanças regulatórias poderiam ter contribuído para a face mais plana e a laringe mais baixa dos humanos modernos; por consequência, Neandertais e Denisovanos poderiam ter apresentado diferenças na produção de sons. Essas relações são inferências, não gravações diretas de suas vozes."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-20",
+        "tipo": "paragrafo",
+        "titulo": "Novas possibilidades",
+        "texto": "Reconstruir padrões epigenéticos abre outras possibilidades para o estudo do passado. Diferentemente da sequência do DNA, marcas epigenéticas podem mudar em resposta ao ambiente. Em princípio, elas poderiam fornecer pistas sobre condições vividas por humanos antigos: fome, estresse, frio ou dieta. O artigo menciona indícios preliminares de que Neandertais e Denisovanos teriam condições alimentares semelhantes às de caçadores-coletores. Sequenciar DNA antigo e reconstruir a regulação dos genes ampliou o estudo de capítulos perdidos da história humana e ajuda a investigar como nos tornamos quem somos."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-21",
+        "tipo": "paragrafo",
+        "titulo": "Glossário",
+        "texto": "DNA: molécula longa presente nas células, material hereditário que contém informações importantes para construir o corpo e manter seus processos vitais; é uma cadeia formada por quatro tipos de unidades. Molécula: conjunto de átomos e uma das menores unidades de uma substância; água, dióxido de carbono e DNA são exemplos. Sequenciamento de DNA: leitura da ordem das unidades, ou “letras”, que compõem uma molécula de DNA. DNA antigo: DNA recuperado de restos de seres humanos ou de outros organismos do passado. Neandertal: grupo de humanos arcaicos que viveu na Europa e em partes da Ásia e do Oriente Médio. Denisovano: linhagem humana arcaica identificada inicialmente na caverna de Denisova, na Sibéria. Epigenética: mecanismos regulatórios que dificultam ou facilitam o acesso aos genes sem necessariamente alterar sua sequência. Caçadores-coletores: populações que obtêm alimento pela caça, pesca e coleta de partes comestíveis de plantas, fungos e outros recursos."
+      },
+      {
+        "id": "revolucao-dna-antigo-aprofundar-22",
+        "tipo": "paragrafo",
+        "titulo": "Nota de atualização Dinopad",
+        "texto": "Esta tradução preserva as ideias do artigo publicado em 2019. Desde então, amostras e métodos foram ampliados, e algumas afirmações específicas foram revistas. O limite de preservação do DNA depende fortemente do ambiente; Denisovanos são tratados aqui como linhagem genética, não automaticamente como uma espécie formal; e inferências sobre aparência, voz, comportamento ou causa de extinção exigem cautela. Esta nota é editorial e não faz parte do texto original."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "dossieIds": [
+      "dna-antigo-metodo",
+      "neandertais-denisovanos"
+    ],
+    "fonteIds": [
+      "frontiers-adna-2019"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tradução preservada com preparação editorial Dinopad claramente separada."
+    }
+  },
+  {
+    "id": "dna-neandertal",
+    "slug": "dna-neandertal",
+    "titulo": "Por que alguns humanos têm DNA neandertal?",
+    "modo": "traducao-autorizada",
+    "traducaoIntegral": true,
+    "autores": [
+      "Jente Ottenburghs"
+    ],
+    "tradutor": "Equipe editorial Dinopad",
+    "idiomaOriginal": "Inglês",
+    "minutosLeitura": 12,
+    "fonteOriginal": {
+      "titulo": "Why Do Some Humans Have Neanderthal DNA?",
+      "url": "https://kids.frontiersin.org/articles/10.3389/frym.2019.00104",
+      "doi": "10.3389/frym.2019.00104",
+      "licenca": "CC BY 4.0",
+      "urlLicenca": "https://creativecommons.org/licenses/by/4.0/",
+      "permiteTraducaoIntegral": true
+    },
+    "notaEditorial": "Tradução PT-BR do texto principal sob CC BY 4.0. Figuras foram omitidas até auditoria individual; notas de atualização do Dinopad aparecem separadas da tradução.",
+    "camadaEssencial": [
+      {
+        "id": "dna-neandertal-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Resumo",
+        "texto": "Humanos modernos e Neandertais tiveram descendentes. Esse fluxo de DNA é chamado introgressão, e alguns segmentos arcaicos permanecem em populações atuais."
+      },
+      {
+        "id": "dna-neandertal-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Seleção",
+        "texto": "Segmentos podem diminuir por cruzamentos e acaso, persistir sem efeito ou mudar de frequência quando afetam reprodução e sobrevivência."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "dna-neandertal-contexto-dinopad",
+        "tipo": "destaque",
+        "titulo": "Antes da tradução — contexto Dinopad",
+        "texto": "O texto de 2019 explica introgressão com comparações acessíveis. A tradução integral começa em “Resumo”. Esta introdução ajuda a evitar um atalho: possuir segmentos herdados de Neandertais não divide uma pessoa em porcentagens de identidade ou de comportamento."
+      },
+      {
+        "id": "dna-neandertal-guia-dinopad",
+        "tipo": "paragrafo",
+        "titulo": "Como adaptar as metáforas",
+        "texto": "Misturar tintas ajuda a imaginar segmentos de DNA, mas genomas não se tornam uma cor uniforme. A recombinação recorta e redistribui trechos a cada geração; seleção e acaso alteram suas frequências. Efeitos associados a variantes são resultados populacionais, dependem do ambiente e raramente permitem prever sozinho uma característica individual."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Resumo",
+        "texto": "O artigo parte da estimativa, comum quando foi publicado, de que muitas pessoas teriam cerca de 3% de DNA neandertal. Há cerca de 40 mil anos, humanos modernos e Neandertais tiveram descendentes. A mistura entre as populações levou à troca de DNA, processo que os biólogos chamam de introgressão. Depois que os Neandertais deixaram de existir como população distinta, humanos modernos passaram a gerar descendentes apenas com outros humanos modernos. Ao longo do tempo, a proporção média de segmentos neandertais diminuiu, mas alguns permaneceram. Genes herdados de Neandertais atuam em diferentes partes do corpo, inclusive no sistema digestório e no sistema imune. O texto propõe que algumas variantes tenham ajudado populações humanas a se adaptar a novos alimentos e a combater microrganismos. Visto em retrospecto, os encontros entre nossos ancestrais e Neandertais deixaram uma contribuição genética que ainda pode ser estudada."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Introdução",
+        "texto": "Quando um leão cruza com uma tigresa, pode nascer um ligre. Esses grandes animais em geral são estéreis, isto é, não conseguem gerar descendentes. Durante muito tempo, cientistas imaginaram que descendentes do cruzamento entre espécies diferentes — os híbridos — fossem sempre estéreis. Pesquisas posteriores mostraram que alguns híbridos podem ter seus próprios filhotes. Em 1943, por exemplo, um ligre teve filhotes com um leão no zoológico Hellabrunn, na Alemanha."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "O que é introgressão",
+        "texto": "Quando híbridos voltam a cruzar com uma das populações parentais, como aconteceu com o ligre e o leão, DNA pode passar de uma população para a outra. Esse processo é chamado introgressão. Ele ajuda a explicar como humanos modernos receberam parte do DNA neandertal. Por muito tempo, populações de humanos modernos viveram na África. Dezenas de milhares de anos atrás, algumas migraram para a Eurásia e encontraram Neandertais, Homo neanderthalensis. Neandertais não eram radicalmente diferentes de nós: tinham corpo mais robusto, proporções dos membros um pouco distintas e uma saliência marcante acima dos olhos. Alguns humanos modernos tiveram descendentes com Neandertais."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Descendentes férteis",
+        "texto": "Quando esses descendentes cresceram, também tiveram filhos, e o processo continuou. A mistura entre populações levou à introgressão, isto é, à entrada persistente de segmentos de DNA de um grupo no outro. O artigo original dizia que, como esses encontros teriam acontecido apenas fora da África, não haveria DNA neandertal em africanos atuais e pessoas de outras regiões teriam cerca de 3%. Essa afirmação é reproduzida aqui por fidelidade histórica e recebe uma correção editorial separada ao fim da tradução."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Misturando tintas",
+        "texto": "Por que restaria apenas uma pequena proporção de DNA neandertal? Um primeiro descendente de humano moderno e Neandertal receberia aproximadamente metade do DNA de cada população. Se esse híbrido tivesse filhos com um humano moderno, a média neandertal cairia para cerca de 25%. Na geração seguinte, cairia novamente pela metade. Em algum momento, os Neandertais desapareceram como população distinta — ainda não sabemos exatamente por quê — e novos segmentos deixaram de entrar por esses encontros. A proporção média diminuiria ao longo das gerações."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "A comparação com duas cores",
+        "texto": "O texto compara esse cenário à mistura de tintas. Imagine colocar tinta amarela, representando Neandertais, e tinta vermelha, representando humanos modernos, em um balde. A primeira mistura seria laranja. À medida que mais tinta vermelha fosse adicionada, a cor ficaria cada vez mais vermelha. Do mesmo modo, após várias gerações de descendentes com humanos modernos, a proporção média de segmentos neandertais cairia."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "Por que os segmentos não desapareceram?",
+        "texto": "Em uma conta simplificada, a proporção cairia pela metade em cada geração: 50%, 25%, 12,5%, 6,25% e 3,125%. Se uma geração durasse 25 anos, isso ocorreria em cerca de 125 anos. Mas os encontros aconteceram há mais de 40 mil anos. Se a diluição simples fosse toda a história, a proporção atual seria muito menor. Para discutir por que certos segmentos não desapareceram, o artigo apresenta outro conceito: introgressão adaptativa."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-8",
+        "tipo": "paragrafo",
+        "titulo": "Lobos pretos",
+        "texto": "Para compreender introgressão adaptativa, viajamos para a América do Norte, onde matilhas de lobos percorrem florestas. A maioria tem pelagem cinza, mas alguns lobos são mais escuros. Cientistas estudaram seu DNA e descobriram que a pelagem escura estava associada a uma variante específica de um gene. Essa variante não era típica dos lobos, mas aparecia em cães. Análises indicaram que cães e lobos tiveram filhotes no passado. A mistura introduziu nos lobos a variante relacionada à pelagem escura."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-9",
+        "tipo": "paragrafo",
+        "titulo": "Seleção natural e adaptação",
+        "texto": "Em certos ambientes florestais, a cor mais escura poderia melhorar a camuflagem. Lobos com essa característica teriam maior chance de sobreviver e deixar filhotes; seus descendentes também poderiam herdar a variante. Ao longo do tempo, ela se tornaria mais comum na população. Biólogos evolutivos dizem que a característica ficou sujeita à seleção natural. É por isso que o processo recebe o nome de introgressão adaptativa: o DNA que atravessou a fronteira entre populações contribuiu para uma adaptação."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-10",
+        "tipo": "paragrafo",
+        "titulo": "Uma bolha que não se mistura",
+        "texto": "Voltando à analogia das tintas, uma variante benéfica pode ser comparada a uma bolha sólida de tinta amarela. Não importa quanta tinta vermelha seja adicionada: a bolha continua visível na mistura. A comparação é uma simplificação, mas ajuda a imaginar como certos segmentos podem aumentar de frequência enquanto outros diminuem ou desaparecem por acaso."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-11",
+        "tipo": "paragrafo",
+        "titulo": "Genes neandertais benéficos",
+        "texto": "O artigo propõe que algo parecido tenha ocorrido com partes do DNA neandertal. Algumas variantes poderiam ter ajudado humanos modernos e, por isso, não desapareceram. Os autores comparam os segmentos preservados a várias bolhas amarelas na tinta vermelha e perguntam quais adaptações eles teriam fornecido. Cientistas vêm construindo catálogos de variantes arcaicas e estudando seus efeitos."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-12",
+        "tipo": "paragrafo",
+        "titulo": "Cérebro, digestão e dentes",
+        "texto": "Como exemplos, o texto menciona o gene microcefalina, MCPH1, importante para o desenvolvimento cerebral, e sugere que uma versão neandertal poderia ter influenciado capacidades de sobrevivência em territórios novos. Também cita o receptor olfativo OR12D3 e genes relacionados à digestão, que poderiam ter contribuído para a adaptação a alimentos diferentes encontrados na Europa. Outras variantes poderiam ter influenciado a forma dos dentes. Essas associações eram hipóteses discutidas na época da publicação e não devem ser lidas como efeitos simples de um único “gene da inteligência” ou “gene da dieta”."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-13",
+        "tipo": "paragrafo",
+        "titulo": "Sistema imune",
+        "texto": "Vários segmentos herdados de Neandertais também parecem atuar no sistema imune, que protege o corpo contra doenças. Alguns genes produzem proteínas capazes de reconhecer bactérias e vírus e participar de sua eliminação. O artigo compara essas proteínas a policiais que patrulham as ruas, encontram criminosos e os impedem de causar mais danos."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-14",
+        "tipo": "paragrafo",
+        "titulo": "Doenças encontradas na Eurásia",
+        "texto": "Ao chegar à Eurásia, humanos modernos encontraram microrganismos diferentes daqueles com os quais suas populações haviam convivido na África. Neandertais viviam nessas regiões havia muito tempo e poderiam carregar variantes úteis contra alguns patógenos locais. Ao receber DNA neandertal, humanos modernos também teriam recebido parte dessas variantes. Na comparação do artigo, seria como ganhar uma equipe de policiais que já conhecia os criminosos da região."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-15",
+        "tipo": "paragrafo",
+        "titulo": "Conclusão",
+        "texto": "O artigo conclui que pessoas com ancestralidade fora da África carregam segmentos neandertais e que alguns permaneceram por terem sido provavelmente benéficos à sobrevivência. Em sentido figurado, Neandertais não desapareceram completamente: parte de sua variação genética continua em humanos modernos. Isso não significa que pessoas atuais sejam “porcentagens de espécies”; significa que populações antigas se encontraram e deixaram descendentes."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-16",
+        "tipo": "paragrafo",
+        "titulo": "Glossário",
+        "texto": "Híbrido: descendente do cruzamento entre populações ou espécies diferentes. Introgressão: entrada persistente de DNA de uma população em outra por meio de cruzamentos e descendentes férteis. Seleção natural: processo evolutivo no qual características herdáveis associadas a maior reprodução tendem a se tornar mais frequentes. Adaptação: característica que aumenta, em determinado ambiente, a sobrevivência ou reprodução de um indivíduo em comparação com outros da população."
+      },
+      {
+        "id": "dna-neandertal-aprofundar-17",
+        "tipo": "paragrafo",
+        "titulo": "Correção editorial Dinopad",
+        "texto": "Esta tradução preserva as afirmações do artigo de 2019, mas duas delas precisam de atualização. Pesquisas posteriores detectaram segmentos neandertais também em populações africanas atuais, em parte por migrações de retorno e por histórias populacionais complexas. Além disso, não existe um valor único de “3%” aplicável a toda pessoa: estimativas variam conforme a população, o indivíduo, o trecho do genoma e o método. Várias associações funcionais apresentadas no artigo também permanecem mais incertas do que o texto sugere. Esta correção não faz parte do original."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "dossieIds": [
+      "neandertais-denisovanos"
+    ],
+    "fonteIds": [
+      "frontiers-neanderthal-2019",
+      "green-neanderthal-2010"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tradução preservada com preparação editorial Dinopad claramente separada."
+    }
+  },
+  {
+    "id": "dna-historia-humana",
+    "slug": "dna-historia-humana",
+    "titulo": "O que nosso DNA pode contar sobre a história humana",
+    "modo": "traducao-autorizada",
+    "traducaoIntegral": true,
+    "autores": [
+      "Leo Speidel",
+      "Clare Bycroft"
+    ],
+    "tradutor": "Equipe editorial Dinopad",
+    "idiomaOriginal": "Inglês",
+    "minutosLeitura": 14,
+    "fonteOriginal": {
+      "titulo": "What Our DNA Can Tell Us About the History of Humans",
+      "url": "https://kids.frontiersin.org/articles/10.3389/frym.2020.00106",
+      "doi": "10.3389/frym.2020.00106",
+      "licenca": "CC BY 4.0",
+      "urlLicenca": "https://creativecommons.org/licenses/by/4.0/",
+      "permiteTraducaoIntegral": true
+    },
+    "notaEditorial": "Tradução PT-BR do texto principal sob CC BY 4.0. Figuras foram omitidas até auditoria individual; notas de atualização do Dinopad aparecem separadas da tradução.",
+    "camadaEssencial": [
+      {
+        "id": "dna-historia-humana-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Resumo",
+        "texto": "Trechos de DNA passam por caminhos diferentes de ancestrais. Matemática, estatística e computadores ajudam a reconstruir árvores genealógicas de cada trecho."
+      },
+      {
+        "id": "dna-historia-humana-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Três escalas",
+        "texto": "Essas árvores informam a história antiga, diferenças regionais recentes e misturas entre populações em movimento."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "dna-historia-humana-contexto-dinopad",
+        "tipo": "destaque",
+        "titulo": "Antes da tradução — contexto Dinopad",
+        "texto": "O artigo de 2020 mostra que um genoma contém muitas genealogias. A tradução integral começa em “Resumo”. Leia os exemplos regionais como demonstrações de método, não como histórias completas de todos os povos envolvidos."
+      },
+      {
+        "id": "dna-historia-humana-guia-dinopad",
+        "tipo": "paragrafo",
+        "titulo": "Do dado à narrativa",
+        "texto": "Uma diferença genética precisa ser combinada a amostragem, estatística, datação e contexto histórico. Populações usadas em um estudo não representam automaticamente continentes inteiros, e rótulos atuais não existiam necessariamente no passado. O DNA registra parentescos e encontros; arqueologia, linguística, documentos e memória das comunidades ajudam a interpretar quem se moveu e em quais circunstâncias."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Resumo",
+        "texto": "Quase todas as células do corpo contêm DNA. Essa molécula armazena instruções para o funcionamento do organismo e passa de pais para filhos. O artigo mostra como o DNA pode funcionar como uma máquina do tempo, levando-nos muitos milhares de anos ao passado e revelando histórias de nossos ancestrais. Ele permite investigar a história antiga dos seres humanos e estimar onde e com quem nossos ancestrais viveram. Também pode contar partes da história recente de um país e revelar como pessoas comuns viveram ou se deslocaram."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Introdução",
+        "texto": "Nosso DNA é como um longo diário da história humana, transmitido de geração em geração. Esse diário contém histórias fascinantes sobre nossos ancestrais, e cada nova geração acrescenta uma pequena contribuição. Usando matemática, estatística e computadores, cientistas conseguem recuperar essas histórias ao interpretar diferenças pequenas em nosso DNA. Algumas tratam de ancestrais de Homo sapiens que viveram centenas de milhares de anos atrás; outras, de nossos ancestrais dos últimos milhares de anos."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "De onde vêm os trechos de DNA",
+        "texto": "Cada pessoa herda uma combinação única de DNA de seus pais. É por isso que irmãos se parecem, mas não são idênticos — com exceção dos gêmeos idênticos, cujo DNA é praticamente o mesmo. Cada trecho do DNA pode ser rastreado até um dos quatro avós. Como cada avô também teve ancestrais diferentes, cada trecho conta uma parte ligeiramente distinta da história do passado."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Linhas ancestrais",
+        "texto": "Trechos de nosso DNA atravessam milhares de anos por meio dos ancestrais. Imagine voltar no tempo e seguir a linha ancestral de cada trecho. Quando duas pessoas compartilham um ancestral, suas linhas se encontram. Para parentes próximos, como primos, algumas linhas podem se encontrar recentemente. Para pessoas sem parentesco recente conhecido, o encontro acontece muito mais longe no passado."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Muitas árvores dentro do genoma",
+        "texto": "As linhas ancestrais formam árvores genealógicas do DNA, mostrando como os trechos de diferentes pessoas se relacionam. Cada trecho foi herdado por uma sequência distinta de ancestrais; por isso, a árvore pode mudar de um trecho para outro. As mesmas duas pessoas podem parecer próximas em algumas árvores e distantes em outras. Para certos trechos, o ancestral genético comum mais próximo de dois primos pode estar milhões de anos no passado, perto da origem dos grandes primatas humanos."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Como reconstruir as árvores",
+        "texto": "Ao passar de uma geração para outra, o DNA às vezes sofre mutações, criando pequenas diferenças entre os trechos herdados por pessoas atuais. Cientistas desenvolveram métodos para reconstruir árvores genealógicas do DNA comparando essas diferenças. Em geral, quanto mais antigo o ancestral comum de duas sequências, maior o número de diferenças acumuladas. O artigo apresenta três histórias contidas nessas árvores: uma sobre o passado antigo e o povoamento de regiões do mundo; outra sobre a história recente dentro de um país; e uma terceira sobre deslocamentos e misturas entre populações."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-7",
+        "tipo": "paragrafo",
+        "titulo": "Descobrindo o passado antigo",
+        "texto": "Registros escritos alcançam apenas alguns milhares de anos e não contam histórias muito antigas, mas nosso DNA pode guardar pistas. Para imaginar como cientistas leem essas pistas, pense em você e um amigo. Em uma sala pequena com poucas pessoas, será fácil encontrá-lo. Em um salão com centenas de pessoas, será mais difícil. Um raciocínio parecido pode ser aplicado aos ancestrais."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-8",
+        "tipo": "paragrafo",
+        "titulo": "Tamanho e distância das populações",
+        "texto": "Em determinado momento do passado, se havia poucos seres humanos ou se os ancestrais de duas pessoas viviam na mesma região, a chance de compartilharem um ancestral naquela época era maior. Se a população era grande ou se os ancestrais viviam longe uns dos outros, a chance era menor. A frequência com que linhas se encontram em diferentes partes das árvores pode oferecer pistas sobre proximidade, movimentos e tamanho das populações no passado."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-9",
+        "tipo": "paragrafo",
+        "titulo": "Saídas da África e encontro com Neandertais",
+        "texto": "Hoje bilhões de seres humanos vivem em todos os continentes. Até tempos relativamente recentes, nossa espécie era muito menos numerosa e, voltando cerca de 200 mil anos, populações de Homo sapiens viviam principalmente na África. As árvores do DNA indicam que grupos relativamente pequenos migraram para fora da África e povoaram outras regiões. Parentes distantes, especialmente Neandertais, já viviam na Europa e na Ásia. Durante muito tempo não se sabia exatamente como eles se relacionavam conosco. A comparação de seu DNA com o nosso mostrou que humanos que migraram para fora da África encontraram Neandertais e tiveram descendentes com eles."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-10",
+        "tipo": "paragrafo",
+        "titulo": "A história de uma nação escrita no DNA",
+        "texto": "O DNA também pode informar sobre um passado muito mais recente. Ao observar as partes recentes das árvores, podemos estudar quando, onde e com quem pessoas comuns viveram ou se deslocaram. Quando moradores de uma região têm filhos entre si durante muitas gerações, seus descendentes compartilham ancestrais recentes com mais frequência do que compartilham com pessoas de outros lugares. Isso aparece como diferenças pequenas na maneira como trechos de DNA são compartilhados entre populações cujos ancestrais viviam em regiões diferentes."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-11",
+        "tipo": "paragrafo",
+        "titulo": "Diferenças regionais",
+        "texto": "Já se sabia que diferenças regionais surgem em escala mundial ao longo de centenas de gerações. Em média, duas pessoas Han chinesas tendem a apresentar trechos mais semelhantes entre si do que uma pessoa Han chinesa e uma irlandesa, porque suas linhas ancestrais costumam se encontrar mais recentemente. O artigo pergunta se padrões menores também aparecem dentro de um mesmo país. Entre pessoas que compartilham muitos ancestrais recentes, o DNA pode ser extremamente parecido: se o ancestral comum viveu na época de Gêngis Khan, cerca de 800 anos atrás, espera-se menos de uma diferença a cada milhão de posições."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-12",
+        "tipo": "paragrafo",
+        "titulo": "O exemplo das Ilhas Britânicas",
+        "texto": "Ao estudar pessoas que vivem hoje nas Ilhas Britânicas, cientistas encontraram pequenas diferenças entre grupos separados por distâncias curtas. Foi possível observar, por exemplo, um padrão entre Cornwall e Devon, regiões inglesas divididas pelo rio Tamar, comparando pessoas cujos avós nasceram em cada lado. Isso sugere que, por muitas gerações, ancestrais de Devon tiveram filhos com outros moradores de Devon com maior frequência do que com moradores de Cornwall."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-13",
+        "tipo": "paragrafo",
+        "titulo": "Isolamento e acontecimentos históricos",
+        "texto": "Outras áreas de isolamento relativo aparecem entre o norte e o sul do País de Gales, em West Yorkshire e em regiões geograficamente isoladas, como as Ilhas Órcades. Alguns padrões coincidem com acontecimentos históricos, incluindo áreas de assentamento de bretões e saxões por volta do ano 600. Diferenças regionais pequenas não são exclusivas da Grã-Bretanha: também foram encontradas na Espanha, Irlanda, Itália, Finlândia, Japão e em muitas outras regiões, cada qual com uma história própria."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-14",
+        "tipo": "paragrafo",
+        "titulo": "O caldeirão das migrações humanas",
+        "texto": "O DNA mostra que mares, montanhas e outras características geográficas podem dificultar encontros entre populações — mas não os impedem sempre. A história humana contém muitos exemplos de grupos que se deslocaram por grandes oceanos e cadeias montanhosas e tiveram filhos com pessoas encontradas no caminho. Sinais desses encontros permanecem no DNA atual."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-15",
+        "tipo": "paragrafo",
+        "titulo": "O exemplo da Península Ibérica",
+        "texto": "Um exemplo vem da Península Ibérica, que inclui a Espanha atual. Registros escritos descrevem a migração de pessoas do norte da África para a região durante o período de domínio muçulmano, aproximadamente entre 700 e 1200. Ao comparar o DNA de espanhóis atuais com o de pessoas de outras partes da Europa e do norte da África, pesquisadores encontraram sinais de que migrantes norte-africanos tiveram descendentes com populações locais."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-16",
+        "tipo": "paragrafo",
+        "titulo": "Um mosaico de ancestrais",
+        "texto": "Em alguns trechos do DNA de uma pessoa espanhola, as linhas ancestrais se encontram mais recentemente com as de pessoas atuais do norte da África, muitas vezes do Marrocos; em outros trechos, encontram-se primeiro com as de pessoas da Europa, frequentemente da França. O DNA de pessoas atuais também pode ajudar a estimar quando a mistura de populações históricas ocorreu."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-17",
+        "tipo": "paragrafo",
+        "titulo": "A recombinação como relógio",
+        "texto": "Ao longo de muitas gerações, os trechos herdados das populações ancestrais são recombinados e divididos em pedaços cada vez menores. Esse embaralhamento pode funcionar como um relógio genético: o tamanho e a distribuição dos trechos ajudam a estimar quantas gerações passaram desde a mistura inicial. No caso da Península Ibérica, a análise apontou que grande parte da mistura provavelmente ocorreu entre 860 e 1120, começando algumas gerações depois da migração inicial do norte da África."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-18",
+        "tipo": "paragrafo",
+        "titulo": "Conclusão",
+        "texto": "Nosso DNA contém histórias do passado remoto, muito anteriores aos registros escritos. Essas histórias complementam a arqueologia ao indicar quantas pessoas provavelmente viviam em certas épocas e quando diferentes populações humanas entraram em contato. O DNA também acrescenta outra dimensão aos livros de história, revelando acontecimentos que moldaram a vida de pessoas comuns, e não apenas de governantes."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-19",
+        "tipo": "paragrafo",
+        "titulo": "História e saúde",
+        "texto": "Conhecer nossa história compartilhada já é interessante, mas estudar pequenas diferenças no DNA — e suas origens — também é importante para compreender a saúde humana. Cientistas investigam o DNA para entender melhor os processos que nos mantêm saudáveis ou nos fazem adoecer e para desenvolver tratamentos. Decifrar o código genético de pessoas atuais com matemática, estatística e computadores pode, ao mesmo tempo, revelar nosso passado e contribuir para a saúde futura."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-20",
+        "tipo": "paragrafo",
+        "titulo": "Glossário",
+        "texto": "DNA: molécula que armazena instruções para o funcionamento do corpo; passa de pais para filhos e às vezes sofre mutações, criando pequenas diferenças. O nome completo é ácido desoxirribonucleico. Homo sapiens: nome da única espécie humana viva, à qual pertencemos. Moléculas: estruturas químicas formadas por átomos, presentes no corpo e no mundo vivo. Linhas ancestrais: caminhos pelos quais diferentes trechos de DNA foram herdados; apenas parte dos ancestrais distantes transmite um trecho a uma pessoa atual, pois cada pai ou mãe passa cerca de metade de seu DNA a cada filho. Árvore genealógica do DNA: representação de como e quando linhas ancestrais se encontram no passado. Neandertal: parente extinto de Homo sapiens que viveu na Eurásia e teve descendentes com humanos modernos. Gêngis Khan: líder militar cujo império, iniciado por volta de 1200, estendeu-se por grande parte da Eurásia."
+      },
+      {
+        "id": "dna-historia-humana-aprofundar-21",
+        "tipo": "paragrafo",
+        "titulo": "Nota editorial Dinopad",
+        "texto": "Esta tradução preserva o texto publicado em 2020. Números populacionais, datas e modelos são revistos quando novas amostras são incorporadas. Categorias geográficas descrevem histórias de populações e não fronteiras biológicas fixas, tipos humanos separados ou a identidade de uma pessoa. Esta nota não faz parte do original."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [],
+    "dossieIds": [
+      "coalescencia",
+      "origem-africana-dispersoes"
+    ],
+    "fonteIds": [
+      "frontiers-dna-history-2020"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tradução preservada com preparação editorial Dinopad claramente separada."
+    }
+  },
+  {
+    "id": "leitura-cann-1987",
+    "slug": "leitura-cann-1987",
+    "titulo": "Leitura guiada: Cann, Stoneking e Wilson (1987)",
+    "modo": "leitura-guiada",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 9,
+    "fonteOriginal": {
+      "titulo": "Mitochondrial DNA and human evolution",
+      "url": "https://doi.org/10.1038/325031a0",
+      "doi": "10.1038/325031a0",
+      "licenca": "Leitura guiada; artigo original sob direitos autorais",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Paráfrase educativa com perguntas de estudo. O artigo original não é reproduzido.",
+    "camadaEssencial": [
+      {
+        "id": "leitura-cann-1987-essencial-1",
+        "tipo": "destaque",
+        "titulo": "A pergunta",
+        "texto": "O estudo investigou se diferenças no DNA mitocondrial de pessoas vivas poderiam reconstruir a genealogia materna recente de nossa espécie e indicar onde ela tinha maior profundidade."
+      },
+      {
+        "id": "leitura-cann-1987-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "O lugar do artigo na história",
+        "texto": "A análise apoiou raízes africanas para as linhagens mitocondriais amostradas. Foi influente, mas não descobriu a primeira mulher e não encerrou a discussão sobre amostras, modelos ou datas."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "leitura-cann-1987-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Leia primeiro a pergunta, não o apelido",
+        "texto": "Cann, Stoneking e Wilson queriam saber o que a variação do DNA mitocondrial de pessoas vivas podia revelar sobre a história recente de Homo sapiens. Como esse pequeno genoma costuma ser transmitido pela linha materna e passa por pouca recombinação, ele oferecia uma trilha mais simples do que o genoma nuclear para as técnicas de 1987. A pergunta era sobre linhagens genéticas; “Eva mitocondrial” foi um apelido popular posterior, não a hipótese de uma primeira mulher solitária."
+      },
+      {
+        "id": "leitura-cann-1987-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "O material e a técnica disponíveis",
+        "texto": "O trabalho comparou DNA mitocondrial de 147 pessoas associadas a diferentes populações geográficas. Em vez de sequenciar genomas completos, os autores observaram padrões produzidos por enzimas que cortavam a molécula em pontos específicos. Diferenças nesses fragmentos funcionavam como marcadores. Era uma tecnologia importante para a época, mas registrava uma parte muito menor da variação do que o sequenciamento atual."
+      },
+      {
+        "id": "leitura-cann-1987-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Da diferença à árvore",
+        "texto": "Os autores calcularam relações entre os padrões e construíram uma árvore das amostras. As linhagens africanas apresentaram maior diversidade e ocuparam posições profundas na análise. A interpretação foi que o ancestral comum das linhagens mitocondriais estudadas viveu na África e que parte da diversidade fora do continente derivava de uma expansão posterior. Observe a diferença: a árvore descrevia moléculas herdadas, não todas as relações entre todas as pessoas."
+      },
+      {
+        "id": "leitura-cann-1987-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "O resultado histórico e seus limites",
+        "texto": "O artigo ajudou a consolidar modelos de origem africana recente para Homo sapiens, mas recebeu críticas sobre procedência das amostras, suposições estatísticas, enraizamento da árvore e calibração do relógio molecular. Pesquisas seguintes ampliaram amostras e métodos. Esse percurso é instrutivo: um trabalho pode ser transformador sem ser a última palavra, e revisões não apagam sua importância histórica."
+      },
+      {
+        "id": "leitura-cann-1987-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "O que o artigo não demonstrou",
+        "texto": "A ancestral comum daquela linha não foi a primeira mulher, a única mulher viva ou a única ancestral das pessoas atuais. Mulheres de sua época podem ter deixado descendentes por partes do DNA nuclear mesmo que sua linha mitocondrial tenha terminado. O estudo também não analisou genomas de pessoas antigas. Ele inferiu o passado a partir da variação presente e de um modelo de mudança molecular."
+      },
+      {
+        "id": "leitura-cann-1987-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Como ler a estimativa de idade",
+        "texto": "Uma data genética depende de quantas diferenças são observadas, da taxa de mutação escolhida e do modelo populacional. Taxas não são relógios perfeitos e podem ser calibradas de maneiras diferentes. Por isso é mais correto falar em intervalos e incerteza do que em um ano exato. O valor também se refere ao encontro das linhagens amostradas: novas amostras podem alterar a estimativa e a forma da árvore."
+      },
+      {
+        "id": "leitura-cann-1987-aprofundar-7",
+        "tipo": "lista",
+        "titulo": "Perguntas para estudar o artigo",
+        "itens": [
+          "Qual parte do DNA foi analisada e qual genealogia ela consegue representar?",
+          "Como as amostras foram agrupadas e quais limitações essa escolha introduziu?",
+          "Quais conclusões pertencem aos dados e quais foram acrescentadas pela divulgação posterior?",
+          "Que resultados atuais refinam o artigo sem transformar sua hipótese em uma história de uma única mulher?"
+        ]
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [],
+    "dossieIds": [
+      "eva-mitocondrial",
+      "coalescencia"
+    ],
+    "fonteIds": [
+      "cann-mtdna-1987",
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "leitura-green-2010",
+    "slug": "leitura-green-2010",
+    "titulo": "Leitura guiada: o genoma Neandertal (2010)",
+    "modo": "leitura-guiada",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 9,
+    "fonteOriginal": {
+      "titulo": "A draft sequence of the Neandertal genome",
+      "url": "https://doi.org/10.1126/science.1188021",
+      "doi": "10.1126/science.1188021",
+      "licenca": "Leitura guiada; artigo original sob direitos autorais",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Paráfrase educativa com perguntas de estudo. O artigo original não é reproduzido.",
+    "camadaEssencial": [
+      {
+        "id": "leitura-green-2010-essencial-1",
+        "tipo": "destaque",
+        "titulo": "A mudança de visão",
+        "texto": "O rascunho do genoma Neandertal mostrou que a separação entre populações humanas não impediu reencontros: houve fluxo gênico com ancestrais de humanos modernos."
+      },
+      {
+        "id": "leitura-green-2010-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "Por que a evidência foi forte",
+        "texto": "O resultado veio de padrões repetidos em muitas posições do genoma, controles de dano e contaminação e comparações entre Neandertais, humanos atuais e chimpanzés."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "leitura-green-2010-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Uma pergunta difícil escondida em ossos antigos",
+        "texto": "Fósseis mostravam que Neandertais viveram na Eurásia e se sobrepuseram no tempo a humanos anatomicamente modernos. Mas convivência não prova que populações tiveram descendentes férteis. Green e colaboradores buscaram uma resposta no DNA nuclear, onde milhões de posições poderiam registrar tanto separação antiga quanto encontros posteriores."
+      },
+      {
+        "id": "leitura-green-2010-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Produzir o rascunho exigiu separar sinais",
+        "texto": "A equipe trabalhou principalmente com ossos Neandertais da caverna Vindija, na Croácia. DNA antigo chega fragmentado e misturado a grande quantidade de DNA microbiano; também pode receber DNA humano moderno durante escavação e laboratório. Os autores examinaram padrões de dano, estimaram contaminação e compararam resultados de bibliotecas diferentes. A confiabilidade não veio de uma leitura perfeita, mas de controles convergentes."
+      },
+      {
+        "id": "leitura-green-2010-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "A comparação decisiva",
+        "texto": "Em cada posição informativa, era possível perguntar se o alelo Neandertal combinava mais frequentemente com uma população humana atual do que com outra, usando o chimpanzé para indicar a condição mais antiga. Populações não africanas incluídas no estudo compartilhavam mais variantes derivadas com Neandertais do que as populações africanas comparadas. Repetido ao longo do genoma, esse desequilíbrio era difícil de explicar apenas por uma separação populacional limpa."
+      },
+      {
+        "id": "leitura-green-2010-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Semelhança sozinha não bastaria",
+        "texto": "Neandertais e humanos modernos já eram parentes próximos, portanto muito DNA compartilhado era esperado. O argumento dependia de uma assimetria: certos humanos atuais se pareciam com Neandertais mais do que outros de uma maneira consistente. Modelos de estrutura populacional antiga também foram considerados. A conclusão preferida foi fluxo gênico entre Neandertais e ancestrais de populações fora da África, embora trabalhos posteriores tenham refinado épocas, lugares e múltiplos episódios."
+      },
+      {
+        "id": "leitura-green-2010-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "O que mudou na árvore",
+        "texto": "O estudo não apagou os ramos Neandertal e Homo sapiens. Ele mostrou que ramos separados podem voltar a trocar genes. Essa é a diferença entre uma árvore e uma rede: a primeira resume separações predominantes; conexões adicionais registram introgressão. Também não significa que toda pessoa fora da África possua os mesmos segmentos. Recombinação e acaso distribuíram partes diferentes entre indivíduos e populações."
+      },
+      {
+        "id": "leitura-green-2010-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Leia números populacionais com cuidado",
+        "texto": "Estimativas de ancestralidade Neandertal são médias construídas com amostras e genomas de referência. Elas mudam conforme o método, a população e a cobertura do genoma. Um percentual não mede identidade nem transforma características complexas em “Neandertais” ou “modernas”. A força do artigo está no padrão populacional e histórico, não em classificar pessoas atuais por uma fração de espécie."
+      },
+      {
+        "id": "leitura-green-2010-aprofundar-7",
+        "tipo": "lista",
+        "titulo": "Ao acompanhar a evidência, procure",
+        "itens": [
+          "Quais ossos produziram DNA, qual era a cobertura e como a contaminação foi estimada?",
+          "Quais populações atuais participaram da comparação e quais não estavam representadas?",
+          "Que padrão diferencia fluxo gênico de ancestralidade compartilhada mais antiga?",
+          "Quais conclusões foram refinadas por genomas Neandertais e humanos publicados depois de 2010?"
+        ]
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "dossieIds": [
+      "neandertais-denisovanos",
+      "dna-antigo-metodo"
+    ],
+    "fonteIds": [
+      "green-neanderthal-2010",
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "leitura-reich-2010",
+    "slug": "leitura-reich-2010",
+    "titulo": "Leitura guiada: Denisovanos (2010)",
+    "modo": "leitura-guiada",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 9,
+    "fonteOriginal": {
+      "titulo": "Genetic history of an archaic hominin group from Denisova Cave in Siberia",
+      "url": "https://doi.org/10.1038/nature09710",
+      "doi": "10.1038/nature09710",
+      "licenca": "Leitura guiada; artigo original sob direitos autorais",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Paráfrase educativa com perguntas de estudo. O artigo original não é reproduzido.",
+    "camadaEssencial": [
+      {
+        "id": "leitura-reich-2010-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Uma população reconhecida pelo DNA",
+        "texto": "Um pequeno fragmento de dedo encontrado na caverna de Denisova preservou um genoma que não pertencia nem a humanos modernos nem a Neandertais."
+      },
+      {
+        "id": "leitura-reich-2010-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "O que a comparação revelou",
+        "texto": "A linhagem era próxima dos Neandertais e contribuiu geneticamente para ancestrais de algumas populações atuais. O artigo evitou transformar automaticamente a linhagem em uma espécie formal."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "leitura-reich-2010-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "Comece pelo tamanho da evidência",
+        "texto": "Denisova 3 é a falange distal de um dedo encontrada na caverna de Denisova, na Sibéria. Sua anatomia isolada não permitia reconhecer um novo grupo humano. O que mudou a história foi a preservação molecular. Esse contraste é importante: uma peça pequena pode responder uma pergunta grande quando conserva um tipo raro de evidência, mas continua dependendo do contexto arqueológico e de controles laboratoriais."
+      },
+      {
+        "id": "leitura-reich-2010-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Do DNA mitocondrial ao genoma nuclear",
+        "texto": "Uma análise inicial do DNA mitocondrial já havia indicado uma linhagem inesperada. O artigo de Reich e colaboradores publicou um rascunho do genoma nuclear com cobertura média de aproximadamente 1,9 vez. O genoma nuclear reúne milhares de genealogias e permitiu comparar Denisova 3 com Neandertais, pessoas atuais e chimpanzés com muito mais informação do que uma única linha mitocondrial."
+      },
+      {
+        "id": "leitura-reich-2010-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Parente dos Neandertais, mas com história própria",
+        "texto": "As comparações indicaram que a população de Denisova 3 compartilhava um ancestral mais recente com Neandertais do que com humanos modernos. Ainda assim, o ramo denisovano havia acumulado sua própria história depois da separação. “Grupo irmão” não significa população idêntica: descreve quais linhagens compartilham a separação mais recente na árvore analisada."
+      },
+      {
+        "id": "leitura-reich-2010-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "A conexão com pessoas atuais",
+        "texto": "No conjunto estudado em 2010, os autores estimaram contribuição denisovana de cerca de 4% a 6% nos ancestrais das populações melanésias comparadas. O número não deve ser universalizado para toda pessoa da Melanésia nem para o presente sem considerar novas amostras e métodos. Pesquisas posteriores encontraram histórias de introgressão diferentes em populações da Ásia e da Oceania, tornando o quadro mais ramificado."
+      },
+      {
+        "id": "leitura-reich-2010-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "Linhagem genética não vira espécie por atalho",
+        "texto": "O artigo descreveu um grupo humano arcaico e evitou atribuir um nome formal de espécie. Genomas podem revelar uma população distinta, mas delimitar espécies fósseis também envolve anatomia, variação, reprodução e decisões conceituais. Como o material disponível era limitado, “Denisovanos” funciona no Dinopad como nome de uma linhagem genética. Essa escolha registra o que sabemos sem prometer mais do que a evidência sustenta."
+      },
+      {
+        "id": "leitura-reich-2010-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "O estudo abriu perguntas, não apenas respostas",
+        "texto": "Onde viviam populações denisovanas? Como variavam fisicamente? Quantos encontros tiveram com outros humanos? Em 2010, um dedo e um dente eram uma janela estreita. Novos fósseis, proteínas antigas e genomas ampliaram a distribuição conhecida, mas muitas perguntas continuam. A lição metodológica é poderosa: reconhecer um ramo é o começo de uma investigação, não seu encerramento."
+      },
+      {
+        "id": "leitura-reich-2010-aprofundar-7",
+        "tipo": "lista",
+        "titulo": "Perguntas para estudar a descoberta",
+        "itens": [
+          "O que veio diretamente do fragmento e o que dependeu de modelos comparativos?",
+          "Por que o genoma nuclear contou uma história mais ampla que o DNA mitocondrial?",
+          "A quais populações atuais a estimativa de contribuição genética se referia?",
+          "Por que os autores não deram imediatamente um nome de espécie à linhagem?"
+        ]
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "dossieIds": [
+      "neandertais-denisovanos",
+      "dna-antigo-metodo"
+    ],
+    "fonteIds": [
+      "reich-denisovan-2010",
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  },
+  {
+    "id": "leitura-berger-2015",
+    "slug": "leitura-berger-2015",
+    "titulo": "Leitura guiada: a descrição de Homo naledi (2015)",
+    "modo": "leitura-guiada",
+    "traducaoIntegral": false,
+    "autores": [
+      "Equipe editorial Dinopad"
+    ],
+    "idiomaOriginal": "Português do Brasil",
+    "minutosLeitura": 9,
+    "fonteOriginal": {
+      "titulo": "Homo naledi, a new species of the genus Homo from the Dinaledi Chamber, South Africa",
+      "url": "https://doi.org/10.7554/eLife.09560",
+      "doi": "10.7554/eLife.09560",
+      "licenca": "CC BY 4.0; leitura guiada, não reprodução integral",
+      "urlLicenca": "https://creativecommons.org/licenses/by/4.0/",
+      "permiteTraducaoIntegral": false
+    },
+    "notaEditorial": "Paráfrase educativa com perguntas de estudo. O artigo original não é reproduzido.",
+    "camadaEssencial": [
+      {
+        "id": "leitura-berger-2015-essencial-1",
+        "tipo": "destaque",
+        "titulo": "Um conjunto incomum",
+        "texto": "A câmara Dinaledi preservou mais de 1.500 elementos fósseis atribuídos a pelo menos 15 indivíduos, permitindo comparar diferentes partes do corpo e fases da vida."
+      },
+      {
+        "id": "leitura-berger-2015-essencial-2",
+        "tipo": "paragrafo",
+        "titulo": "A lição que veio depois",
+        "texto": "A descrição reconheceu uma anatomia em mosaico e propôs Homo naledi. A idade ainda era desconhecida em 2015; datações publicadas em 2017 situaram o material entre 236 e 335 mil anos."
+      }
+    ],
+    "camadaAprofundar": [
+      {
+        "id": "leitura-berger-2015-aprofundar-1",
+        "tipo": "paragrafo",
+        "titulo": "A descoberta não foi apenas um crânio",
+        "texto": "O artigo de 2015 descreveu mais de 1.500 elementos fósseis da câmara Dinaledi, na África do Sul, representando pelo menos 15 indivíduos. Havia partes do crânio, dentes, mãos, pés, braços, pernas e tronco, além de indivíduos de diferentes idades. Essa abundância permitiu observar variação dentro do conjunto e reduziu o risco de definir uma espécie inteira a partir de uma única peça incomum."
+      },
+      {
+        "id": "leitura-berger-2015-aprofundar-2",
+        "tipo": "paragrafo",
+        "titulo": "Uma anatomia em mosaico",
+        "texto": "Homo naledi combinava características que, em uma narrativa de escada, pareceriam pertencer a etapas diferentes. Mãos e pés possuíam vários traços próximos aos de Homo, enquanto o tamanho cerebral e partes do ombro, tronco e pelve lembravam hominínios mais antigos. “Mosaico” não significa mistura de espécies: descreve partes do corpo com histórias evolutivas que não mudaram todas juntas."
+      },
+      {
+        "id": "leitura-berger-2015-aprofundar-3",
+        "tipo": "paragrafo",
+        "titulo": "Por que a equipe propôs uma nova espécie",
+        "texto": "Os autores compararam o conjunto com Australopithecus, Paranthropus e espécies de Homo. A combinação recorrente de características em vários indivíduos não se encaixava bem na variação conhecida. O nome Homo naledi organizou essa hipótese taxonômica. Como em toda descrição de espécie fóssil, outros pesquisadores podem testar a diagnose, ampliar comparações ou discordar da posição filogenética."
+      },
+      {
+        "id": "leitura-berger-2015-aprofundar-4",
+        "tipo": "paragrafo",
+        "titulo": "Em 2015, a idade ainda estava em aberto",
+        "texto": "A descrição anatômica foi publicada antes de uma datação segura. Sem idade, era tentador imaginar que características aparentemente antigas significavam grande antiguidade. O artigo foi cuidadoso ao separar a descrição da cronologia. Essa incerteza era central, não um detalhe ausente: sem saber quando viveu, era difícil avaliar quais outras populações poderiam ter coexistido com Homo naledi."
+      },
+      {
+        "id": "leitura-berger-2015-aprofundar-5",
+        "tipo": "paragrafo",
+        "titulo": "A datação de 2017 mudou o cenário",
+        "texto": "Análises independentes de dentes e sedimentos situaram os fósseis entre aproximadamente 236 e 335 mil anos. Homo naledi viveu, portanto, muito mais recentemente do que uma leitura baseada apenas em traços “primitivos” poderia sugerir. O caso mostra por que anatomia não funciona como relógio: características podem persistir, mudar em ritmos diferentes ou surgir em combinações inesperadas."
+      },
+      {
+        "id": "leitura-berger-2015-aprofundar-6",
+        "tipo": "paragrafo",
+        "titulo": "Descrição não resolve comportamento",
+        "texto": "A concentração de fósseis em uma câmara de acesso difícil gerou hipóteses sobre como os corpos chegaram ali. A descrição de 2015 documentou o material e discutiu o contexto, mas inferências sobre deposição deliberada exigem evidências adicionais e continuam debatidas. É importante distinguir três perguntas: o que foi encontrado, como foi classificado e qual comportamento poderia explicar o depósito."
+      },
+      {
+        "id": "leitura-berger-2015-aprofundar-7",
+        "tipo": "lista",
+        "titulo": "Como estudar a descrição",
+        "itens": [
+          "Quais partes do corpo sustentam a diagnose e em quantos indivíduos elas aparecem?",
+          "Onde os autores descrevem dados e onde passam a interpretar parentesco ou comportamento?",
+          "Que conclusões não podiam ser feitas antes da datação publicada em 2017?",
+          "Como a anatomia em mosaico desafia uma visão de evolução em escada?"
+        ]
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis",
+      "homo-naledi"
+    ],
+    "linhagemIds": [],
+    "dossieIds": [
+      "arvore-nao-escada"
+    ],
+    "fonteIds": [
+      "berger-naledi-2015",
+      "naledi-dating-2017"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Texto revisto para leitura contínua: contexto, evidência, limites e conclusão."
+    }
+  }
+]

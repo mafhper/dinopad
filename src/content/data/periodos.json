@@ -1,0 +1,154 @@
+[
+  {
+    "id": "cambriano",
+    "eraId": "paleozoico",
+    "nomeCientifico": "Cambrian",
+    "nomePt": "Cambriano",
+    "nomeEn": "Cambrian",
+    "inicioMa": 538.8,
+    "fimMa": 486.85,
+    "descricaoCurta": "Muitos grandes grupos animais aparecem no registro fóssil marinho."
+  },
+  {
+    "id": "ordoviciano",
+    "eraId": "paleozoico",
+    "nomeCientifico": "Ordovician",
+    "nomePt": "Ordoviciano",
+    "nomeEn": "Ordovician",
+    "inicioMa": 486.85,
+    "fimMa": 443.1,
+    "descricaoCurta": "Mares diversos cobriam grandes áreas dos continentes."
+  },
+  {
+    "id": "siluriano",
+    "eraId": "paleozoico",
+    "nomeCientifico": "Silurian",
+    "nomePt": "Siluriano",
+    "nomeEn": "Silurian",
+    "inicioMa": 443.1,
+    "fimMa": 419.62,
+    "descricaoCurta": "Plantas vasculares e artrópodes ampliaram sua presença em terra."
+  },
+  {
+    "id": "devoniano",
+    "eraId": "paleozoico",
+    "nomeCientifico": "Devonian",
+    "nomePt": "Devoniano",
+    "nomeEn": "Devonian",
+    "inicioMa": 419.62,
+    "fimMa": 358.86,
+    "descricaoCurta": "Peixes se diversificaram e os primeiros tetrápodes caminharam em águas rasas."
+  },
+  {
+    "id": "carbonifero",
+    "eraId": "paleozoico",
+    "nomeCientifico": "Carboniferous",
+    "nomePt": "Carbonífero",
+    "nomeEn": "Carboniferous",
+    "inicioMa": 358.86,
+    "fimMa": 298.9,
+    "descricaoCurta": "Grandes florestas pantanosas registraram muito carbono nas rochas."
+  },
+  {
+    "id": "permiano",
+    "eraId": "paleozoico",
+    "nomeCientifico": "Permian",
+    "nomePt": "Permiano",
+    "nomeEn": "Permian",
+    "inicioMa": 298.9,
+    "fimMa": 251.902,
+    "descricaoCurta": "Sinapsídeos como Dimetrodon viveram antes dos primeiros dinossauros."
+  },
+  {
+    "id": "triassico",
+    "eraId": "mesozoico",
+    "nomeCientifico": "Triassic",
+    "nomePt": "Triássico",
+    "nomeEn": "Triassic",
+    "inicioMa": 251.902,
+    "fimMa": 201.4,
+    "descricaoCurta": "Os primeiros dinossauros, pterossauros e mamaliaformes surgiram."
+  },
+  {
+    "id": "jurasico",
+    "eraId": "mesozoico",
+    "nomeCientifico": "Jurassic",
+    "nomePt": "Jurássico",
+    "nomeEn": "Jurassic",
+    "inicioMa": 201.4,
+    "fimMa": 143.1,
+    "descricaoCurta": "Sauropodes gigantes, grandes predadores e dinossauros com penas se diversificaram."
+  },
+  {
+    "id": "jurassico-superior",
+    "eraId": "mesozoico",
+    "nomeCientifico": "Late Jurassic",
+    "nomePt": "Jurássico Superior",
+    "nomeEn": "Late Jurassic",
+    "inicioMa": 161.5,
+    "fimMa": 143.1,
+    "subdivisao": "Jurássico Superior",
+    "descricaoCurta": "É a janela de muitos fósseis da Formação Morrison e de Archaeopteryx."
+  },
+  {
+    "id": "cretaceo",
+    "eraId": "mesozoico",
+    "nomeCientifico": "Cretaceous",
+    "nomePt": "Cretáceo",
+    "nomeEn": "Cretaceous",
+    "inicioMa": 143.1,
+    "fimMa": 66,
+    "descricaoCurta": "Plantas com flores se espalharam e novos grupos de dinossauros prosperaram."
+  },
+  {
+    "id": "cretaceo-superior",
+    "eraId": "mesozoico",
+    "nomeCientifico": "Late Cretaceous",
+    "nomePt": "Cretáceo Superior",
+    "nomeEn": "Late Cretaceous",
+    "inicioMa": 100.5,
+    "fimMa": 66,
+    "subdivisao": "Cretáceo Superior",
+    "descricaoCurta": "A última parte do Mesozoico termina no evento de extinção K–Pg."
+  },
+  {
+    "id": "paleogeno",
+    "eraId": "cenozoico",
+    "nomeCientifico": "Paleogene",
+    "nomePt": "Paleógeno",
+    "nomeEn": "Paleogene",
+    "inicioMa": 66,
+    "fimMa": 23.04,
+    "descricaoCurta": "Mamíferos e aves ocuparam muitos nichos deixados após o K–Pg."
+  },
+  {
+    "id": "neogeno",
+    "eraId": "cenozoico",
+    "nomeCientifico": "Neogene",
+    "nomePt": "Neógeno",
+    "nomeEn": "Neogene",
+    "inicioMa": 23.04,
+    "fimMa": 2.58,
+    "descricaoCurta": "Campos se expandiram e muitos grupos modernos se diversificaram."
+  },
+  {
+    "id": "quaternario",
+    "eraId": "cenozoico",
+    "nomeCientifico": "Quaternary",
+    "nomePt": "Quaternário",
+    "nomeEn": "Quaternary",
+    "inicioMa": 2.58,
+    "fimMa": 0,
+    "descricaoCurta": "Glaciações, megafauna e seres humanos fazem parte deste período."
+  },
+  {
+    "id": "ediacarano",
+    "eraId": "proterozoico",
+    "nomeCientifico": "Ediacaran",
+    "nomePt": "Ediacarano",
+    "nomeEn": "Ediacaran",
+    "inicioMa": 635,
+    "fimMa": 538.8,
+    "descricaoCurta": "Organismos multicelulares de corpo mole deixaram impressões antes da grande diversificação cambriana."
+  }
+]

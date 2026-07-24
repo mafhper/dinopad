@@ -1,0 +1,422 @@
+[
+  {
+    "id": "sue-t-rex",
+    "organismoId": "tyrannosaurus-rex",
+    "apelido": "SUE",
+    "numeroCatalogo": "FMNH PR 2081",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1990,
+    "descobridor": "Sue Hendrickson",
+    "formacao": "Hell Creek",
+    "local": "Dakota do Sul, Estados Unidos",
+    "museuAtual": "Field Museum, Chicago",
+    "resumo": "SUE preserva grande parte de um único T. rex. Marcas nos ossos e exames por imagem ajudam a investigar crescimento, lesões e mudanças ocorridas durante a vida, sem transformar cada marca em uma história certa.",
+    "mediaIds": [
+      "tyrannosaurus-rex-evidencia"
+    ],
+    "fonteIds": [
+      "field-sue",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "dippy-cm-84",
+    "organismoId": "diplodocus",
+    "apelido": "Dippy",
+    "numeroCatalogo": "CM 84",
+    "tipo": "especime-referencia",
+    "anoDescoberta": 1899,
+    "descobridor": "Equipe de campo do Carnegie Museum",
+    "formacao": "Morrison",
+    "local": "Sheep Creek, Wyoming, Estados Unidos",
+    "museuAtual": "Carnegie Museum of Natural History, Pittsburgh",
+    "resumo": "CM 84 virou a base de moldes enviados a museus de vários países. Dippy mostra como um único esqueleto pode influenciar por gerações a imagem pública dos dinossauros — e como as montagens mudam quando a anatomia é reavaliada.",
+    "mediaIds": [
+      "diplodocus-evidencia"
+    ],
+    "fonteIds": [
+      "carnegie-dippy",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "archaeopteryx-berlim",
+    "organismoId": "archaeopteryx",
+    "apelido": "Exemplar de Berlim",
+    "numeroCatalogo": "MB.Av.101",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1875,
+    "descobridor": "Trabalhador de pedreira não identificado",
+    "formacao": "Calcários de Solnhofen",
+    "local": "Blumenberg, Baviera, Alemanha",
+    "museuAtual": "Museum für Naturkunde Berlin",
+    "resumo": "O exemplar de Berlim preserva penas, dentes, garras e uma cauda óssea longa. Essa combinação transformou o fóssil em uma janela para a evolução das aves, embora ele não seja simplesmente uma metade exata entre dois grupos.",
+    "mediaIds": [
+      "archaeopteryx-evidencia"
+    ],
+    "fonteIds": [
+      "berlin-archaeopteryx",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "staurikosaurus-holotipo",
+    "organismoId": "staurikosaurus",
+    "apelido": "Holótipo de Staurikosaurus",
+    "numeroCatalogo": "MCZ 1669",
+    "tipo": "holotipo",
+    "anoDescoberta": 1936,
+    "descobridor": "Llewellyn Ivor Price",
+    "formacao": "Santa Maria",
+    "local": "Sítio Jazigo Cinco, Santa Maria, Rio Grande do Sul, Brasil",
+    "museuAtual": "Museum of Comparative Zoology, Harvard University",
+    "resumo": "Este esqueleto parcial é o exemplar que define Staurikosaurus pricei. Seus ossos ajudam a estudar os primeiros dinossauros do Triássico brasileiro, mas partes ausentes precisam ser comparadas com parentes, sempre como interpretação.",
+    "mediaIds": [
+      "staurikosaurus-evidencia"
+    ],
+    "fonteIds": [
+      "staurikosaurus-2009",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "buriolestes-holotipo",
+    "organismoId": "buriolestes",
+    "apelido": "Holótipo de Buriolestes",
+    "numeroCatalogo": "ULBRA-PVT280",
+    "tipo": "holotipo",
+    "anoDescoberta": 2009,
+    "descobridor": "Equipe de campo da ULBRA",
+    "formacao": "Santa Maria",
+    "local": "Sítio Buriol, São João do Polêsine, Rio Grande do Sul, Brasil",
+    "museuAtual": "Centro de Apoio à Pesquisa Paleontológica da UFSM",
+    "resumo": "O holótipo reúne boa parte do esqueleto e um crânio especialmente informativo. Ele revelou que um parente inicial dos grandes sauropodes ainda era pequeno e carnívoro, lembrando que linhagens mudam muito ao longo do tempo.",
+    "mediaIds": [
+      "buriolestes-evidencia"
+    ],
+    "fonteIds": [
+      "buriolestes-2021",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "irritator-holotipo",
+    "organismoId": "irritator",
+    "apelido": "Holótipo de Irritator",
+    "numeroCatalogo": "SMNS 58022",
+    "tipo": "holotipo",
+    "anoDescoberta": null,
+    "descobridor": "Coleta original não documentada",
+    "formacao": "Romualdo",
+    "local": "Bacia do Araripe, Ceará, Brasil",
+    "museuAtual": "Staatliches Museum für Naturkunde Stuttgart",
+    "resumo": "O crânio chegou à ciência com partes alteradas para parecer maior. Tomografias e novo preparo permitiram separar osso, rocha e modificações, tornando o exemplar uma lição sobre procedência, conservação e correção científica.",
+    "mediaIds": [
+      "irritator-evidencia"
+    ],
+    "fonteIds": [
+      "irritator-2020",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "toumai",
+    "organismoId": "sahelanthropus-tchadensis",
+    "apelido": "Toumaï",
+    "numeroCatalogo": "TM 266-01-060-1",
+    "tipo": "holotipo",
+    "anoDescoberta": 2001,
+    "descobridor": "Equipe da Missão Paleoantropológica Franco-Chadiana",
+    "formacao": "Toros-Menalla",
+    "local": "Deserto de Djurab, Chade",
+    "museuAtual": "Centre National de Recherche pour le Développement, Chade",
+    "resumo": "Crânio deformado pela fossilização que ampliou para a África central o mapa dos primeiros hominínios candidatos. Sua postura e posição filogenética seguem em debate.",
+    "mediaIds": [
+      "sahelanthropus-tchadensis-evidencia"
+    ],
+    "fonteIds": [
+      "toumai-2002"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "ardi",
+    "organismoId": "ardipithecus-ramidus",
+    "apelido": "Ardi",
+    "numeroCatalogo": "ARA-VP-6/500",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1994,
+    "descobridor": "Equipe do Middle Awash",
+    "formacao": "Sagantole",
+    "local": "Aramis, Etiópia",
+    "museuAtual": "National Museum of Ethiopia",
+    "resumo": "Esqueleto parcial que exigiu anos de preparação. A combinação de pés, mãos, pelve e crânio ajuda a discutir locomoção em árvores e no solo.",
+    "mediaIds": [
+      "ardipithecus-ramidus-evidencia"
+    ],
+    "fonteIds": [
+      "ardi-2009"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "lucy",
+    "organismoId": "australopithecus-afarensis",
+    "apelido": "Lucy",
+    "numeroCatalogo": "AL 288-1",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1974,
+    "descobridor": "Donald Johanson e Tom Gray",
+    "formacao": "Hadar",
+    "local": "Afar, Etiópia",
+    "museuAtual": "National Museum of Ethiopia",
+    "resumo": "Cerca de 40% de um esqueleto adulto. Pelve, joelho e membros documentam bipedalismo, enquanto braços e ombros preservam pistas de escalada.",
+    "mediaIds": [
+      "australopithecus-afarensis-evidencia"
+    ],
+    "fonteIds": [
+      "lucy-1976"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "taung-1",
+    "organismoId": "australopithecus-africanus",
+    "apelido": "Criança de Taung",
+    "numeroCatalogo": "Taung 1",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1924,
+    "descobridor": "Trabalhadores da pedreira de Buxton; estudado por Raymond Dart",
+    "formacao": "Taung",
+    "local": "Noroeste da África do Sul",
+    "museuAtual": "University of the Witwatersrand",
+    "resumo": "Crânio infantil e molde natural do cérebro que ajudaram a deslocar a busca pelas origens humanas para a África.",
+    "mediaIds": [
+      "australopithecus-africanus-evidencia"
+    ],
+    "fonteIds": [
+      "taung-1925"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "little-foot",
+    "organismoId": "australopithecus-africanus",
+    "apelido": "Little Foot",
+    "numeroCatalogo": "StW 573",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1994,
+    "descobridor": "Ron Clarke e equipe de Sterkfontein",
+    "formacao": "Sterkfontein Member 2",
+    "local": "Gauteng, África do Sul",
+    "museuAtual": "University of the Witwatersrand",
+    "resumo": "Esqueleto muito completo extraído lentamente de brecha calcária. Sua espécie, idade e combinação locomotora alimentam debates importantes.",
+    "mediaIds": [
+      "australopithecus-africanus-evidencia"
+    ],
+    "fonteIds": [
+      "little-foot-wits"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "oh-7",
+    "organismoId": "homo-habilis",
+    "apelido": "OH 7",
+    "numeroCatalogo": "OH 7",
+    "tipo": "holotipo",
+    "anoDescoberta": 1960,
+    "descobridor": "Jonathan Leakey e equipe",
+    "formacao": "Olduvai Bed I",
+    "local": "Garganta de Olduvai, Tanzânia",
+    "museuAtual": "National Museum of Tanzania",
+    "resumo": "Mandíbula, dentes e ossos da mão que compõem o holótipo de Homo habilis. A associação lembra como espécimes fragmentários sustentam nomes taxonômicos.",
+    "mediaIds": [
+      "homo-habilis-evidencia"
+    ],
+    "fonteIds": [
+      "oh7-1964"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "turkana-boy",
+    "organismoId": "homo-erectus",
+    "apelido": "Turkana Boy",
+    "numeroCatalogo": "KNM-WT 15000",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1984,
+    "descobridor": "Kamoya Kimeu e equipe",
+    "formacao": "Nariokotome",
+    "local": "Oeste do lago Turkana, Quênia",
+    "museuAtual": "National Museums of Kenya",
+    "resumo": "Esqueleto juvenil excepcionalmente completo que informa proporções corporais, crescimento e locomoção de Homo erectus.",
+    "mediaIds": [
+      "homo-erectus-evidencia"
+    ],
+    "fonteIds": [
+      "smithsonian-turkana-boy"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "dmanisi-5",
+    "organismoId": "homo-erectus",
+    "apelido": "Dmanisi 5",
+    "numeroCatalogo": "D4500/D2600",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 2005,
+    "descobridor": "Equipe do Museu Nacional da Geórgia",
+    "formacao": "Dmanisi",
+    "local": "Dmanisi, Geórgia",
+    "museuAtual": "Georgian National Museum",
+    "resumo": "Crânio completo associado a uma mandíbula robusta. A variação entre os crânios do sítio desafia divisões taxonômicas simples.",
+    "mediaIds": [
+      "homo-erectus-evidencia"
+    ],
+    "fonteIds": [
+      "dmanisi-5-2013"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "neanderthal-1",
+    "organismoId": "homo-neanderthalensis",
+    "apelido": "Neanderthal 1",
+    "numeroCatalogo": "Neanderthal 1",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 1856,
+    "descobridor": "Trabalhadores da pedreira Feldhofer",
+    "formacao": "Feldhofer Cave deposits",
+    "local": "Vale de Neander, Alemanha",
+    "museuAtual": "LVR-LandesMuseum Bonn",
+    "resumo": "Calota craniana e ossos que deram nome aos Neandertais. Interpretações iniciais mudaram quando novos fósseis mostraram uma população humana extinta.",
+    "mediaIds": [
+      "homo-neanderthalensis-evidencia"
+    ],
+    "fonteIds": [
+      "neanderthal-1-smithsonian"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "denisova-3",
+    "linhagemId": "denisovanos",
+    "apelido": "Denisova 3",
+    "numeroCatalogo": "Denisova 3",
+    "tipo": "especime-notavel",
+    "anoDescoberta": 2008,
+    "descobridor": "Equipe da caverna de Denisova",
+    "formacao": "Denisova Cave layer 11",
+    "local": "Montanhas Altai, Rússia",
+    "museuAtual": "Institute of Archaeology and Ethnography, Novosibirsk",
+    "resumo": "Pequeno fragmento de falange que forneceu um genoma e revelou uma população arcaica. É associado à linhagem denisovana, não reclassificado como Homo sapiens.",
+    "mediaIds": [
+      "denisovanos-evidencia"
+    ],
+    "fonteIds": [
+      "reich-denisovan-2010"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "lb1",
+    "organismoId": "homo-floresiensis",
+    "apelido": "LB1",
+    "numeroCatalogo": "LB1",
+    "tipo": "holotipo",
+    "anoDescoberta": 2003,
+    "descobridor": "Equipe indonésio-australiana de Liang Bua",
+    "formacao": "Liang Bua",
+    "local": "Ilha de Flores, Indonésia",
+    "museuAtual": "Indonesian National Research and Innovation Agency",
+    "resumo": "Esqueleto parcial adulto e holótipo de Homo floresiensis. Seu pequeno corpo e mosaico anatômico motivaram extensos testes de hipóteses alternativas.",
+    "mediaIds": [
+      "homo-floresiensis-evidencia"
+    ],
+    "fonteIds": [
+      "lb1-2004"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "dh1",
+    "organismoId": "homo-naledi",
+    "apelido": "DH1",
+    "numeroCatalogo": "DH1",
+    "tipo": "holotipo",
+    "anoDescoberta": 2013,
+    "descobridor": "Equipe Rising Star",
+    "formacao": "Dinaledi Chamber",
+    "local": "Sistema Rising Star, África do Sul",
+    "museuAtual": "University of the Witwatersrand",
+    "resumo": "Crânio composto designado holótipo de Homo naledi, parte de um conjunto com muitos indivíduos e regiões do esqueleto.",
+    "mediaIds": [
+      "homo-naledi-evidencia"
+    ],
+    "fonteIds": [
+      "berger-naledi-2015"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {"id":"arqueano","nomeCientifico":"Archean","nomePt":"Arqueano","nomeEn":"Archean Eon","inicioMa":4031,"fimMa":2500,"descricaoCurta":"Um planeta jovem, com oceanos antigos e os primeiros indícios de vida.","corTema":"#765b43"},
+  {"id":"proterozoico","nomeCientifico":"Proterozoic","nomePt":"Proterozoico","nomeEn":"Proterozoic Eon","inicioMa":2500,"fimMa":538.8,"descricaoCurta":"O oxigênio aumentou e organismos com células complexas se diversificaram.","corTema":"#7a604f"},
+  {"id":"paleozoico","nomeCientifico":"Paleozoic","nomePt":"Paleozoico","nomeEn":"Paleozoic Era","inicioMa":538.8,"fimMa":251.902,"descricaoCurta":"A vida animal se diversificou nos mares e conquistou a terra firme.","corTema":"#54727a"},
+  {"id":"mesozoico","nomeCientifico":"Mesozoic","nomePt":"Mesozoico","nomeEn":"Mesozoic Era","inicioMa":251.902,"fimMa":66,"descricaoCurta":"Dinossauros, pterossauros e muitos répteis marinhos ocuparam um mundo em transformação.","corTema":"#73825b"},
+  {"id":"cenozoico","nomeCientifico":"Cenozoic","nomePt":"Cenozoico","nomeEn":"Cenozoic Era","inicioMa":66,"fimMa":0,"descricaoCurta":"Mamíferos e aves se diversificaram, e muito mais tarde surgiram os seres humanos.","corTema":"#a07b37"},
+  {"id":"fanerozoico","nomeCientifico":"Phanerozoic","nomePt":"Fanerozoico","nomeEn":"Phanerozoic Eon","inicioMa":538.8,"fimMa":0,"descricaoCurta":"O éon que reúne a maior parte do registro visível de vida complexa.","corTema":"#6e735f"}
+]

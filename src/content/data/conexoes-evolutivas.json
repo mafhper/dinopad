@@ -1,0 +1,35 @@
+[
+  {
+    "id": "neandertal-sapiens-fluxo-genico",
+    "origemId": "homo-neanderthalensis",
+    "destinoId": "homo-sapiens",
+    "tipo": "fluxo-genico",
+    "certeza": "estabelecida",
+    "resumo": "Genomas mostram introgressão neandertal em ancestrais de populações humanas modernas.",
+    "fonteIds": [
+      "green-neanderthal-2010"
+    ]
+  },
+  {
+    "id": "denisovano-sapiens-fluxo-genico",
+    "origemId": "denisovanos",
+    "destinoId": "homo-sapiens",
+    "tipo": "fluxo-genico",
+    "certeza": "estabelecida",
+    "resumo": "Segmentos denisovanos persistem em proporções diferentes entre populações humanas atuais.",
+    "fonteIds": [
+      "reich-denisovan-2010"
+    ]
+  },
+  {
+    "id": "neandertal-denisovano-fluxo-genico",
+    "origemId": "homo-neanderthalensis",
+    "destinoId": "denisovanos",
+    "tipo": "fluxo-genico",
+    "certeza": "estabelecida",
+    "resumo": "DNA antigo registra encontros entre populações neandertais e denisovanas.",
+    "fonteIds": [
+      "reich-denisovan-2010"
+    ]
+  }
+]

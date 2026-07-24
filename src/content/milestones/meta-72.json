@@ -1,0 +1,27 @@
+{
+  "id": "meta-72",
+  "organismoIds": [
+    "tyrannosaurus-rex", "triceratops", "stegosaurus", "coelophysis", "plateosaurus", "staurikosaurus",
+    "buriolestes", "allosaurus", "diplodocus", "brachiosaurus", "archaeopteryx", "velociraptor",
+    "spinosaurus", "ankylosaurus", "parasaurolophus", "iguanodon", "irritator", "berthasaura",
+    "austroposeidon", "uberabatitan", "dimetrodon", "pteranodon", "mosasaurus", "smilodon-populator",
+    "gnathovorax", "carnotaurus", "deinonychus", "psittacosaurus", "edmontosaurus", "tapejara",
+    "pleuromeia", "dicroidium", "araucaria-mirabilis", "ginkgoites-huttonii", "archaefructus", "duartenia",
+    "gorilla-beringei", "gorilla-gorilla", "homo-sapiens", "pan-paniscus", "pan-troglodytes",
+    "pongo-abelii", "pongo-pygmaeus", "pongo-tapanuliensis", "sahelanthropus-tchadensis",
+    "orrorin-tugenensis", "ardipithecus-kadabba", "ardipithecus-ramidus", "australopithecus-anamensis",
+    "australopithecus-afarensis", "australopithecus-africanus", "australopithecus-garhi",
+    "australopithecus-sediba", "paranthropus-aethiopicus", "paranthropus-boisei",
+    "paranthropus-robustus", "kenyanthropus-platyops", "homo-habilis", "homo-rudolfensis",
+    "homo-erectus", "homo-heidelbergensis", "homo-neanderthalensis", "homo-naledi",
+    "homo-floresiensis", "dickinsonia-costata", "anomalocaris-canadensis", "tiktaalik-roseae",
+    "acanthostega-gunnari", "rhynia-gwynne-vaughanii", "calamites-suckowii", "glossopteris-indica",
+    "cycadeoidea"
+  ],
+  "minimos": {
+    "midiasDeOrganismos": 216,
+    "especimes": 18,
+    "dossies": 8,
+    "publicacoes": 12
+  }
+}

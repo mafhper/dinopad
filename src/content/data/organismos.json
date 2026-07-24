@@ -1,0 +1,6243 @@
+[
+  {
+    "id": "tyrannosaurus-rex",
+    "nomeCientifico": "Tyrannosaurus rex",
+    "autoridadeTaxonomica": "Osborn, 1905",
+    "nomePt": "Tiranossauro",
+    "nomeEn": "Tyrannosaurus rex",
+    "aliases": [
+      "T. rex",
+      "t rex",
+      "rei dos dinossauros"
+    ],
+    "significadoNome": "lagarto tirano rei",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 68,
+      "fimMa": 66,
+      "incerteza": "baixa",
+      "significado": "Intervalo mais aceito para fósseis atribuídos à espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-tyrannosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 12,
+          "max": 13,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 3.5,
+          "max": 4,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 7000,
+          "max": 9700,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Estimativas variam conforme o indivíduo e o método usado.",
+      "fonteIds": [
+        "nhm-tyrannosaurus",
+        "field-sue"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Hell Creek",
+        "regiao": "Montana, Dakota do Norte e Dakota do Sul",
+        "pais": "Estados Unidos"
+      },
+      {
+        "formacao": "Lance",
+        "regiao": "Wyoming",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um enorme terópode do fim do Cretáceo norte-americano.",
+    "descricao": "Tinha crânio robusto, dentes espessos e uma mordida capaz de danificar ossos. Seus fósseis aparecem nos últimos dois milhões de anos do Mesozoico.",
+    "memoria": "T. rex viveu mais perto de nós no tempo do que de Stegosaurus.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-tyrannosaurus",
+      "field-sue"
+    ],
+    "mediaIds": [
+      "tyrannosaurus-rex-evidencia",
+      "tyrannosaurus-rex-interpretacao",
+      "tyrannosaurus-rex-escala"
+    ],
+    "mediaPrincipalId": "tyrannosaurus-rex-evidencia",
+    "especimeIds": [
+      "sue-t-rex"
+    ],
+    "relacoes": [
+      {
+        "organismoId": "triceratops",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "direta",
+        "nota": "Os dois aparecem na Formação Hell Creek e se sobrepõem no tempo.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      },
+      {
+        "organismoId": "stegosaurus",
+        "tipo": "comparacao-temporal",
+        "nivelEvidencia": "contextual",
+        "nota": "Stegosaurus desapareceu dezenas de milhões de anos antes do T. rex.",
+        "fonteIds": [
+          "ics-2026",
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "tyrannosauroidea",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-tyrannosaurus",
+        "field-sue"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "triceratops",
+    "nomeCientifico": "Triceratops horridus",
+    "autoridadeTaxonomica": "Marsh, 1889",
+    "nomePt": "Tricerátopo",
+    "nomeEn": "Triceratops",
+    "aliases": [
+      "três chifres",
+      "tres chifres"
+    ],
+    "significadoNome": "rosto com três chifres",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 68,
+      "fimMa": 66,
+      "incerteza": "baixa",
+      "significado": "Janela do registro fóssil no final do Cretáceo.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-triceratops"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 9,
+          "max": 9,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 10000,
+          "max": 10000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência para um adulto; indivíduos reais variavam.",
+      "fonteIds": [
+        "nhm-triceratops"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Hell Creek",
+        "regiao": "Oeste da América do Norte",
+        "pais": "Estados Unidos"
+      },
+      {
+        "formacao": "Lance",
+        "regiao": "Wyoming",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um herbívoro de bico, gola óssea e três chifres.",
+    "descricao": "Seu bico cortava vegetação e uma bateria de dentes triturava o alimento. A gola e os chifres provavelmente tiveram mais de uma função, incluindo exibição e defesa.",
+    "memoria": "Três chifres não significam parentesco com rinocerontes: Triceratops era um dinossauro.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-triceratops"
+    ],
+    "mediaIds": [
+      "triceratops-evidencia",
+      "triceratops-interpretacao",
+      "triceratops-escala"
+    ],
+    "mediaPrincipalId": "triceratops-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "tyrannosaurus-rex",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "direta",
+        "nota": "Compartilhava tempo e formações geológicas com T. rex.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "ceratopsidae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-triceratops"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "stegosaurus",
+    "nomeCientifico": "Stegosaurus stenops",
+    "autoridadeTaxonomica": "Marsh, 1887",
+    "nomePt": "Estegossauro",
+    "nomeEn": "Stegosaurus",
+    "aliases": [
+      "placas nas costas"
+    ],
+    "significadoNome": "lagarto com telhado",
+    "periodoIds": [
+      "jurassico-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 152,
+      "fimMa": 145,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado das ocorrências mais bem conhecidas.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-stegosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 9,
+          "max": 9,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        }
+      ],
+      "observacao": "Comprimento de referência; massa e altura dependem do exemplar e do modelo corporal.",
+      "fonteIds": [
+        "nhm-stegosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Morrison",
+        "regiao": "Oeste dos Estados Unidos",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um herbívoro jurássico com placas dorsais e espinhos na cauda.",
+    "descricao": "As placas continham vasos sanguíneos e podem ter participado de exibição e controle térmico. Os espinhos da cauda eram uma defesa capaz de ferir predadores.",
+    "memoria": "Stegosaurus já era fóssil havia dezenas de milhões de anos quando T. rex surgiu.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-stegosaurus"
+    ],
+    "mediaIds": [
+      "stegosaurus-evidencia",
+      "stegosaurus-interpretacao",
+      "stegosaurus-escala"
+    ],
+    "mediaPrincipalId": "stegosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "allosaurus",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "direta",
+        "nota": "Os dois são conhecidos na Formação Morrison.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "stegosauria",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-stegosaurus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "coelophysis",
+    "nomeCientifico": "Coelophysis bauri",
+    "autoridadeTaxonomica": "Cope, 1887",
+    "nomePt": "Celófise",
+    "nomeEn": "Coelophysis",
+    "aliases": [
+      "coelophysis"
+    ],
+    "significadoNome": "forma oca",
+    "periodoIds": [
+      "triassico"
+    ],
+    "intervalo": {
+      "inicioMa": 216,
+      "fimMa": 203,
+      "incerteza": "media",
+      "significado": "Ocorrências do Triássico Superior atribuídas ao gênero e à espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-coelophysis"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 2,
+          "max": 2,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência para um animal leve e esguio.",
+      "fonteIds": [
+        "nhm-coelophysis"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Chinle",
+        "regiao": "Novo México",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um terópode leve dos primeiros capítulos da história dos dinossauros.",
+    "descricao": "Tinha pernas longas, corpo esguio e dentes recurvados. Muitos indivíduos foram encontrados juntos em Ghost Ranch, mas isso não prova sozinho que caçavam em grupo.",
+    "memoria": "Vários fósseis juntos contam onde morreram; o comportamento ainda precisa de outras pistas.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-coelophysis"
+    ],
+    "mediaIds": [
+      "coelophysis-evidencia",
+      "coelophysis-interpretacao",
+      "coelophysis-escala"
+    ],
+    "mediaPrincipalId": "coelophysis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "coelophysoidea",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-coelophysis"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "plateosaurus",
+    "nomeCientifico": "Plateosaurus engelhardti",
+    "autoridadeTaxonomica": "von Meyer, 1837",
+    "nomePt": "Plateossauro",
+    "nomeEn": "Plateosaurus",
+    "aliases": [],
+    "significadoNome": "lagarto largo",
+    "periodoIds": [
+      "triassico"
+    ],
+    "intervalo": {
+      "inicioMa": 214,
+      "fimMa": 204,
+      "incerteza": "media",
+      "significado": "Registro fóssil europeu do Triássico Superior.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-plateosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 7,
+          "max": 7,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 4000,
+          "max": 4000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; indivíduos reais podiam variar.",
+      "fonteIds": [
+        "nhm-plateosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Trossingen",
+        "regiao": "Baden-Württemberg",
+        "pais": "Alemanha"
+      }
+    ],
+    "resumo": "Um sauropodomorfo anterior aos gigantes do Jurássico.",
+    "descricao": "Podia andar sobre duas pernas e usar as mãos para alcançar ou manipular vegetação. Seu ramo evolutivo inclui parentes que se tornariam enormes sauropodes.",
+    "memoria": "Um parente antigo de gigantes pode ter sido muito menor que eles.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-plateosaurus"
+    ],
+    "mediaIds": [
+      "plateosaurus-evidencia",
+      "plateosaurus-interpretacao",
+      "plateosaurus-escala"
+    ],
+    "mediaPrincipalId": "plateosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "diplodocus",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "Ambos pertencem ao ramo Sauropodomorpha, mas viveram em épocas diferentes.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "plateosauridae",
+    "energia": {
+      "incerteza": "media",
+      "fonteIds": [
+        "nhm-plateosaurus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "staurikosaurus",
+    "nomeCientifico": "Staurikosaurus pricei",
+    "autoridadeTaxonomica": "Colbert, 1970",
+    "nomePt": "Estauricossauro",
+    "nomeEn": "Staurikosaurus",
+    "aliases": [
+      "dinossauro do Cruzeiro do Sul"
+    ],
+    "significadoNome": "lagarto do Cruzeiro do Sul",
+    "periodoIds": [
+      "triassico"
+    ],
+    "intervalo": {
+      "inicioMa": 233.2,
+      "fimMa": 228,
+      "incerteza": "media",
+      "significado": "Idade aproximada das camadas da Formação Santa Maria que preservaram o holótipo.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "staurikosaurus-2009"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 2,
+          "max": 2.3,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 0.8,
+          "max": 1,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 20,
+          "max": 35,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Conhecido por um esqueleto incompleto; dimensões são aproximações.",
+      "fonteIds": [
+        "staurikosaurus-2009"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Santa Maria",
+        "regiao": "Rio Grande do Sul",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um dos dinossauros mais antigos conhecidos, encontrado no Brasil.",
+    "descricao": "O holótipo preserva partes da coluna, mandíbula, pelve e membros posteriores. Como o material é incompleto, reconstruções precisam mostrar claramente onde começa a interpretação.",
+    "memoria": "Alguns dos capítulos mais antigos dos dinossauros foram encontrados no Sul do Brasil.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "staurikosaurus-2009"
+    ],
+    "mediaIds": [
+      "staurikosaurus-evidencia",
+      "staurikosaurus-interpretacao",
+      "staurikosaurus-escala"
+    ],
+    "mediaPrincipalId": "staurikosaurus-evidencia",
+    "especimeIds": [
+      "staurikosaurus-holotipo"
+    ],
+    "relacoes": [
+      {
+        "organismoId": "buriolestes",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "contextual",
+        "nota": "Os dois são dinossauros triássicos do atual Rio Grande do Sul.",
+        "fonteIds": [
+          "staurikosaurus-2009",
+          "buriolestes-2021"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "herrerasauridae",
+    "energia": {
+      "incerteza": "media",
+      "fonteIds": [
+        "staurikosaurus-2009"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "buriolestes",
+    "nomeCientifico": "Buriolestes schultzi",
+    "autoridadeTaxonomica": "Cabreira et al., 2016",
+    "nomePt": "Buriolestes",
+    "nomeEn": "Buriolestes",
+    "aliases": [],
+    "significadoNome": "ladrão da família Buriol",
+    "periodoIds": [
+      "triassico"
+    ],
+    "intervalo": {
+      "inicioMa": 233.2,
+      "fimMa": 228,
+      "incerteza": "media",
+      "significado": "Camadas triássicas da Formação Santa Maria.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "buriolestes-2021"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.5,
+          "max": 2,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 0.6,
+          "max": 0.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 5,
+          "max": 15,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Estimativas baseadas em exemplares pequenos e de constituição leve.",
+      "fonteIds": [
+        "buriolestes-2021"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Santa Maria",
+        "regiao": "São João do Polêsine, Rio Grande do Sul",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um sauropodomorfo muito antigo que ainda tinha dentes adequados a carne.",
+    "descricao": "Seu crânio ajuda a estudar os primeiros passos do ramo que mais tarde produziria sauropodes herbívoros gigantes. A dieta dos primeiros membros desse ramo ainda é uma área importante de pesquisa.",
+    "memoria": "Uma família evolutiva pode mudar muito: o pequeno Buriolestes pertence ao ramo dos gigantes de pescoço longo.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "buriolestes-2021"
+    ],
+    "mediaIds": [
+      "buriolestes-evidencia",
+      "buriolestes-interpretacao",
+      "buriolestes-escala"
+    ],
+    "mediaPrincipalId": "buriolestes-evidencia",
+    "especimeIds": [
+      "buriolestes-holotipo"
+    ],
+    "relacoes": [
+      {
+        "organismoId": "plateosaurus",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "Ambos são sauropodomorfos, separados por milhões de anos de evolução.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "buriolestidae",
+    "energia": {
+      "incerteza": "media",
+      "fonteIds": [
+        "buriolestes-2021"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "allosaurus",
+    "nomeCientifico": "Allosaurus fragilis",
+    "autoridadeTaxonomica": "Marsh, 1877",
+    "nomePt": "Alossauro",
+    "nomeEn": "Allosaurus",
+    "aliases": [],
+    "significadoNome": "lagarto diferente",
+    "periodoIds": [
+      "jurassico-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 152,
+      "fimMa": 145,
+      "incerteza": "media",
+      "significado": "Ocorrências do Jurássico Superior, principalmente na Formação Morrison.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-allosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 9.7,
+          "max": 9.7,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 2700,
+          "max": 2700,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; adultos e métodos de estimativa variam.",
+      "fonteIds": [
+        "nhm-allosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Morrison",
+        "regiao": "Oeste dos Estados Unidos",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um grande predador do Jurássico Superior.",
+    "descricao": "Tinha braços maiores em proporção que os de T. rex e três dedos com garras. Marcas em ossos e dentes ajudam a reconstruir sua alimentação, mas cada encontro específico exige evidência própria.",
+    "memoria": "Allosaurus e Stegosaurus podiam realmente compartilhar a mesma paisagem.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-allosaurus"
+    ],
+    "mediaIds": [
+      "allosaurus-evidencia",
+      "allosaurus-interpretacao",
+      "allosaurus-escala"
+    ],
+    "mediaPrincipalId": "allosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "stegosaurus",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "direta",
+        "nota": "Ambos são encontrados na Formação Morrison.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "allosauroidea",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-allosaurus"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "diplodocus",
+    "nomeCientifico": "Diplodocus carnegii",
+    "autoridadeTaxonomica": "Hatcher, 1901",
+    "nomePt": "Diplódoco",
+    "nomeEn": "Diplodocus",
+    "aliases": [
+      "Dippy"
+    ],
+    "significadoNome": "viga dupla",
+    "periodoIds": [
+      "jurassico-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 152,
+      "fimMa": 145,
+      "incerteza": "media",
+      "significado": "Registro da Formação Morrison no Jurássico Superior.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-diplodocus",
+        "carnegie-dippy"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 26,
+          "max": 26,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 15000,
+          "max": 15000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; diferentes exemplares tinham dimensões próprias.",
+      "fonteIds": [
+        "nhm-diplodocus",
+        "carnegie-dippy"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Morrison",
+        "regiao": "Wyoming e estados vizinhos",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um sauropode muito comprido, com cauda e pescoço extensos.",
+    "descricao": "Dentes estreitos ficavam na frente das mandíbulas e retiravam vegetação. Réplicas do esqueleto CM 84 ajudaram a tornar o animal conhecido em museus de vários países.",
+    "memoria": "Dippy é uma família de réplicas de um mesmo esqueleto de referência.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-diplodocus",
+      "carnegie-dippy"
+    ],
+    "mediaIds": [
+      "diplodocus-evidencia",
+      "diplodocus-interpretacao",
+      "diplodocus-escala"
+    ],
+    "mediaPrincipalId": "diplodocus-evidencia",
+    "especimeIds": [
+      "dippy-cm-84"
+    ],
+    "relacoes": [
+      {
+        "organismoId": "brachiosaurus",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "contextual",
+        "nota": "Os dois são conhecidos na Formação Morrison, embora ocupassem corpos e hábitos diferentes.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "diplodocidae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-diplodocus",
+        "carnegie-dippy"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "brachiosaurus",
+    "nomeCientifico": "Brachiosaurus altithorax",
+    "autoridadeTaxonomica": "Riggs, 1903",
+    "nomePt": "Braquiossauro",
+    "nomeEn": "Brachiosaurus",
+    "aliases": [],
+    "significadoNome": "lagarto braço",
+    "periodoIds": [
+      "jurassico-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 152,
+      "fimMa": 145,
+      "incerteza": "media",
+      "significado": "Ocorrências atribuídas ao gênero na Formação Morrison.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-brachiosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 22,
+          "max": 22,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 46900,
+          "max": 46900,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; reconstruções completas usam comparação com parentes porque o esqueleto é incompleto.",
+      "fonteIds": [
+        "nhm-brachiosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Morrison",
+        "regiao": "Colorado e Utah",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um sauropode alto, com membros anteriores relativamente longos.",
+    "descricao": "A postura deixava os ombros mais altos que a pelve e ajudava a alcançar vegetação elevada. Seu crânio é menos conhecido que o restante do esqueleto.",
+    "memoria": "Ser alto e ser comprido são medidas diferentes: Brachiosaurus se destaca pela altura.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-brachiosaurus"
+    ],
+    "mediaIds": [
+      "brachiosaurus-evidencia",
+      "brachiosaurus-interpretacao",
+      "brachiosaurus-escala"
+    ],
+    "mediaPrincipalId": "brachiosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "diplodocus",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "contextual",
+        "nota": "Compartilharam parte da Formação Morrison.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "brachiosauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-brachiosaurus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "archaeopteryx",
+    "nomeCientifico": "Archaeopteryx lithographica",
+    "autoridadeTaxonomica": "von Meyer, 1861",
+    "nomePt": "Arqueoptérix",
+    "nomeEn": "Archaeopteryx",
+    "aliases": [
+      "ave jurássica"
+    ],
+    "significadoNome": "asa antiga",
+    "periodoIds": [
+      "jurassico-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 150.8,
+      "fimMa": 145,
+      "incerteza": "media",
+      "significado": "Calcários de Solnhofen que preservaram penas e esqueletos.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-archaeopteryx",
+        "berlin-archaeopteryx"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.5,
+          "max": 0.5,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        }
+      ],
+      "observacao": "Comprimento de referência, aproximadamente o porte de uma ave moderna média.",
+      "fonteIds": [
+        "nhm-archaeopteryx",
+        "berlin-archaeopteryx"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Calcário de Solnhofen",
+        "regiao": "Baviera",
+        "pais": "Alemanha"
+      }
+    ],
+    "resumo": "Um pequeno dinossauro com penas e asas do Jurássico Superior.",
+    "descricao": "Combina penas de voo com dentes, cauda óssea longa e dedos com garras. É um avialano antigo, mas não deve ser tratado como o único ancestral direto de todas as aves.",
+    "memoria": "A evolução parece uma árvore com muitos ramos, não uma fila de animais substituindo uns aos outros.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-archaeopteryx",
+      "berlin-archaeopteryx"
+    ],
+    "mediaIds": [
+      "archaeopteryx-evidencia",
+      "archaeopteryx-interpretacao",
+      "archaeopteryx-escala"
+    ],
+    "mediaPrincipalId": "archaeopteryx-evidencia",
+    "especimeIds": [
+      "archaeopteryx-berlim"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "avialae",
+    "energia": {
+      "incerteza": "media",
+      "fonteIds": [
+        "nhm-archaeopteryx",
+        "berlin-archaeopteryx"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "ave-primitiva"
+    ]
+  },
+  {
+    "id": "velociraptor",
+    "nomeCientifico": "Velociraptor mongoliensis",
+    "autoridadeTaxonomica": "Osborn, 1924",
+    "nomePt": "Velociraptor",
+    "nomeEn": "Velociraptor",
+    "aliases": [
+      "raptor"
+    ],
+    "significadoNome": "ladrão veloz",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 74,
+      "fimMa": 70,
+      "incerteza": "media",
+      "significado": "Ocorrências do Cretáceo Superior da Ásia Central.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-velociraptor"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.8,
+          "max": 1.8,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; muito menor que sua versão popular em filmes.",
+      "fonteIds": [
+        "nhm-velociraptor"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Djadochta",
+        "regiao": "Deserto de Gobi",
+        "pais": "Mongólia"
+      }
+    ],
+    "resumo": "Um pequeno dromeossaurídeo emplumado do deserto de Gobi.",
+    "descricao": "Tinha uma garra curva ampliada em cada pé. Estruturas no antebraço mostram ligação com penas, embora seu tamanho e braços não permitissem voo ativo.",
+    "memoria": "Velociraptor real tinha aproximadamente o tamanho de um peru grande, não de uma pessoa.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-velociraptor"
+    ],
+    "mediaIds": [
+      "velociraptor-evidencia",
+      "velociraptor-interpretacao",
+      "velociraptor-escala"
+    ],
+    "mediaPrincipalId": "velociraptor-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "dromaeosauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-velociraptor"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "spinosaurus",
+    "nomeCientifico": "Spinosaurus aegyptiacus",
+    "autoridadeTaxonomica": "Stromer, 1915",
+    "nomePt": "Espinossauro",
+    "nomeEn": "Spinosaurus",
+    "aliases": [
+      "dinossauro de vela"
+    ],
+    "significadoNome": "lagarto espinho",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "intervalo": {
+      "inicioMa": 99,
+      "fimMa": 94,
+      "incerteza": "media",
+      "significado": "Ocorrências do Cenomaniano do norte da África.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-spinosaurus",
+        "sereno-spinosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 14,
+          "max": 14,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 7400,
+          "max": 7400,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; proporções e modo de vida continuam em debate.",
+      "fonteIds": [
+        "nhm-spinosaurus",
+        "sereno-spinosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Bahariya e Kem Kem",
+        "regiao": "Norte da África",
+        "pais": "Egito e Marrocos"
+      }
+    ],
+    "resumo": "Um terópode de focinho alongado associado a rios do Cretáceo.",
+    "descricao": "Dentes cônicos e focinho comprido eram adequados para capturar peixes. Quanto tempo passava na água e como nadava continuam sendo questões debatidas.",
+    "memoria": "Uma reconstrução científica pode mudar quando novos ossos aparecem.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-spinosaurus",
+      "sereno-spinosaurus"
+    ],
+    "mediaIds": [
+      "spinosaurus-evidencia",
+      "spinosaurus-interpretacao",
+      "spinosaurus-escala"
+    ],
+    "mediaPrincipalId": "spinosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "irritator",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "Ambos pertencem ao grupo dos espinossaurídeos.",
+        "fonteIds": [
+          "irritator-2020",
+          "sereno-spinosaurus"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21",
+      "observacoes": "Manter explícita a incerteza sobre locomoção aquática."
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "spinosauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-spinosaurus",
+        "sereno-spinosaurus"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "ankylosaurus",
+    "nomeCientifico": "Ankylosaurus magniventris",
+    "autoridadeTaxonomica": "Brown, 1908",
+    "nomePt": "Anquilossauro",
+    "nomeEn": "Ankylosaurus",
+    "aliases": [
+      "dinossauro blindado"
+    ],
+    "significadoNome": "lagarto fundido de barriga grande",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 68,
+      "fimMa": 66,
+      "incerteza": "media",
+      "significado": "Registro fóssil do final do Cretáceo norte-americano.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-ankylosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 8,
+          "max": 8,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 8000,
+          "max": 8000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; ainda não foi encontrado um esqueleto completo.",
+      "fonteIds": [
+        "nhm-ankylosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Hell Creek e Lance",
+        "regiao": "Oeste da América do Norte",
+        "pais": "Estados Unidos e Canadá"
+      }
+    ],
+    "resumo": "Um grande herbívoro blindado com clava óssea na cauda.",
+    "descricao": "Placas ósseas protegiam o dorso e a clava da cauda podia ser usada em defesa. O crânio largo terminava em um bico adequado a vegetação baixa.",
+    "memoria": "A armadura fazia parte do esqueleto, não era uma casca separada.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-ankylosaurus"
+    ],
+    "mediaIds": [
+      "ankylosaurus-evidencia",
+      "ankylosaurus-interpretacao",
+      "ankylosaurus-escala"
+    ],
+    "mediaPrincipalId": "ankylosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "tyrannosaurus-rex",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "contextual",
+        "nota": "Os intervalos e regiões se sobrepõem no final do Cretáceo.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "ankylosauria",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-ankylosaurus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "parasaurolophus",
+    "nomeCientifico": "Parasaurolophus walkeri",
+    "autoridadeTaxonomica": "Parks, 1922",
+    "nomePt": "Parassaurolofo",
+    "nomeEn": "Parasaurolophus",
+    "aliases": [
+      "dinossauro de crista longa"
+    ],
+    "significadoNome": "próximo ao Saurolophus",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 77,
+      "fimMa": 73,
+      "incerteza": "media",
+      "significado": "Ocorrências campanianas da América do Norte.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-parasaurolophus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 9,
+          "max": 9,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 5000,
+          "max": 5000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; indivíduos e espécies podiam variar.",
+      "fonteIds": [
+        "nhm-parasaurolophus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Dinosaur Park",
+        "regiao": "Alberta",
+        "pais": "Canadá"
+      }
+    ],
+    "resumo": "Um hadrossauro com uma crista tubular longa.",
+    "descricao": "Passagens de ar percorriam a crista. Modelos acústicos sugerem que ela podia modificar sons, mas não podemos escutar exatamente como eram.",
+    "memoria": "Um fóssil pode preservar a forma de um instrumento, mas não a gravação do som.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-parasaurolophus"
+    ],
+    "mediaIds": [
+      "parasaurolophus-evidencia",
+      "parasaurolophus-interpretacao",
+      "parasaurolophus-escala"
+    ],
+    "mediaPrincipalId": "parasaurolophus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "lambeosaurinae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-parasaurolophus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "iguanodon",
+    "nomeCientifico": "Iguanodon bernissartensis",
+    "autoridadeTaxonomica": "Boulenger, 1881",
+    "nomePt": "Iguanodonte",
+    "nomeEn": "Iguanodon",
+    "aliases": [
+      "polegar em espinho"
+    ],
+    "significadoNome": "dente de iguana",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "intervalo": {
+      "inicioMa": 140,
+      "fimMa": 110,
+      "incerteza": "media",
+      "significado": "Registro do Cretáceo Inferior europeu atribuído ao gênero.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-iguanodon"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 10,
+          "max": 10,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 4000,
+          "max": 4000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Valores de referência; podia alternar entre locomoção bípede e quadrúpede.",
+      "fonteIds": [
+        "nhm-iguanodon"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Sainte-Barbe Clays",
+        "regiao": "Bernissart",
+        "pais": "Bélgica"
+      }
+    ],
+    "resumo": "Um grande herbívoro conhecido por espinhos nos polegares.",
+    "descricao": "Os primeiros estudos colocaram o espinho do polegar no nariz. Novos esqueletos articulados corrigiram a montagem, um ótimo exemplo de ciência se aperfeiçoando.",
+    "memoria": "Errar uma montagem e depois corrigi-la faz parte da ciência.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-iguanodon"
+    ],
+    "mediaIds": [
+      "iguanodon-evidencia",
+      "iguanodon-interpretacao",
+      "iguanodon-escala"
+    ],
+    "mediaPrincipalId": "iguanodon-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "iguanodontidae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-iguanodon"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "irritator",
+    "nomeCientifico": "Irritator challengeri",
+    "autoridadeTaxonomica": "Martill et al., 1996",
+    "nomePt": "Irritator",
+    "nomeEn": "Irritator",
+    "aliases": [
+      "espinossaurídeo brasileiro"
+    ],
+    "significadoNome": "o irritante de Challenger",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "intervalo": {
+      "inicioMa": 113,
+      "fimMa": 110,
+      "incerteza": "media",
+      "significado": "Idade aproximada da Formação Romualdo no Cretáceo Inferior.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "irritator-2020"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 6,
+          "max": 8,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 2,
+          "max": 2.7,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 700,
+          "max": 1400,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "O holótipo é principalmente um crânio; o corpo é inferido por parentes.",
+      "fonteIds": [
+        "irritator-2020"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Romualdo",
+        "regiao": "Bacia do Araripe",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um espinossaurídeo brasileiro conhecido por um crânio notável.",
+    "descricao": "O focinho alongado e os dentes cônicos sugerem alimentação com peixes e outras presas. Partes do crânio foram modificadas antes de chegar aos cientistas, exigindo reconstrução cuidadosa.",
+    "memoria": "Preparar um fóssil errado pode esconder pistas; tomografias ajudam a recuperá-las.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "irritator-2020"
+    ],
+    "mediaIds": [
+      "irritator-evidencia",
+      "irritator-interpretacao",
+      "irritator-escala"
+    ],
+    "mediaPrincipalId": "irritator-evidencia",
+    "especimeIds": [
+      "irritator-holotipo"
+    ],
+    "relacoes": [
+      {
+        "organismoId": "spinosaurus",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "São espinossaurídeos, mas viveram em regiões diferentes.",
+        "fonteIds": [
+          "irritator-2020",
+          "sereno-spinosaurus"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "spinosauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "irritator-2020"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "berthasaura",
+    "nomeCientifico": "Berthasaura leopoldinae",
+    "autoridadeTaxonomica": "de Souza et al., 2021",
+    "nomePt": "Bertassauro",
+    "nomeEn": "Berthasaura",
+    "aliases": [],
+    "significadoNome": "lagarto de Bertha e Leopoldina",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 72,
+      "fimMa": 66,
+      "incerteza": "media",
+      "significado": "Camadas cretáceas da Formação Goio-Erê.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "berthasaura-2021"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.8,
+          "max": 1,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 0.35,
+          "max": 0.5,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 8,
+          "max": 12,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "O exemplar é pequeno e pode não representar um adulto completamente crescido.",
+      "fonteIds": [
+        "berthasaura-2021"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Goio-Erê",
+        "regiao": "Cruzeiro do Oeste, Paraná",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um pequeno ceratossauro brasileiro sem dentes.",
+    "descricao": "O bico sem dentes torna sua dieta uma questão interessante. Herbivoria é uma hipótese plausível, mas a ficha preserva a incerteza em vez de tratar a interpretação como certeza.",
+    "memoria": "Sem dentes não significa automaticamente comer plantas: outras pistas precisam concordar.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "pbdb-1-2",
+      "berthasaura-2021"
+    ],
+    "mediaIds": [
+      "berthasaura-evidencia",
+      "berthasaura-interpretacao",
+      "berthasaura-escala"
+    ],
+    "mediaPrincipalId": "berthasaura-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21",
+      "observacoes": "Dieta deve permanecer marcada como altamente incerta."
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "noasauridae",
+    "energia": {
+      "incerteza": "alta",
+      "fonteIds": [
+        "berthasaura-2021"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "austroposeidon",
+    "nomeCientifico": "Austroposeidon magnificus",
+    "autoridadeTaxonomica": "Bandeira et al., 2016",
+    "nomePt": "Austroposeidon",
+    "nomeEn": "Austroposeidon",
+    "aliases": [
+      "gigante brasileiro"
+    ],
+    "significadoNome": "magnífico Poseidon do sul",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 83.6,
+      "fimMa": 66,
+      "incerteza": "alta",
+      "significado": "Faixa ampla da Formação Presidente Prudente; o fóssil não fornece uma data exata.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "austroposeidon-2016"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 23,
+          "max": 25,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 25000,
+          "max": 40000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Comprimento estimado a partir de vértebras incompletas; massa é ainda mais incerta.",
+      "fonteIds": [
+        "austroposeidon-2016"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Presidente Prudente",
+        "regiao": "São Paulo",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um dos maiores dinossauros descritos no Brasil.",
+    "descricao": "É conhecido principalmente por vértebras do pescoço e do dorso. Tomografias revelaram uma estrutura interna cheia de pequenas câmaras de ar, comum em grandes sauropodes.",
+    "memoria": "Um animal de 25 metros pode ser conhecido por apenas uma parte da coluna.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "austroposeidon-2016"
+    ],
+    "mediaIds": [
+      "austroposeidon-evidencia",
+      "austroposeidon-interpretacao",
+      "austroposeidon-escala"
+    ],
+    "mediaPrincipalId": "austroposeidon-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "uberabatitan",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "Ambos são titanossauros do Cretáceo brasileiro.",
+        "fonteIds": [
+          "austroposeidon-2016",
+          "uberabatitan-2008"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "titanosauria",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "austroposeidon-2016"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "uberabatitan",
+    "nomeCientifico": "Uberabatitan ribeiroi",
+    "autoridadeTaxonomica": "Salgado & Carvalho, 2008",
+    "nomePt": "Uberabatitã",
+    "nomeEn": "Uberabatitan",
+    "aliases": [],
+    "significadoNome": "titã de Uberaba",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 70,
+      "fimMa": 66,
+      "incerteza": "media",
+      "significado": "Camadas maastrichtianas da Formação Serra da Galga.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "uberabatitan-2008"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 15,
+          "max": 20,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 12000,
+          "max": 20000,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Vários indivíduos de tamanhos diferentes foram encontrados juntos; estimativas máximas são incertas.",
+      "fonteIds": [
+        "uberabatitan-2008"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Serra da Galga",
+        "regiao": "Uberaba, Minas Gerais",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um titanossauro do fim do Cretáceo mineiro.",
+    "descricao": "Mais de um indivíduo foi encontrado no mesmo local, incluindo partes de coluna, cintura e membros. O crânio ainda não é conhecido.",
+    "memoria": "Muitos ossos no mesmo sítio podem pertencer a vários animais, não a um esqueleto gigante único.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "uberabatitan-2008"
+    ],
+    "mediaIds": [
+      "uberabatitan-evidencia",
+      "uberabatitan-interpretacao",
+      "uberabatitan-escala"
+    ],
+    "mediaPrincipalId": "uberabatitan-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "austroposeidon",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "São titanossauros brasileiros conhecidos por materiais diferentes.",
+        "fonteIds": [
+          "austroposeidon-2016",
+          "uberabatitan-2008"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "titanosauria",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "uberabatitan-2008"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "dimetrodon",
+    "nomeCientifico": "Dimetrodon",
+    "autoridadeTaxonomica": "Cope, 1878",
+    "nomePt": "Dimetrodonte",
+    "nomeEn": "Dimetrodon",
+    "aliases": [
+      "animal de vela do Permiano"
+    ],
+    "significadoNome": "dois tipos de dentes",
+    "periodoIds": [
+      "permiano"
+    ],
+    "intervalo": {
+      "inicioMa": 295,
+      "fimMa": 272,
+      "incerteza": "alta",
+      "significado": "Faixa ampla de ocorrências atribuídas ao gênero; cada espécie ocupa apenas parte dela.",
+      "fonteIds": [
+        "pbdb-1-2"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.7,
+          "max": 4.6,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 38,
+          "max": 250,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "Faixa entre espécies adultas do gênero, não o tamanho de uma única espécie ou indivíduo.",
+      "fonteIds": [
+        "dimetrodon-life-history-2026"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Red Beds do Texas",
+        "regiao": "Texas",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um sinapsídeo predador que viveu antes dos dinossauros.",
+    "descricao": "A abertura no crânio atrás de cada olho o coloca no ramo dos sinapsídeos, o mesmo grande ramo dos mamíferos. A vela dorsal pode ter participado de exibição e controle térmico.",
+    "memoria": "Dimetrodon é mais próximo do ramo dos mamíferos do que dos dinossauros.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nps-permian-dimetrodon",
+      "dimetrodon-life-history-2026"
+    ],
+    "mediaIds": [
+      "dimetrodon-evidencia",
+      "dimetrodon-interpretacao",
+      "dimetrodon-escala"
+    ],
+    "mediaPrincipalId": "dimetrodon-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "smilodon-populator",
+        "tipo": "comparacao-temporal",
+        "nivelEvidencia": "contextual",
+        "nota": "Os dois são sinapsídeos, mas separados por centenas de milhões de anos.",
+        "fonteIds": [
+          "pbdb-1-2",
+          "smilodon-2020",
+          "dimetrodon-life-history-2026"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "sphenacodontidae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nps-permian-dimetrodon"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "sinapsideo"
+    ]
+  },
+  {
+    "id": "pteranodon",
+    "nomeCientifico": "Pteranodon longiceps",
+    "autoridadeTaxonomica": "Marsh, 1876",
+    "nomePt": "Pteranodonte",
+    "nomeEn": "Pteranodon",
+    "aliases": [
+      "réptil voador"
+    ],
+    "significadoNome": "asa sem dentes",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 86,
+      "fimMa": 84,
+      "incerteza": "media",
+      "significado": "Ocorrências da Formação Niobrara no Cretáceo Superior.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "amnh-pteranodon"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 6,
+          "max": 6,
+          "tipo": "envergadura",
+          "unidade": "m",
+          "rotuloPt": "Envergadura"
+        }
+      ],
+      "observacao": "Envergadura de referência; a ficha não infere massa ou comprimento corporal sem uma fonte adequada.",
+      "fonteIds": [
+        "amnh-pteranodon"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Niobrara Chalk",
+        "regiao": "Kansas e estados vizinhos",
+        "pais": "Estados Unidos"
+      }
+    ],
+    "resumo": "Um pterossauro marinho de grande envergadura e sem dentes.",
+    "descricao": "Voava sobre o Mar Interior Ocidental e provavelmente capturava peixes. Pterossauros são parentes próximos dos dinossauros, mas formam outro ramo.",
+    "memoria": "Todo pterossauro é um réptil voador; nenhum pterossauro é um dinossauro.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "amnh-pteranodon"
+    ],
+    "mediaIds": [
+      "pteranodon-evidencia",
+      "pteranodon-interpretacao",
+      "pteranodon-escala"
+    ],
+    "mediaPrincipalId": "pteranodon-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "mosasaurus",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "contextual",
+        "nota": "Ambos viveram durante partes do Cretáceo Superior ligadas a mares rasos.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "pteranodontidae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "amnh-pteranodon"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "pterossauro"
+    ]
+  },
+  {
+    "id": "mosasaurus",
+    "nomeCientifico": "Mosasaurus hoffmannii",
+    "autoridadeTaxonomica": "Mantell, 1829",
+    "nomePt": "Mosassauro",
+    "nomeEn": "Mosasaurus",
+    "aliases": [
+      "lagarto marinho"
+    ],
+    "significadoNome": "lagarto do rio Mosa",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "intervalo": {
+      "inicioMa": 82,
+      "fimMa": 66,
+      "incerteza": "media",
+      "significado": "Ocorrências de mosassauros do Cretáceo Superior; M. hoffmannii ocupa apenas parte da faixa.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "nhm-mosasaur-guide"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 11,
+          "max": 18,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        }
+      ],
+      "observacao": "As estimativas publicadas divergem porque crânios são muito mais comuns que esqueletos completos.",
+      "fonteIds": [
+        "nhm-mosasaur-guide"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Maastricht",
+        "regiao": "Limburgo",
+        "pais": "Países Baixos"
+      }
+    ],
+    "resumo": "Um enorme lagarto marinho do fim do Cretáceo.",
+    "descricao": "Era um escamado adaptado à vida no mar, com membros transformados em nadadeiras e uma cauda poderosa. Não era dinossauro nem parente próximo dos golfinhos.",
+    "memoria": "Viver no tempo dos dinossauros não transforma um animal em dinossauro.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "nhm-mosasaur-guide"
+    ],
+    "mediaIds": [
+      "mosasaurus-evidencia",
+      "mosasaurus-interpretacao",
+      "mosasaurus-escala"
+    ],
+    "mediaPrincipalId": "mosasaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "pteranodon",
+        "tipo": "contemporaneo",
+        "nivelEvidencia": "contextual",
+        "nota": "Seus registros se sobrepõem em parte do Cretáceo Superior.",
+        "fonteIds": [
+          "pbdb-1-2"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "mosasauroidea",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "nhm-mosasaur-guide"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "reptil-marinho"
+    ]
+  },
+  {
+    "id": "smilodon-populator",
+    "nomeCientifico": "Smilodon populator",
+    "autoridadeTaxonomica": "Lund, 1842",
+    "nomePt": "Dente-de-sabre",
+    "nomeEn": "South American sabre-toothed cat",
+    "aliases": [
+      "smilodon",
+      "tigre dente de sabre"
+    ],
+    "significadoNome": "faca de dois gumes devastadora",
+    "periodoIds": [
+      "quaternario"
+    ],
+    "intervalo": {
+      "inicioMa": 1,
+      "fimMa": 0.01,
+      "incerteza": "media",
+      "significado": "Registro pleistocênico sul-americano até próximo da transição para o Holoceno.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "smilodon-2020"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.8,
+          "max": 2.1,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "min": 1.1,
+          "max": 1.2,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura"
+        },
+        {
+          "min": 220,
+          "max": 400,
+          "tipo": "massa",
+          "unidade": "kg",
+          "rotuloPt": "Massa"
+        }
+      ],
+      "observacao": "A massa variava e os maiores valores vêm de indivíduos excepcionais.",
+      "fonteIds": [
+        "smilodon-2020"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Depósitos de cavernas do Quaternário",
+        "regiao": "Minas Gerais e outras regiões",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Um grande felino sul-americano com caninos muito alongados.",
+    "descricao": "Tinha membros anteriores robustos e caninos frágeis a forças laterais. Provavelmente imobilizava grandes presas antes de usar uma mordida precisa.",
+    "memoria": "Dente-de-sabre viveu muito depois dos dinossauros não avianos e muito mais perto de nós.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "smilodon-2020"
+    ],
+    "mediaIds": [
+      "smilodon-populator-evidencia",
+      "smilodon-populator-interpretacao",
+      "smilodon-populator-escala"
+    ],
+    "mediaPrincipalId": "smilodon-populator-evidencia",
+    "especimeIds": [],
+    "relacoes": [
+      {
+        "organismoId": "dimetrodon",
+        "tipo": "mesmo-clado",
+        "nivelEvidencia": "contextual",
+        "nota": "Ambos pertencem ao grande ramo Synapsida, apesar da enorme distância temporal.",
+        "fonteIds": [
+          "pbdb-1-2",
+          "smilodon-2020"
+        ]
+      }
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "reino": "animalia",
+    "noFilogeneticoId": "machairodontinae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "smilodon-2020"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "categoriaIds": [
+      "mamifero"
+    ]
+  },
+  {
+    "id": "gnathovorax",
+    "nomeCientifico": "Gnathovorax cabreirai",
+    "autoridadeTaxonomica": "Pacheco et al., 2019",
+    "nomePt": "Gnatovorax",
+    "nomeEn": "Gnathovorax",
+    "aliases": [
+      "dinossauro predador brasileiro"
+    ],
+    "significadoNome": "mandíbula voraz de Cabreira",
+    "reino": "animalia",
+    "periodoIds": [
+      "triassico"
+    ],
+    "noFilogeneticoId": "herrerasauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "gnathovorax-2019"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 233.6,
+      "fimMa": 227.3,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "gnathovorax-2019"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "comprimento",
+          "min": 3,
+          "max": 3,
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        }
+      ],
+      "observacao": "Estimativa aproximada baseada no esqueleto quase completo descrito para o holótipo.",
+      "fonteIds": [
+        "gnathovorax-2019"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Formação Santa Maria, Sequência Candelária",
+        "regiao": "Rio Grande do Sul",
+        "pais": "Brasil",
+        "pbdbId": "txn:399808"
+      }
+    ],
+    "resumo": "Um herrerassaurídeo brasileiro preservado em um esqueleto excepcional.",
+    "descricao": "O crânio quase completo e os dentes recurvados ajudam a investigar os primeiros dinossauros predadores. Sua posição mostra que vários experimentos evolutivos já existiam no Triássico.",
+    "memoria": "Gnathovorax viveu no mesmo grande cenário sul-brasileiro dos primeiros dinossauros, mas em outro ramo de predadores.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "gnathovorax-2019"
+    ],
+    "mediaIds": [
+      "gnathovorax-evidencia",
+      "gnathovorax-interpretacao",
+      "gnathovorax-escala"
+    ],
+    "mediaPrincipalId": "gnathovorax-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "carnotaurus",
+    "nomeCientifico": "Carnotaurus sastrei",
+    "autoridadeTaxonomica": "Bonaparte, 1985",
+    "nomePt": "Carnotauro",
+    "nomeEn": "Carnotaurus",
+    "aliases": [
+      "dinossauro de chifres"
+    ],
+    "significadoNome": "touro carnívoro de Sastre",
+    "reino": "animalia",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "noFilogeneticoId": "abelisauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "carnotaurus-1990",
+        "carnotaurus-2011"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 72.2,
+      "fimMa": 66,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "carnotaurus-1990",
+        "carnotaurus-2011"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "comprimento",
+          "min": 7.5,
+          "max": 8,
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "tipo": "massa",
+          "min": 1.3,
+          "max": 2.1,
+          "unidade": "t",
+          "rotuloPt": "Massa estimada"
+        }
+      ],
+      "observacao": "As estimativas variam conforme a reconstrução corporal e o método.",
+      "fonteIds": [
+        "carnotaurus-1990",
+        "carnotaurus-2011"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "La Colonia",
+        "regiao": "Chubut",
+        "pais": "Argentina",
+        "pbdbId": "txn:54526"
+      }
+    ],
+    "resumo": "Um predador sul-americano de crânio curto, chifres e braços minúsculos.",
+    "descricao": "O holótipo preserva grande parte do esqueleto e impressões de pele. A cauda robusta sustentava músculos potentes, embora as articulações sugiram menor agilidade em curvas fechadas.",
+    "memoria": "Carnotaurus trocava curvas apertadas por uma cauda preparada para impulsionar passadas fortes.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "carnotaurus-1990",
+      "carnotaurus-2011"
+    ],
+    "mediaIds": [
+      "carnotaurus-evidencia",
+      "carnotaurus-interpretacao",
+      "carnotaurus-escala"
+    ],
+    "mediaPrincipalId": "carnotaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "deinonychus",
+    "nomeCientifico": "Deinonychus antirrhopus",
+    "autoridadeTaxonomica": "Ostrom, 1969",
+    "nomePt": "Deinonico",
+    "nomeEn": "Deinonychus",
+    "aliases": [
+      "garra terrível"
+    ],
+    "significadoNome": "garra terrível que contrabalança",
+    "reino": "animalia",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "noFilogeneticoId": "dromaeosauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "deinonychus-1969"
+      ],
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 121.4,
+      "fimMa": 113.2,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "deinonychus-1969"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "comprimento",
+          "min": 3,
+          "max": 3.4,
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "tipo": "massa",
+          "min": 60,
+          "max": 80,
+          "unidade": "kg",
+          "rotuloPt": "Massa estimada"
+        }
+      ],
+      "observacao": "Faixas aproximadas para adultos reconstruídos a partir dos materiais descritos.",
+      "fonteIds": [
+        "deinonychus-1969"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Cloverly",
+        "regiao": "Montana e Wyoming",
+        "pais": "Estados Unidos",
+        "pbdbId": "txn:54555"
+      }
+    ],
+    "resumo": "O dromeossaurídeo que ajudou a mudar a imagem dos dinossauros como animais ativos.",
+    "descricao": "A grande garra curva do segundo dedo e o esqueleto leve chamaram atenção para locomoção, equilíbrio e parentesco com aves. Encontrar vários indivíduos próximos não prova sozinho caça em grupo.",
+    "memoria": "Deinonychus ajudou a iniciar a “renascença dos dinossauros” na ciência do século XX.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "deinonychus-1969"
+    ],
+    "mediaIds": [
+      "deinonychus-evidencia",
+      "deinonychus-interpretacao",
+      "deinonychus-escala"
+    ],
+    "mediaPrincipalId": "deinonychus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "psittacosaurus",
+    "nomeCientifico": "Psittacosaurus mongoliensis",
+    "autoridadeTaxonomica": "Osborn, 1923",
+    "nomePt": "Psitacossauro",
+    "nomeEn": "Psittacosaurus",
+    "aliases": [
+      "lagarto-papagaio"
+    ],
+    "significadoNome": "lagarto-papagaio da Mongólia",
+    "reino": "animalia",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "noFilogeneticoId": "psittacosauridae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "psittacosaurus-2024",
+        "amnh-psittacosaurus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 121.4,
+      "fimMa": 113.2,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "psittacosaurus-2024",
+        "amnh-psittacosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "comprimento",
+          "min": 1.8,
+          "max": 2,
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "tipo": "massa",
+          "min": 23,
+          "max": 50,
+          "unidade": "kg",
+          "rotuloPt": "Massa estimada"
+        }
+      ],
+      "observacao": "O tamanho varia muito com a idade; o atlas mostra uma faixa adulta educativa.",
+      "fonteIds": [
+        "psittacosaurus-2024",
+        "amnh-psittacosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Öösh",
+        "regiao": "Deserto de Gobi",
+        "pais": "Mongólia",
+        "pbdbId": "txn:52831"
+      }
+    ],
+    "resumo": "Um ceratopsiano inicial, pequeno e bípede, muito diferente de Triceratops.",
+    "descricao": "Seu bico lembrava o de um papagaio, mas ainda não havia a grande gola nem os três chifres. Ossos de idades diferentes ajudam a estudar como o corpo mudava durante o crescimento.",
+    "memoria": "Antes dos grandes ceratopsianos quadrúpedes, o ramo já incluía animais leves como Psittacosaurus.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "psittacosaurus-2024",
+      "amnh-psittacosaurus"
+    ],
+    "mediaIds": [
+      "psittacosaurus-evidencia",
+      "psittacosaurus-interpretacao",
+      "psittacosaurus-escala"
+    ],
+    "mediaPrincipalId": "psittacosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "edmontosaurus",
+    "nomeCientifico": "Edmontosaurus regalis",
+    "autoridadeTaxonomica": "Lambe, 1917",
+    "nomePt": "Edmontossauro",
+    "nomeEn": "Edmontosaurus",
+    "aliases": [
+      "hadrossauro sem crista tubular"
+    ],
+    "significadoNome": "lagarto de Edmonton real",
+    "reino": "animalia",
+    "periodoIds": [
+      "cretaceo-superior"
+    ],
+    "noFilogeneticoId": "saurolophinae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "edmontosaurus-2017",
+        "nhm-edmontosaurus",
+        "smithsonian-edmontosaurus"
+      ],
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 83.6,
+      "fimMa": 72.2,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "edmontosaurus-2017",
+        "nhm-edmontosaurus",
+        "smithsonian-edmontosaurus"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "comprimento",
+          "min": 9,
+          "max": 12,
+          "unidade": "m",
+          "rotuloPt": "Comprimento"
+        },
+        {
+          "tipo": "massa",
+          "min": 3.4,
+          "max": 4,
+          "unidade": "t",
+          "rotuloPt": "Massa estimada"
+        }
+      ],
+      "observacao": "Grandes indivíduos podem produzir estimativas diferentes; a ficha usa uma faixa conservadora.",
+      "fonteIds": [
+        "edmontosaurus-2017",
+        "nhm-edmontosaurus",
+        "smithsonian-edmontosaurus"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Horseshoe Canyon",
+        "regiao": "Alberta",
+        "pais": "Canadá",
+        "pbdbId": "txn:63254"
+      }
+    ],
+    "resumo": "Um grande hadrossaurídeo de bico largo e sem a crista tubular de Parasaurolophus.",
+    "descricao": "Baterias de dentes substituíveis trituravam plantas. Crânios bem preservados permitem separar espécies e acompanhar mudanças durante o crescimento.",
+    "memoria": "Edmontosaurus e Parasaurolophus pertencem à mesma família, mas seguiram soluções diferentes para o crânio.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "edmontosaurus-2017",
+      "nhm-edmontosaurus",
+      "smithsonian-edmontosaurus"
+    ],
+    "mediaIds": [
+      "edmontosaurus-evidencia",
+      "edmontosaurus-interpretacao",
+      "edmontosaurus-escala"
+    ],
+    "mediaPrincipalId": "edmontosaurus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "dinossauro"
+    ]
+  },
+  {
+    "id": "tapejara",
+    "nomeCientifico": "Tapejara wellnhoferi",
+    "autoridadeTaxonomica": "Kellner, 1989",
+    "nomePt": "Tapejara",
+    "nomeEn": "Tapejara",
+    "aliases": [
+      "pterossauro brasileiro de crista"
+    ],
+    "significadoNome": "senhor do caminho, em tupi, dedicado a Wellnhofer",
+    "reino": "animalia",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "noFilogeneticoId": "tapejaridae",
+    "energia": {
+      "incerteza": "alta",
+      "fonteIds": [
+        "tapejara-2012",
+        "amnh-pterosaurs"
+      ],
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 119.57,
+      "fimMa": 113.2,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "tapejara-2012",
+        "amnh-pterosaurs"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "envergadura",
+          "min": 1.23,
+          "max": 1.8,
+          "unidade": "m",
+          "rotuloPt": "Envergadura conhecida"
+        }
+      ],
+      "observacao": "Os esqueletos descritos sugerem cerca de 1,23–1,5 m; 1,8 m é um limite educativo conservador para comparação.",
+      "fonteIds": [
+        "tapejara-2012",
+        "amnh-pterosaurs"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Santana, Membro Romualdo",
+        "regiao": "Bacia do Araripe",
+        "pais": "Brasil",
+        "pbdbId": "txn:95400"
+      }
+    ],
+    "resumo": "Um pterossauro brasileiro de bico curto e grande crista óssea.",
+    "descricao": "Não era dinossauro: pertencia ao ramo irmão Pterosauria. A alimentação exata continua incerta; o bico sem dentes permite hipóteses, mas não preserva sozinho o cardápio.",
+    "memoria": "Tapejara e Pteranodon voavam, mas seus crânios e histórias evolutivas eram bem diferentes.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "pbdb-1-2",
+      "tapejara-2012",
+      "amnh-pterosaurs"
+    ],
+    "mediaIds": [
+      "tapejara-evidencia",
+      "tapejara-interpretacao",
+      "tapejara-escala"
+    ],
+    "mediaPrincipalId": "tapejara-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "pterossauro"
+    ]
+  },
+  {
+    "id": "pleuromeia",
+    "nomeCientifico": "Pleuromeia sternbergii",
+    "autoridadeTaxonomica": "(Münster) Corda, 1852",
+    "nomePt": "Pleuromeia",
+    "nomeEn": "Pleuromeia",
+    "aliases": [
+      "licófita do Triássico"
+    ],
+    "significadoNome": "nome histórico dedicado à forma da planta",
+    "reino": "plantae",
+    "periodoIds": [
+      "triassico"
+    ],
+    "noFilogeneticoId": "pleuromeiaceae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "pleuromeia-2021"
+      ],
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 251.902,
+      "fimMa": 249.9,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "pleuromeia-2021"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "altura",
+          "min": 1,
+          "max": 2,
+          "unidade": "m",
+          "rotuloPt": "Altura do caule"
+        }
+      ],
+      "observacao": "A revisão descreve caules simples que podiam alcançar cerca de dois metros.",
+      "fonteIds": [
+        "pleuromeia-2021"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Buntsandstein",
+        "regiao": "Europa Central",
+        "pais": "Alemanha",
+        "pbdbId": "txn:377233"
+      }
+    ],
+    "resumo": "Uma licófita de caule simples que prosperou em paisagens estressadas após a maior extinção em massa.",
+    "descricao": "Folhas em espiral cobriam o caule e um estróbilo produzia esporos no topo. Sua abundância conta uma história de ecossistemas pouco diversos tentando se recompor.",
+    "memoria": "Pleuromeia mostra que a recuperação de uma floresta não acontece de uma vez: primeiro podem dominar plantas resistentes ao estresse.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "pleuromeia-2021"
+    ],
+    "mediaIds": [
+      "pleuromeia-evidencia",
+      "pleuromeia-interpretacao",
+      "pleuromeia-morfologia"
+    ],
+    "mediaPrincipalId": "pleuromeia-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "licofita"
+    ]
+  },
+  {
+    "id": "dicroidium",
+    "nomeCientifico": "Dicroidium zuberi",
+    "autoridadeTaxonomica": "(Szajnocha) Archangelsky, 1968",
+    "nomePt": "Dicroidium",
+    "nomeEn": "Dicroidium",
+    "aliases": [
+      "samambaia com sementes do Gondwana"
+    ],
+    "significadoNome": "folha dividida em dois",
+    "reino": "plantae",
+    "periodoIds": [
+      "triassico"
+    ],
+    "noFilogeneticoId": "corystospermales",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "dicroidium-1968",
+        "dicroidium-brasil-1983"
+      ],
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 246.7,
+      "fimMa": 227.3,
+      "incerteza": "alta",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "dicroidium-1968",
+        "dicroidium-brasil-1983"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "folha",
+          "min": 8,
+          "max": 21,
+          "unidade": "cm",
+          "rotuloPt": "Comprimento das frondes conhecidas"
+        }
+      ],
+      "observacao": "A ficha mede a fronde fóssil, não a altura da planta inteira.",
+      "fonteIds": [
+        "dicroidium-1968",
+        "dicroidium-brasil-1983"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Santa Maria, Membro Passo das Tropas",
+        "regiao": "Rio Grande do Sul",
+        "pais": "Brasil",
+        "pbdbId": "txn:404683"
+      }
+    ],
+    "resumo": "Uma folha bifurcada típica de floras gondwânicas do Triássico.",
+    "descricao": "Dicroidium é um gênero de folhas fósseis associado a plantas com sementes hoje extintas. Ligar folhas, madeira e estruturas reprodutivas exige fósseis encontrados em associação, por isso o ramo é marcado como interpretado.",
+    "memoria": "Enquanto os primeiros dinossauros caminhavam pelo sul do Brasil, folhas de Dicroidium faziam parte da paisagem.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "dicroidium-1968",
+      "dicroidium-brasil-1983"
+    ],
+    "mediaIds": [
+      "dicroidium-evidencia",
+      "dicroidium-interpretacao",
+      "dicroidium-morfologia"
+    ],
+    "mediaPrincipalId": "dicroidium-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "pteridosperma"
+    ]
+  },
+  {
+    "id": "araucaria-mirabilis",
+    "nomeCientifico": "Araucaria mirabilis",
+    "autoridadeTaxonomica": "(Spegazzini) Windhausen, 1924",
+    "nomePt": "Araucária-mirabilis",
+    "nomeEn": "Araucaria mirabilis",
+    "aliases": [
+      "cone petrificado da Patagônia"
+    ],
+    "significadoNome": "araucária admirável",
+    "reino": "plantae",
+    "periodoIds": [
+      "jurasico"
+    ],
+    "noFilogeneticoId": "araucariaceae",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "araucaria-1978",
+        "araucaria-2026"
+      ],
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 165,
+      "fimMa": 161,
+      "incerteza": "media",
+      "significado": "Intervalo conhecido no registro fóssil; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "araucaria-1978",
+        "araucaria-2026"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "cone",
+          "min": 5,
+          "max": 10,
+          "unidade": "cm",
+          "rotuloPt": "Diâmetro do cone"
+        }
+      ],
+      "observacao": "A medida se refere aos cones silicificados; não é uma estimativa da árvore inteira.",
+      "fonteIds": [
+        "araucaria-1978",
+        "araucaria-2026"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "La Matilde, Cerro Cuadrado",
+        "regiao": "Santa Cruz, Patagônia",
+        "pais": "Argentina"
+      }
+    ],
+    "resumo": "Uma conífera jurássica conhecida por cones petrificados preservados em detalhe celular.",
+    "descricao": "Cinzas vulcânicas e sílica conservaram cones, sementes e madeira. Tomografias modernas revelam como as escamas se organizavam sem destruir o fóssil.",
+    "memoria": "Um cone do tamanho de uma laranja pode guardar uma floresta jurássica inteira em sua anatomia.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "pbdb-1-2",
+      "araucaria-1978",
+      "araucaria-2026"
+    ],
+    "mediaIds": [
+      "araucaria-mirabilis-evidencia",
+      "araucaria-mirabilis-interpretacao",
+      "araucaria-mirabilis-morfologia"
+    ],
+    "mediaPrincipalId": "araucaria-mirabilis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    },
+    "categoriaIds": [
+      "conifera"
+    ]
+  },
+  {
+    "id": "ginkgoites-huttonii",
+    "nomeCientifico": "Ginkgoites huttonii",
+    "autoridadeTaxonomica": "(Sternberg) Heer",
+    "nomePt": "Ginkgoites",
+    "nomeEn": "Hutton’s ginkgo",
+    "aliases": [
+      "Ginkgo huttonii",
+      "folha fóssil de ginkgo"
+    ],
+    "significadoNome": "folha semelhante à de Ginkgo dedicada a William Hutton",
+    "reino": "plantae",
+    "periodoIds": [
+      "jurasico"
+    ],
+    "noFilogeneticoId": "ginkgoites-lineage",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "ginkgo-huttonii-1971"
+      ],
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 174.7,
+      "fimMa": 161.5,
+      "incerteza": "media",
+      "significado": "Intervalo das ocorrências jurássicas usadas nesta ficha; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "ginkgo-huttonii-1971"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "folha",
+          "min": 3.5,
+          "max": 10,
+          "unidade": "cm",
+          "rotuloPt": "Comprimento aproximado das folhas"
+        }
+      ],
+      "observacao": "Folhas fósseis variam bastante; a ficha apresenta uma ordem de grandeza, não o tamanho da árvore.",
+      "fonteIds": [
+        "ginkgo-huttonii-1971"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Flora de Yorkshire Médio Jurássico",
+        "regiao": "Yorkshire",
+        "pais": "Reino Unido"
+      }
+    ],
+    "resumo": "Folhas em leque mostram que o ramo dos ginkgos já fazia parte das paisagens jurássicas.",
+    "descricao": "As nervuras se dividem repetidamente e ajudam a reconhecer essas folhas. Como folhas isoladas podem enganar, o nome Ginkgoites funciona como um gênero-forma e a ligação com a planta inteira é apresentada com cautela.",
+    "memoria": "Um leque de nervuras liga as florestas jurássicas ao único ginkgo vivo de hoje.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "ginkgo-huttonii-1971"
+    ],
+    "mediaIds": [
+      "ginkgoites-huttonii-evidencia",
+      "ginkgoites-huttonii-interpretacao",
+      "ginkgoites-huttonii-morfologia"
+    ],
+    "mediaPrincipalId": "ginkgoites-huttonii-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21",
+      "observacoes": "Substitui Cratonia, que não alcançou a tríade visual com licença permitida."
+    },
+    "categoriaIds": [
+      "conifera"
+    ]
+  },
+  {
+    "id": "archaefructus",
+    "nomeCientifico": "Archaefructus liaoningensis",
+    "autoridadeTaxonomica": "Sun, Dilcher, Zheng & Zhou, 1998",
+    "nomePt": "Arqueofruto",
+    "nomeEn": "Archaefructus",
+    "aliases": [
+      "planta aquática de Liaoning"
+    ],
+    "significadoNome": "fruto antigo de Liaoning",
+    "reino": "plantae",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "noFilogeneticoId": "archaefructus-lineage",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "archaefructus-2002"
+      ],
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 125.77,
+      "fimMa": 121.4,
+      "incerteza": "media",
+      "significado": "Intervalo atribuído aos fósseis da Formação Yixian; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "pbdb-1-2",
+        "archaefructus-2002"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "estrutura",
+          "min": 1,
+          "max": 1,
+          "unidade": "unid",
+          "rotuloPt": "Planta quase completa preservada"
+        }
+      ],
+      "observacao": "Há exemplares com raízes, caules e eixos férteis; a ficha evita estimar uma altura não sustentada.",
+      "fonteIds": [
+        "archaefructus-2002"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Yixian",
+        "regiao": "Liaoning",
+        "pais": "China"
+      }
+    ],
+    "resumo": "Uma planta aquática do Cretáceo conhecida quase inteira, inclusive com estruturas reprodutivas.",
+    "descricao": "Archaefructus foi importante no debate sobre as primeiras angiospermas. A forma do eixo fértil e a ausência aparente de pétalas não a transformam automaticamente na ancestral direta das flores modernas.",
+    "memoria": "Raízes, caule e estruturas férteis reunidos no mesmo fóssil contam uma história muito mais completa.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "pbdb-1-2",
+      "archaefructus-2002"
+    ],
+    "mediaIds": [
+      "archaefructus-evidencia",
+      "archaefructus-interpretacao",
+      "archaefructus-morfologia"
+    ],
+    "mediaPrincipalId": "archaefructus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21",
+      "observacoes": "Substitui Endressinia, cujas figuras disponíveis não tinham licença aceita."
+    },
+    "categoriaIds": [
+      "angiosperma"
+    ]
+  },
+  {
+    "id": "duartenia",
+    "nomeCientifico": "Duartenia araripensis",
+    "autoridadeTaxonomica": "Mohr, Schultka, Süss & Bernardes-de-Oliveira, 2012",
+    "nomePt": "Duartênia",
+    "nomeEn": "Duartenia",
+    "aliases": [
+      "conífera da Formação Crato"
+    ],
+    "significadoNome": "planta do Araripe dedicada ao paleobotânico Lélio Duarte",
+    "reino": "plantae",
+    "periodoIds": [
+      "cretaceo"
+    ],
+    "noFilogeneticoId": "duartenia-lineage",
+    "energia": {
+      "incerteza": "baixa",
+      "fonteIds": [
+        "duartenia-2012"
+      ],
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": []
+    },
+    "intervalo": {
+      "inicioMa": 119.57,
+      "fimMa": 113.2,
+      "incerteza": "media",
+      "significado": "Intervalo da Formação Crato usado para os registros desta ficha; não representa a duração exata da espécie.",
+      "fonteIds": [
+        "duartenia-2012",
+        "duartenia-2021"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "tipo": "caule",
+          "min": 0.1,
+          "max": 0.5,
+          "unidade": "m",
+          "rotuloPt": "Comprimento dos ramos fósseis descritos"
+        }
+      ],
+      "observacao": "Os fósseis são ramos isolados; não informam diretamente a altura da planta completa.",
+      "fonteIds": [
+        "duartenia-2012",
+        "duartenia-2021"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Crato",
+        "regiao": "Bacia do Araripe, Ceará",
+        "pais": "Brasil"
+      }
+    ],
+    "resumo": "Uma gimnosperma brasileira de ramos bifurcados, adaptada a ambientes secos do Cretáceo.",
+    "descricao": "O eixo lenhoso e a ramificação ajudam a reconhecer Duartenia. Sua possível ligação com Cheirolepidiaceae continua incerta; o galho tracejado da árvore comunica essa dúvida.",
+    "memoria": "Um ramo sinuoso do Araripe mostra que as plantas também desenvolveram soluções para viver com pouca água.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "duartenia-2012",
+      "duartenia-2021"
+    ],
+    "mediaIds": [
+      "duartenia-evidencia",
+      "duartenia-interpretacao",
+      "duartenia-morfologia"
+    ],
+    "mediaPrincipalId": "duartenia-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21",
+      "observacoes": "Substitui Cratosmilax por ausência de mídia com licença permitida."
+    },
+    "categoriaIds": [
+      "conifera"
+    ]
+  },
+  {
+    "id": "gorilla-beringei",
+    "nomeCientifico": "Gorilla beringei",
+    "autoridadeTaxonomica": "Matschie, 1903",
+    "nomePt": "Gorila-oriental",
+    "nomeEn": "Gorilla beringei",
+    "aliases": [],
+    "significadoNome": "gorila de Beringe",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "gorilla",
+    "energia": {
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": [
+        "frugivoria",
+        "folivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-gorilla"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.2,
+          "max": 1.85,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-gorilla"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "África centro-oriental",
+        "pais": "República Democrática do Congo, Ruanda e Uganda"
+      }
+    ],
+    "resumo": "Gorila-oriental integra o ramo gorilla da árvore da vida.",
+    "descricao": "Uma das duas espécies atuais de gorila. Populações vivem em florestas de montanha e de planície na África centro-oriental.",
+    "memoria": "Gorilas são nossos parentes vivos, não nossos ancestrais.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-gorilla",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "gorilla-beringei-evidencia",
+      "gorilla-beringei-interpretacao",
+      "gorilla-beringei-escala"
+    ],
+    "mediaPrincipalId": "gorilla-beringei-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "gorilla-gorilla",
+    "nomeCientifico": "Gorilla gorilla",
+    "autoridadeTaxonomica": "Savage, 1847",
+    "nomePt": "Gorila-ocidental",
+    "nomeEn": "Gorilla gorilla",
+    "aliases": [],
+    "significadoNome": "gorila",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "gorilla",
+    "energia": {
+      "modoPrincipal": "herbivoria",
+      "modosSecundarios": [
+        "frugivoria",
+        "folivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-gorilla"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.2,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-gorilla"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "África centro-ocidental",
+        "pais": "Gabão, Camarões e países vizinhos"
+      }
+    ],
+    "resumo": "Gorila-ocidental integra o ramo gorilla da árvore da vida.",
+    "descricao": "Espécie atual de gorila das florestas da África ocidental e central, com populações e habitats distintos.",
+    "memoria": "Duas espécies de gorila ajudam a lembrar que os grandes símios atuais também se ramificam.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-gorilla",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "gorilla-gorilla-evidencia",
+      "gorilla-gorilla-interpretacao",
+      "gorilla-gorilla-escala"
+    ],
+    "mediaPrincipalId": "gorilla-gorilla-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-sapiens",
+    "nomeCientifico": "Homo sapiens",
+    "autoridadeTaxonomica": "Linnaeus, 1758",
+    "nomePt": "Humano moderno",
+    "nomeEn": "Homo sapiens",
+    "aliases": [],
+    "significadoNome": "humano sábio",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "homo-sapiens-jebel-irhoud-2017"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.315,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "homo-sapiens-jebel-irhoud-2017"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.4,
+          "max": 2,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura adulta aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "homo-sapiens-jebel-irhoud-2017"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Registros fósseis e populações atuais",
+        "regiao": "Origem africana; distribuição global atual",
+        "pais": "Global"
+      }
+    ],
+    "resumo": "Humano moderno integra o ramo homo da árvore da vida.",
+    "descricao": "Nossa espécie surgiu na África e hoje vive em todos os continentes. Populações humanas sempre estiveram conectadas por migrações e encontros.",
+    "memoria": "Todos os humanos vivos pertencem à mesma espécie.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "homo-sapiens-jebel-irhoud-2017",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "homo-sapiens-evidencia",
+      "homo-sapiens-interpretacao",
+      "homo-sapiens-escala"
+    ],
+    "mediaPrincipalId": "homo-sapiens-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "pan-paniscus",
+    "nomeCientifico": "Pan paniscus",
+    "autoridadeTaxonomica": "Schwarz, 1929",
+    "nomePt": "Bonobo",
+    "nomeEn": "Pan paniscus",
+    "aliases": [],
+    "significadoNome": "Pan pequeno",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "pan",
+    "energia": {
+      "modoPrincipal": "frugivoria",
+      "modosSecundarios": [
+        "folivoria",
+        "onivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-pan"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.7,
+          "max": 0.83,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-pan"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "Bacia do Congo ao sul do rio Congo",
+        "pais": "República Democrática do Congo"
+      }
+    ],
+    "resumo": "Bonobo integra o ramo pan da árvore da vida.",
+    "descricao": "Grande símio atual do gênero Pan, distinto do chimpanzé-comum e restrito à bacia central do Congo.",
+    "memoria": "Bonobos e chimpanzés são igualmente parentes próximos dos humanos.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-pan",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "pan-paniscus-evidencia",
+      "pan-paniscus-interpretacao",
+      "pan-paniscus-escala"
+    ],
+    "mediaPrincipalId": "pan-paniscus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "pan-troglodytes",
+    "nomeCientifico": "Pan troglodytes",
+    "autoridadeTaxonomica": "Blumenbach, 1775",
+    "nomePt": "Chimpanzé-comum",
+    "nomeEn": "Pan troglodytes",
+    "aliases": [],
+    "significadoNome": "Pan habitante de cavernas",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "pan",
+    "energia": {
+      "modoPrincipal": "frugivoria",
+      "modosSecundarios": [
+        "folivoria",
+        "onivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-pan"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.8,
+          "max": 1.2,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-pan"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "África equatorial",
+        "pais": "Vários países africanos"
+      }
+    ],
+    "resumo": "Chimpanzé-comum integra o ramo pan da árvore da vida.",
+    "descricao": "Espécie atual de grande símio africano. Compartilha conosco um ancestral comum, mas não é um ancestral humano.",
+    "memoria": "Humanos não vieram dos chimpanzés atuais: os dois ramos têm um ancestral comum.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-pan",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "pan-troglodytes-evidencia",
+      "pan-troglodytes-interpretacao",
+      "pan-troglodytes-escala"
+    ],
+    "mediaPrincipalId": "pan-troglodytes-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "pongo-abelii",
+    "nomeCientifico": "Pongo abelii",
+    "autoridadeTaxonomica": "Lesson, 1827",
+    "nomePt": "Orangotango-de-sumatra",
+    "nomeEn": "Pongo abelii",
+    "aliases": [],
+    "significadoNome": "Pongo de Abel",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "pongo",
+    "energia": {
+      "modoPrincipal": "frugivoria",
+      "modosSecundarios": [
+        "folivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-pongo"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.1,
+          "max": 1.5,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-pongo"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "Norte de Sumatra",
+        "pais": "Indonésia"
+      }
+    ],
+    "resumo": "Orangotango-de-sumatra integra o ramo pongo da árvore da vida.",
+    "descricao": "Uma das três espécies atuais de orangotango, adaptada à vida nas florestas de Sumatra.",
+    "memoria": "Orangotangos formam um ramo asiático dos grandes símios.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-pongo",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "pongo-abelii-evidencia",
+      "pongo-abelii-interpretacao",
+      "pongo-abelii-escala"
+    ],
+    "mediaPrincipalId": "pongo-abelii-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "pongo-pygmaeus",
+    "nomeCientifico": "Pongo pygmaeus",
+    "autoridadeTaxonomica": "Linnaeus, 1760",
+    "nomePt": "Orangotango-de-bornéu",
+    "nomeEn": "Pongo pygmaeus",
+    "aliases": [],
+    "significadoNome": "Pongo pigmeu",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "pongo",
+    "energia": {
+      "modoPrincipal": "frugivoria",
+      "modosSecundarios": [
+        "folivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-pongo"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.1,
+          "max": 1.5,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-pongo"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "Ilha de Bornéu",
+        "pais": "Indonésia e Malásia"
+      }
+    ],
+    "resumo": "Orangotango-de-bornéu integra o ramo pongo da árvore da vida.",
+    "descricao": "Espécie atual de orangotango de Bornéu. O desmatamento ameaça populações que dependem da floresta.",
+    "memoria": "Uma ilha pode abrigar um ramo próprio da árvore da vida.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-pongo",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "pongo-pygmaeus-evidencia",
+      "pongo-pygmaeus-interpretacao",
+      "pongo-pygmaeus-escala"
+    ],
+    "mediaPrincipalId": "pongo-pygmaeus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "pongo-tapanuliensis",
+    "nomeCientifico": "Pongo tapanuliensis",
+    "autoridadeTaxonomica": "Nurcahyo et al., 2017",
+    "nomePt": "Orangotango-de-tapanuli",
+    "nomeEn": "Pongo tapanuliensis",
+    "aliases": [],
+    "significadoNome": "Pongo de Tapanuli",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "pongo",
+    "energia": {
+      "modoPrincipal": "frugivoria",
+      "modosSecundarios": [
+        "folivoria"
+      ],
+      "incerteza": "media",
+      "fonteIds": [
+        "adw-pongo"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.001,
+      "fimMa": 0,
+      "incerteza": "media",
+      "significado": "A espécie vive no presente. Esta barra não representa a data em que a espécie se originou.",
+      "fonteIds": [
+        "mdd-hominidae"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.1,
+          "max": 1.5,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura corporal"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "adw-pongo"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Populações atuais",
+        "regiao": "Batang Toru, Sumatra",
+        "pais": "Indonésia"
+      }
+    ],
+    "resumo": "Orangotango-de-tapanuli integra o ramo pongo da árvore da vida.",
+    "descricao": "Espécie reconhecida em 2017 a partir de evidências morfológicas e genéticas de uma pequena população de Sumatra.",
+    "memoria": "A taxonomia também muda quando novas evidências aparecem.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "adw-pongo",
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013",
+      "mdd-hominidae"
+    ],
+    "mediaIds": [
+      "pongo-tapanuliensis-evidencia",
+      "pongo-tapanuliensis-interpretacao",
+      "pongo-tapanuliensis-escala"
+    ],
+    "mediaPrincipalId": "pongo-tapanuliensis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "sahelanthropus-tchadensis",
+    "nomeCientifico": "Sahelanthropus tchadensis",
+    "autoridadeTaxonomica": "Brunet et al., 2002",
+    "nomePt": "Sahelanthropus",
+    "nomeEn": "Sahelanthropus tchadensis",
+    "aliases": [],
+    "significadoNome": "homem do Sahel",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "sahelanthropus-lineage",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 7,
+      "fimMa": 6,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Chade",
+        "regiao": "África central",
+        "pais": "África central"
+      }
+    ],
+    "resumo": "Sahelanthropus integra o ramo sahelanthropus lineage da árvore da vida.",
+    "descricao": "Crânio e partes cranianas mostram uma combinação antiga de características; sua posição exata perto da base dos hominínios continua debatida.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "sahelanthropus-tchadensis-evidencia",
+      "sahelanthropus-tchadensis-interpretacao",
+      "sahelanthropus-tchadensis-escala"
+    ],
+    "mediaPrincipalId": "sahelanthropus-tchadensis-evidencia",
+    "especimeIds": [
+      "toumai"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "orrorin-tugenensis",
+    "nomeCientifico": "Orrorin tugenensis",
+    "autoridadeTaxonomica": "Senut et al., 2001",
+    "nomePt": "Orrorin",
+    "nomeEn": "Orrorin tugenensis",
+    "aliases": [],
+    "significadoNome": "homem original de Tugen",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "orrorin-lineage",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 6.2,
+      "fimMa": 5.8,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Formação Lukeino",
+        "regiao": "Quênia",
+        "pais": "Quênia"
+      }
+    ],
+    "resumo": "Orrorin integra o ramo orrorin lineage da árvore da vida.",
+    "descricao": "Ossos do fêmur e dentes são usados para discutir locomoção e dieta, com relações filogenéticas ainda incertas.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "orrorin-tugenensis-evidencia",
+      "orrorin-tugenensis-interpretacao",
+      "orrorin-tugenensis-escala"
+    ],
+    "mediaPrincipalId": "orrorin-tugenensis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "ardipithecus-kadabba",
+    "nomeCientifico": "Ardipithecus kadabba",
+    "autoridadeTaxonomica": "Haile-Selassie, 2001",
+    "nomePt": "Ardipithecus kadabba",
+    "nomeEn": "Ardipithecus kadabba",
+    "aliases": [],
+    "significadoNome": "Ardipithecus ancestral basal",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "ardipithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 5.8,
+      "fimMa": 5.2,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Afar",
+        "regiao": "Etiópia",
+        "pais": "Etiópia"
+      }
+    ],
+    "resumo": "Ardipithecus kadabba integra o ramo ardipithecus da árvore da vida.",
+    "descricao": "Conhecido por dentes e partes do esqueleto, representa um ramo muito antigo próximo à origem dos hominínios.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "ardipithecus-kadabba-evidencia",
+      "ardipithecus-kadabba-interpretacao",
+      "ardipithecus-kadabba-escala"
+    ],
+    "mediaPrincipalId": "ardipithecus-kadabba-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "ardipithecus-ramidus",
+    "nomeCientifico": "Ardipithecus ramidus",
+    "autoridadeTaxonomica": "White, Suwa & Asfaw, 1994",
+    "nomePt": "Ardi",
+    "nomeEn": "Ardipithecus ramidus",
+    "aliases": [],
+    "significadoNome": "símio do chão na raiz",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "ardipithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 4.5,
+      "fimMa": 4.3,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Aramis",
+        "regiao": "Etiópia",
+        "pais": "Etiópia"
+      }
+    ],
+    "resumo": "Ardi integra o ramo ardipithecus da árvore da vida.",
+    "descricao": "O esqueleto parcial Ardi combina adaptações para subir em árvores e deslocar-se no solo.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "ardipithecus-ramidus-evidencia",
+      "ardipithecus-ramidus-interpretacao",
+      "ardipithecus-ramidus-escala"
+    ],
+    "mediaPrincipalId": "ardipithecus-ramidus-evidencia",
+    "especimeIds": [
+      "ardi"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "australopithecus-anamensis",
+    "nomeCientifico": "Australopithecus anamensis",
+    "autoridadeTaxonomica": "Leakey et al., 1995",
+    "nomePt": "Australopithecus anamensis",
+    "nomeEn": "Australopithecus anamensis",
+    "aliases": [],
+    "significadoNome": "símio austral do lago",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "australopithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 4.2,
+      "fimMa": 3.8,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Kanapoi e Allia Bay",
+        "regiao": "Quênia e Etiópia",
+        "pais": "Quênia e Etiópia"
+      }
+    ],
+    "resumo": "Australopithecus anamensis integra o ramo australopithecus da árvore da vida.",
+    "descricao": "Mandíbulas, dentes e ossos de membros registram um australopiteco muito antigo.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "australopithecus-anamensis-evidencia",
+      "australopithecus-anamensis-interpretacao",
+      "australopithecus-anamensis-escala"
+    ],
+    "mediaPrincipalId": "australopithecus-anamensis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "australopithecus-afarensis",
+    "nomeCientifico": "Australopithecus afarensis",
+    "autoridadeTaxonomica": "Johanson, White & Coppens, 1978",
+    "nomePt": "Australopithecus afarensis",
+    "nomeEn": "Australopithecus afarensis",
+    "aliases": [],
+    "significadoNome": "símio austral de Afar",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "australopithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 3.85,
+      "fimMa": 2.95,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Hadar e Laetoli",
+        "regiao": "Etiópia e Tanzânia",
+        "pais": "Etiópia e Tanzânia"
+      }
+    ],
+    "resumo": "Australopithecus afarensis integra o ramo australopithecus da árvore da vida.",
+    "descricao": "Inclui Lucy e fósseis associados a locomoção bípede, embora ainda conservasse adaptações para escalar.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "australopithecus-afarensis-evidencia",
+      "australopithecus-afarensis-interpretacao",
+      "australopithecus-afarensis-escala"
+    ],
+    "mediaPrincipalId": "australopithecus-afarensis-evidencia",
+    "especimeIds": [
+      "lucy"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "australopithecus-africanus",
+    "nomeCientifico": "Australopithecus africanus",
+    "autoridadeTaxonomica": "Dart, 1925",
+    "nomePt": "Australopithecus africanus",
+    "nomeEn": "Australopithecus africanus",
+    "aliases": [],
+    "significadoNome": "símio austral africano",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "australopithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 3.3,
+      "fimMa": 2.1,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Taung, Sterkfontein e Makapansgat",
+        "regiao": "África do Sul",
+        "pais": "África do Sul"
+      }
+    ],
+    "resumo": "Australopithecus africanus integra o ramo australopithecus da árvore da vida.",
+    "descricao": "Crânios e esqueletos mostram bipedalismo e um mosaico de características faciais e dentárias.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "australopithecus-africanus-evidencia",
+      "australopithecus-africanus-interpretacao",
+      "australopithecus-africanus-escala"
+    ],
+    "mediaPrincipalId": "australopithecus-africanus-evidencia",
+    "especimeIds": [
+      "taung-1",
+      "little-foot"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "australopithecus-garhi",
+    "nomeCientifico": "Australopithecus garhi",
+    "autoridadeTaxonomica": "Asfaw et al., 1999",
+    "nomePt": "Australopithecus garhi",
+    "nomeEn": "Australopithecus garhi",
+    "aliases": [],
+    "significadoNome": "símio austral surpresa",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "australopithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 2.55,
+      "fimMa": 2.45,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Bouri",
+        "regiao": "Etiópia",
+        "pais": "Etiópia"
+      }
+    ],
+    "resumo": "Australopithecus garhi integra o ramo australopithecus da árvore da vida.",
+    "descricao": "Espécie conhecida por poucos fósseis; sua relação com Homo permanece incerta.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "australopithecus-garhi-evidencia",
+      "australopithecus-garhi-interpretacao",
+      "australopithecus-garhi-escala"
+    ],
+    "mediaPrincipalId": "australopithecus-garhi-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "australopithecus-sediba",
+    "nomeCientifico": "Australopithecus sediba",
+    "autoridadeTaxonomica": "Berger et al., 2010",
+    "nomePt": "Australopithecus sediba",
+    "nomeEn": "Australopithecus sediba",
+    "aliases": [],
+    "significadoNome": "símio austral da fonte",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "australopithecus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 1.99,
+      "fimMa": 1.97,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Malapa",
+        "regiao": "África do Sul",
+        "pais": "África do Sul"
+      }
+    ],
+    "resumo": "Australopithecus sediba integra o ramo australopithecus da árvore da vida.",
+    "descricao": "Esqueletos bem preservados combinam características australopitecíneas e outras semelhantes às de Homo.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "australopithecus-sediba-evidencia",
+      "australopithecus-sediba-interpretacao",
+      "australopithecus-sediba-escala"
+    ],
+    "mediaPrincipalId": "australopithecus-sediba-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "paranthropus-aethiopicus",
+    "nomeCientifico": "Paranthropus aethiopicus",
+    "autoridadeTaxonomica": "Arambourg & Coppens, 1968",
+    "nomePt": "Paranthropus aethiopicus",
+    "nomeEn": "Paranthropus aethiopicus",
+    "aliases": [],
+    "significadoNome": "parente do homem da Etiópia",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "paranthropus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 2.7,
+      "fimMa": 2.3,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Omo e Turkana",
+        "regiao": "Etiópia e Quênia",
+        "pais": "Etiópia e Quênia"
+      }
+    ],
+    "resumo": "Paranthropus aethiopicus integra o ramo paranthropus da árvore da vida.",
+    "descricao": "Crânio e mandíbulas robustas ajudam a estudar a diversificação dos parantropos.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "paranthropus-aethiopicus-evidencia",
+      "paranthropus-aethiopicus-interpretacao",
+      "paranthropus-aethiopicus-escala"
+    ],
+    "mediaPrincipalId": "paranthropus-aethiopicus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "paranthropus-boisei",
+    "nomeCientifico": "Paranthropus boisei",
+    "autoridadeTaxonomica": "Leakey, 1959",
+    "nomePt": "Paranthropus boisei",
+    "nomeEn": "Paranthropus boisei",
+    "aliases": [],
+    "significadoNome": "parente do homem de Boise",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "paranthropus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 2.3,
+      "fimMa": 1.2,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Olduvai, Koobi Fora e Omo",
+        "regiao": "África oriental",
+        "pais": "África oriental"
+      }
+    ],
+    "resumo": "Paranthropus boisei integra o ramo paranthropus da árvore da vida.",
+    "descricao": "Grandes dentes posteriores e uma face robusta indicam especializações mastigatórias, sem definir sozinhos uma dieta única.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "paranthropus-boisei-evidencia",
+      "paranthropus-boisei-interpretacao",
+      "paranthropus-boisei-escala"
+    ],
+    "mediaPrincipalId": "paranthropus-boisei-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "paranthropus-robustus",
+    "nomeCientifico": "Paranthropus robustus",
+    "autoridadeTaxonomica": "Broom, 1938",
+    "nomePt": "Paranthropus robustus",
+    "nomeEn": "Paranthropus robustus",
+    "aliases": [],
+    "significadoNome": "parente robusto do homem",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "paranthropus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 2,
+      "fimMa": 1.2,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Swartkrans, Kromdraai e Drimolen",
+        "regiao": "África do Sul",
+        "pais": "África do Sul"
+      }
+    ],
+    "resumo": "Paranthropus robustus integra o ramo paranthropus da árvore da vida.",
+    "descricao": "Fósseis cranianos e dentários registram um ramo robusto sul-africano.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "paranthropus-robustus-evidencia",
+      "paranthropus-robustus-interpretacao",
+      "paranthropus-robustus-escala"
+    ],
+    "mediaPrincipalId": "paranthropus-robustus-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "kenyanthropus-platyops",
+    "nomeCientifico": "Kenyanthropus platyops",
+    "autoridadeTaxonomica": "Leakey et al., 2001",
+    "nomePt": "Kenyanthropus",
+    "nomeEn": "Kenyanthropus platyops",
+    "aliases": [],
+    "significadoNome": "homem de face plana do Quênia",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "neogeno"
+    ],
+    "noFilogeneticoId": "kenyanthropus",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 3.5,
+      "fimMa": 3.2,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Lomekwi",
+        "regiao": "Quênia",
+        "pais": "Quênia"
+      }
+    ],
+    "resumo": "Kenyanthropus integra o ramo kenyanthropus da árvore da vida.",
+    "descricao": "A face relativamente plana motivou um novo gênero, mas a deformação do fóssil e sua posição continuam debatidas.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "kenyanthropus-platyops-evidencia",
+      "kenyanthropus-platyops-interpretacao",
+      "kenyanthropus-platyops-escala"
+    ],
+    "mediaPrincipalId": "kenyanthropus-platyops-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-habilis",
+    "nomeCientifico": "Homo habilis",
+    "autoridadeTaxonomica": "Leakey et al., 1964",
+    "nomePt": "Homo habilis",
+    "nomeEn": "Homo habilis",
+    "aliases": [],
+    "significadoNome": "humano habilidoso",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 2.4,
+      "fimMa": 1.4,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Olduvai e Koobi Fora",
+        "regiao": "Tanzânia e Quênia",
+        "pais": "Tanzânia e Quênia"
+      }
+    ],
+    "resumo": "Homo habilis integra o ramo homo da árvore da vida.",
+    "descricao": "Fósseis variados foram reunidos sob este nome; limites com outras espécies de Homo ainda são discutidos.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-habilis-evidencia",
+      "homo-habilis-interpretacao",
+      "homo-habilis-escala"
+    ],
+    "mediaPrincipalId": "homo-habilis-evidencia",
+    "especimeIds": [
+      "oh-7"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-rudolfensis",
+    "nomeCientifico": "Homo rudolfensis",
+    "autoridadeTaxonomica": "Alexeev, 1986",
+    "nomePt": "Homo rudolfensis",
+    "nomeEn": "Homo rudolfensis",
+    "aliases": [],
+    "significadoNome": "humano do lago Rudolf",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 1.9,
+      "fimMa": 1.8,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Koobi Fora",
+        "regiao": "Quênia",
+        "pais": "Quênia"
+      }
+    ],
+    "resumo": "Homo rudolfensis integra o ramo homo da árvore da vida.",
+    "descricao": "Crânios atribuídos à espécie diferem de H. habilis, mas a amostra e a classificação continuam debatidas.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-rudolfensis-evidencia",
+      "homo-rudolfensis-interpretacao",
+      "homo-rudolfensis-escala"
+    ],
+    "mediaPrincipalId": "homo-rudolfensis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-erectus",
+    "nomeCientifico": "Homo erectus",
+    "autoridadeTaxonomica": "Dubois, 1892",
+    "nomePt": "Homo erectus",
+    "nomeEn": "Homo erectus",
+    "aliases": [],
+    "significadoNome": "humano ereto",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 1.89,
+      "fimMa": 0.11,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "África, Cáucaso e Ásia",
+        "regiao": "África e Eurásia",
+        "pais": "África e Eurásia"
+      }
+    ],
+    "resumo": "Homo erectus integra o ramo homo da árvore da vida.",
+    "descricao": "Foi um dos hominínios mais duradouros e geograficamente amplos, com grande variação entre fósseis.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-erectus-evidencia",
+      "homo-erectus-interpretacao",
+      "homo-erectus-escala"
+    ],
+    "mediaPrincipalId": "homo-erectus-evidencia",
+    "especimeIds": [
+      "turkana-boy",
+      "dmanisi-5"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-heidelbergensis",
+    "nomeCientifico": "Homo heidelbergensis",
+    "autoridadeTaxonomica": "Schoetensack, 1908",
+    "nomePt": "Homo heidelbergensis",
+    "nomeEn": "Homo heidelbergensis",
+    "aliases": [],
+    "significadoNome": "humano de Heidelberg",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.7,
+      "fimMa": 0.2,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Sítios da África e Europa",
+        "regiao": "África e Europa",
+        "pais": "África e Europa"
+      }
+    ],
+    "resumo": "Homo heidelbergensis integra o ramo homo da árvore da vida.",
+    "descricao": "Nome usado para fósseis do Pleistoceno Médio; quais exemplares pertencem à espécie é tema de debate.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-heidelbergensis-evidencia",
+      "homo-heidelbergensis-interpretacao",
+      "homo-heidelbergensis-escala"
+    ],
+    "mediaPrincipalId": "homo-heidelbergensis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-neanderthalensis",
+    "nomeCientifico": "Homo neanderthalensis",
+    "autoridadeTaxonomica": "King, 1864",
+    "nomePt": "Neandertal",
+    "nomeEn": "Homo neanderthalensis",
+    "aliases": [],
+    "significadoNome": "humano do vale de Neander",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.4,
+      "fimMa": 0.04,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Cavernas e sítios da Eurásia ocidental",
+        "regiao": "Europa e Ásia ocidental",
+        "pais": "Europa e Ásia ocidental"
+      }
+    ],
+    "resumo": "Neandertal integra o ramo homo da árvore da vida.",
+    "descricao": "Parentes humanos próximos, adaptados a ambientes variados e ligados a humanos modernos por fluxo gênico.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-neanderthalensis-evidencia",
+      "homo-neanderthalensis-interpretacao",
+      "homo-neanderthalensis-escala"
+    ],
+    "mediaPrincipalId": "homo-neanderthalensis-evidencia",
+    "especimeIds": [
+      "neanderthal-1"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-naledi",
+    "nomeCientifico": "Homo naledi",
+    "autoridadeTaxonomica": "Berger et al., 2015",
+    "nomePt": "Homo naledi",
+    "nomeEn": "Homo naledi",
+    "aliases": [],
+    "significadoNome": "humano estrela",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.335,
+      "fimMa": 0.236,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Dinaledi e Lesedi",
+        "regiao": "África do Sul",
+        "pais": "África do Sul"
+      }
+    ],
+    "resumo": "Homo naledi integra o ramo homo da árvore da vida.",
+    "descricao": "Muitos ossos revelam uma combinação incomum de características; sua posição na árvore de Homo permanece incerta.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-naledi-evidencia",
+      "homo-naledi-interpretacao",
+      "homo-naledi-escala"
+    ],
+    "mediaPrincipalId": "homo-naledi-evidencia",
+    "especimeIds": [
+      "dh1"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "homo-floresiensis",
+    "nomeCientifico": "Homo floresiensis",
+    "autoridadeTaxonomica": "Brown et al., 2004",
+    "nomePt": "Homo floresiensis",
+    "nomeEn": "Homo floresiensis",
+    "aliases": [],
+    "significadoNome": "humano de Flores",
+    "reino": "animalia",
+    "categoriaIds": [
+      "mamifero",
+      "primata",
+      "hominideo",
+      "homininio"
+    ],
+    "periodoIds": [
+      "quaternario"
+    ],
+    "noFilogeneticoId": "homo",
+    "energia": {
+      "modoPrincipal": "onivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 0.1,
+      "fimMa": 0.05,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1,
+          "max": 1.8,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Estatura aproximada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-human-species"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Caverna Liang Bua",
+        "regiao": "Indonésia",
+        "pais": "Indonésia"
+      }
+    ],
+    "resumo": "Homo floresiensis integra o ramo homo da árvore da vida.",
+    "descricao": "Fósseis de pequeno porte encontrados na ilha de Flores mostram uma história insular singular.",
+    "memoria": "A árvore humana tem muitos ramos contemporâneos e incertos; não é uma fila de progresso.",
+    "nivelEvidencia": "em-debate",
+    "fonteIds": [
+      "smithsonian-human-species",
+      "great-ape-phylogenomics-2013"
+    ],
+    "mediaIds": [
+      "homo-floresiensis-evidencia",
+      "homo-floresiensis-interpretacao",
+      "homo-floresiensis-escala"
+    ],
+    "mediaPrincipalId": "homo-floresiensis-evidencia",
+    "especimeIds": [
+      "lb1"
+    ],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "dickinsonia-costata",
+    "nomeCientifico": "Dickinsonia costata",
+    "autoridadeTaxonomica": "Sprigg, 1947",
+    "nomePt": "Dickinsonia",
+    "nomeEn": "Dickinsonia costata",
+    "aliases": [],
+    "significadoNome": "organismo de Dickinson",
+    "reino": "animalia",
+    "categoriaIds": [
+      "animal-ediacarano"
+    ],
+    "periodoIds": [
+      "ediacarano"
+    ],
+    "noFilogeneticoId": "dickinsoniidae",
+    "energia": {
+      "modoPrincipal": "desconhecida",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "dickinsonia-biomarker-2018"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 558,
+      "fimMa": 555,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "dickinsonia-biomarker-2018"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 3,
+          "max": 140,
+          "tipo": "comprimento",
+          "unidade": "cm",
+          "rotuloPt": "Comprimento preservado"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "dickinsonia-biomarker-2018"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Ediacara Member",
+        "regiao": "Austrália do Sul e outros registros ediacaranos",
+        "pais": "Austrália"
+      }
+    ],
+    "resumo": "Dickinsonia integra o ramo dickinsoniidae da árvore da vida.",
+    "descricao": "Corpo achatado e segmentado conhecido por impressões. Biomarcadores apoiam afinidade animal, mas sua posição exata continua incerta.",
+    "memoria": "Nem todo animal antigo tinha ossos, dentes ou olhos reconhecíveis.",
+    "nivelEvidencia": "interpretado",
+    "fonteIds": [
+      "dickinsonia-biomarker-2018",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "dickinsonia-costata-evidencia",
+      "dickinsonia-costata-interpretacao",
+      "dickinsonia-costata-escala"
+    ],
+    "mediaPrincipalId": "dickinsonia-costata-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "anomalocaris-canadensis",
+    "nomeCientifico": "Anomalocaris canadensis",
+    "autoridadeTaxonomica": "Whiteaves, 1892",
+    "nomePt": "Anomalocaris",
+    "nomeEn": "Anomalocaris canadensis",
+    "aliases": [],
+    "significadoNome": "camarão estranho do Canadá",
+    "reino": "animalia",
+    "categoriaIds": [
+      "artropode"
+    ],
+    "periodoIds": [
+      "cambriano"
+    ],
+    "noFilogeneticoId": "anomalocarididae",
+    "energia": {
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "rom-anomalocaris"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 509,
+      "fimMa": 505,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "rom-anomalocaris"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.4,
+          "max": 1,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento estimado"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "rom-anomalocaris"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Burgess Shale",
+        "regiao": "Colúmbia Britânica",
+        "pais": "Canadá"
+      }
+    ],
+    "resumo": "Anomalocaris integra o ramo anomalocarididae da árvore da vida.",
+    "descricao": "Radiodonte marinho com apêndices frontais, olhos compostos e boca circular, reconstruído a partir de partes antes confundidas com animais separados.",
+    "memoria": "Fósseis fragmentados podem parecer espécies diferentes até serem montados como um corpo.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "rom-anomalocaris",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "anomalocaris-canadensis-evidencia",
+      "anomalocaris-canadensis-interpretacao",
+      "anomalocaris-canadensis-escala"
+    ],
+    "mediaPrincipalId": "anomalocaris-canadensis-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "tiktaalik-roseae",
+    "nomeCientifico": "Tiktaalik roseae",
+    "autoridadeTaxonomica": "Daeschler, Shubin & Jenkins, 2006",
+    "nomePt": "Tiktaalik",
+    "nomeEn": "Tiktaalik roseae",
+    "aliases": [],
+    "significadoNome": "grande peixe de água rasa",
+    "reino": "animalia",
+    "categoriaIds": [
+      "tetrapodomorfo"
+    ],
+    "periodoIds": [
+      "devoniano"
+    ],
+    "noFilogeneticoId": "elpistostegalia",
+    "energia": {
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": [],
+      "incerteza": "baixa",
+      "fonteIds": [
+        "tiktaalik-2006"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 375,
+      "fimMa": 374,
+      "incerteza": "baixa",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "tiktaalik-2006"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 1.2,
+          "max": 2.7,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento estimado"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "tiktaalik-2006"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Fram Formation",
+        "regiao": "Ilha Ellesmere, Nunavut",
+        "pais": "Canadá"
+      }
+    ],
+    "resumo": "Tiktaalik integra o ramo elpistostegalia da árvore da vida.",
+    "descricao": "Peixe de nadadeiras lobadas com pescoço móvel e ossos de nadadeira comparáveis aos membros dos tetrápodes.",
+    "memoria": "Transições evolutivas são mosaicos: estruturas novas surgem enquanto outras antigas permanecem.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "tiktaalik-2006",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "tiktaalik-roseae-evidencia",
+      "tiktaalik-roseae-interpretacao",
+      "tiktaalik-roseae-escala"
+    ],
+    "mediaPrincipalId": "tiktaalik-roseae-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "acanthostega-gunnari",
+    "nomeCientifico": "Acanthostega gunnari",
+    "autoridadeTaxonomica": "Jarvik, 1952",
+    "nomePt": "Acanthostega",
+    "nomeEn": "Acanthostega gunnari",
+    "aliases": [],
+    "significadoNome": "teto espinhoso de Gunnar",
+    "reino": "animalia",
+    "categoriaIds": [
+      "tetrapode-inicial"
+    ],
+    "periodoIds": [
+      "devoniano"
+    ],
+    "noFilogeneticoId": "acanthostegidae",
+    "energia": {
+      "modoPrincipal": "carnivoria",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "acanthostega-2002"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 365,
+      "fimMa": 363,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "acanthostega-2002"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.5,
+          "max": 0.7,
+          "tipo": "comprimento",
+          "unidade": "m",
+          "rotuloPt": "Comprimento estimado"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "acanthostega-2002"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Aina Dal Formation",
+        "regiao": "Groenlândia Oriental",
+        "pais": "Groenlândia"
+      }
+    ],
+    "resumo": "Acanthostega integra o ramo acanthostegidae da árvore da vida.",
+    "descricao": "Tetrápode inicial com oito dedos em cada membro e muitas adaptações aquáticas.",
+    "memoria": "Ter dedos não significou abandonar imediatamente a água.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "acanthostega-2002",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "acanthostega-gunnari-evidencia",
+      "acanthostega-gunnari-interpretacao",
+      "acanthostega-gunnari-escala"
+    ],
+    "mediaPrincipalId": "acanthostega-gunnari-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "rhynia-gwynne-vaughanii",
+    "nomeCientifico": "Rhynia gwynne-vaughanii",
+    "autoridadeTaxonomica": "Kidston & Lang, 1917",
+    "nomePt": "Rhynia",
+    "nomeEn": "Rhynia gwynne-vaughanii",
+    "aliases": [],
+    "significadoNome": "planta de Rhynie",
+    "reino": "plantae",
+    "categoriaIds": [
+      "planta-vascular-inicial"
+    ],
+    "periodoIds": [
+      "devoniano"
+    ],
+    "noFilogeneticoId": "rhyniaceae",
+    "energia": {
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": [],
+      "incerteza": "baixa",
+      "fonteIds": [
+        "aberdeen-rhynie"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 411,
+      "fimMa": 407,
+      "incerteza": "baixa",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "aberdeen-rhynie"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 15,
+          "max": 20,
+          "tipo": "altura",
+          "unidade": "cm",
+          "rotuloPt": "Altura estimada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "aberdeen-rhynie"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Rhynie Chert",
+        "regiao": "Aberdeenshire, Escócia",
+        "pais": "Reino Unido"
+      }
+    ],
+    "resumo": "Rhynia integra o ramo rhyniaceae da árvore da vida.",
+    "descricao": "Planta vascular pequena, sem folhas verdadeiras, preservada em sílica com detalhes celulares extraordinários.",
+    "memoria": "Uma planta simples pode preservar uma anatomia microscópica excepcional.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "aberdeen-rhynie",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "rhynia-gwynne-vaughanii-evidencia",
+      "rhynia-gwynne-vaughanii-interpretacao",
+      "rhynia-gwynne-vaughanii-morfologia"
+    ],
+    "mediaPrincipalId": "rhynia-gwynne-vaughanii-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "calamites-suckowii",
+    "nomeCientifico": "Calamites suckowii",
+    "autoridadeTaxonomica": "Brongniart, 1828",
+    "nomePt": "Calamites",
+    "nomeEn": "Calamites suckowii",
+    "aliases": [],
+    "significadoNome": "caule semelhante a junco",
+    "reino": "plantae",
+    "categoriaIds": [
+      "esfenopsida"
+    ],
+    "periodoIds": [
+      "carbonifero"
+    ],
+    "noFilogeneticoId": "calamitaceae",
+    "energia": {
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "ucmp-calamites"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 323,
+      "fimMa": 299,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "ucmp-calamites"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 10,
+          "max": 30,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura estimada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "ucmp-calamites"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Depósitos de carvão do Carbonífero",
+        "regiao": "Laurússia tropical",
+        "pais": "Registros na Europa e América do Norte"
+      }
+    ],
+    "resumo": "Calamites integra o ramo calamitaceae da árvore da vida.",
+    "descricao": "Parente arborescente das cavalinhas, com caules articulados e crescimento em florestas pantanosas.",
+    "memoria": "As cavalinhas atuais são pequenas parentes de formas que já foram árvores.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "ucmp-calamites",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "calamites-suckowii-evidencia",
+      "calamites-suckowii-interpretacao",
+      "calamites-suckowii-morfologia"
+    ],
+    "mediaPrincipalId": "calamites-suckowii-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "glossopteris-indica",
+    "nomeCientifico": "Glossopteris indica",
+    "autoridadeTaxonomica": "Schimper, 1869",
+    "nomePt": "Glossopteris",
+    "nomeEn": "Glossopteris indica",
+    "aliases": [],
+    "significadoNome": "folha em forma de língua da Índia",
+    "reino": "plantae",
+    "categoriaIds": [
+      "pteridosperma"
+    ],
+    "periodoIds": [
+      "permiano"
+    ],
+    "noFilogeneticoId": "glossopteridaceae",
+    "energia": {
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": [],
+      "incerteza": "media",
+      "fonteIds": [
+        "nps-glossopteris"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 299,
+      "fimMa": 252,
+      "incerteza": "media",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "nps-glossopteris"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 5,
+          "max": 30,
+          "tipo": "folha",
+          "unidade": "cm",
+          "rotuloPt": "Comprimento da folha"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "nps-glossopteris"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Camadas permianas de Gondwana",
+        "regiao": "América do Sul, África, Índia, Antártica e Austrália",
+        "pais": "Gondwana"
+      }
+    ],
+    "resumo": "Glossopteris integra o ramo glossopteridaceae da árvore da vida.",
+    "descricao": "Planta com sementes conhecida por folhas em forma de língua; sua ampla distribuição ajudou a demonstrar a antiga união dos continentes austrais.",
+    "memoria": "O mesmo tipo de folha em continentes distantes foi pista para reconstruir Gondwana.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "nps-glossopteris",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "glossopteris-indica-evidencia",
+      "glossopteris-indica-interpretacao",
+      "glossopteris-indica-morfologia"
+    ],
+    "mediaPrincipalId": "glossopteris-indica-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  },
+  {
+    "id": "cycadeoidea",
+    "nomeCientifico": "Cycadeoidea",
+    "autoridadeTaxonomica": "Buckland, 1828",
+    "nomePt": "Cycadeoidea",
+    "nomeEn": "Cycadeoidea",
+    "aliases": [],
+    "significadoNome": "semelhante a uma cicadácea",
+    "reino": "plantae",
+    "categoriaIds": [
+      "bennettital"
+    ],
+    "periodoIds": [
+      "jurasico"
+    ],
+    "noFilogeneticoId": "bennettitaceae",
+    "energia": {
+      "modoPrincipal": "fotossintese",
+      "modosSecundarios": [],
+      "incerteza": "alta",
+      "fonteIds": [
+        "smithsonian-cycadeoidea"
+      ]
+    },
+    "intervalo": {
+      "inicioMa": 161,
+      "fimMa": 100,
+      "incerteza": "alta",
+      "significado": "Intervalo aproximado dos fósseis atribuídos à espécie; não é uma duração exata.",
+      "fonteIds": [
+        "smithsonian-cycadeoidea"
+      ]
+    },
+    "medidas": {
+      "itens": [
+        {
+          "min": 0.5,
+          "max": 2,
+          "tipo": "altura",
+          "unidade": "m",
+          "rotuloPt": "Altura estimada"
+        }
+      ],
+      "observacao": "Faixa educativa arredondada; indivíduos e estimativas publicados podem variar.",
+      "fonteIds": [
+        "smithsonian-cycadeoidea"
+      ]
+    },
+    "ocorrencias": [
+      {
+        "formacao": "Depósitos jurássicos e cretáceos",
+        "regiao": "Registros em vários continentes",
+        "pais": "Distribuição ampla"
+      }
+    ],
+    "resumo": "Cycadeoidea integra o ramo bennettitaceae da árvore da vida.",
+    "descricao": "Gênero de bennettitales com troncos robustos e estruturas reprodutivas complexas, superficialmente parecido com cicadáceas.",
+    "memoria": "Parecer com uma planta atual não significa pertencer ao mesmo ramo.",
+    "nivelEvidencia": "bem-estabelecido",
+    "fonteIds": [
+      "smithsonian-cycadeoidea",
+      "pbdb-1-2"
+    ],
+    "mediaIds": [
+      "cycadeoidea-evidencia",
+      "cycadeoidea-interpretacao",
+      "cycadeoidea-morfologia"
+    ],
+    "mediaPrincipalId": "cycadeoidea-evidencia",
+    "especimeIds": [],
+    "relacoes": [],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24",
+      "observacoes": "Tríade local, licença e metadados verificados no checkpoint Meta 72."
+    }
+  }
+]

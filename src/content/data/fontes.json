@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "ics-2026",
+    "titulo": "International Chronostratigraphic Chart 2026/06",
+    "instituicao": "International Commission on Stratigraphy",
+    "nivel": "A",
+    "tipo": "escala-geologica",
+    "camposSustentados": [
+      "intervalo",
+      "marco"
+    ],
+    "url": "https://stratigraphy.org/chart/",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Fonte canônica para limites e nomenclatura do tempo geológico."
+  },
+  {
+    "id": "pbdb-1-2",
+    "titulo": "PBDB Data Service 1.2",
+    "instituicao": "Paleobiology Database",
+    "nivel": "A",
+    "tipo": "base-dados",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "filogenia",
+      "marco"
+    ],
+    "url": "https://www.paleodata.org/data1.2",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Ocorrências, formações, nomes aceitos e referências; cobertura não equivale à duração exata da espécie."
+  },
+  {
+    "id": "nhm-tyrannosaurus",
+    "titulo": "Tyrannosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-triceratops",
+    "titulo": "Triceratops",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-stegosaurus",
+    "titulo": "Stegosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-coelophysis",
+    "titulo": "Coelophysis",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-plateosaurus",
+    "titulo": "Plateosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/plateosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-allosaurus",
+    "titulo": "Allosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-diplodocus",
+    "titulo": "Diplodocus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-brachiosaurus",
+    "titulo": "Brachiosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-archaeopteryx",
+    "titulo": "Archaeopteryx",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-velociraptor",
+    "titulo": "Velociraptor",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-spinosaurus",
+    "titulo": "Spinosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-ankylosaurus",
+    "titulo": "Ankylosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-parasaurolophus",
+    "titulo": "Parasaurolophus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "nhm-iguanodon",
+    "titulo": "Iguanodon",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/iguanodon.html",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "amnh-pteranodon",
+    "titulo": "Pteranodon longiceps",
+    "instituicao": "American Museum of Natural History",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "smithsonian-oa",
+    "titulo": "Smithsonian Open Access",
+    "instituicao": "Smithsonian Institution",
+    "nivel": "B",
+    "tipo": "midia",
+    "camposSustentados": [
+      "midia"
+    ],
+    "url": "https://www.si.edu/openaccess",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Somente itens individualmente marcados como CC0."
+  },
+  {
+    "id": "commons-media",
+    "titulo": "Wikimedia Commons",
+    "instituicao": "Wikimedia Foundation e colaboradores",
+    "nivel": "C",
+    "tipo": "midia",
+    "camposSustentados": [
+      "midia"
+    ],
+    "url": "https://commons.wikimedia.org/",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Licença, autoria e origem verificadas por arquivo; não é fonte científica única."
+  },
+  {
+    "id": "field-sue",
+    "titulo": "SUE the T. rex",
+    "instituicao": "Field Museum",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "especime",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.fieldmuseum.org/blog/sue-t-rex",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "carnegie-dippy",
+    "titulo": "Diplodocus carnegii",
+    "instituicao": "Carnegie Museum of Natural History",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "especime",
+      "dimensoes"
+    ],
+    "url": "https://carnegiemnh.org/diplodocus-carnegii/",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "berlin-archaeopteryx",
+    "titulo": "Fossil Birds — Berlin Archaeopteryx specimen",
+    "instituicao": "Museum für Naturkunde Berlin",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "especime",
+      "comportamento"
+    ],
+    "url": "https://www.museumfuernaturkunde.berlin/en/research/fossil-birds",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "staurikosaurus-2009",
+    "titulo": "The anatomy and phylogenetic position of Staurikosaurus pricei",
+    "instituicao": "Zootaxa",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "especime"
+    ],
+    "url": "https://doi.org/10.11646/zootaxa.2079.1.1",
+    "doi": "10.11646/zootaxa.2079.1.1",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "buriolestes-2021",
+    "titulo": "The endocranial anatomy of Buriolestes schultzi",
+    "instituicao": "Journal of Anatomy",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "especime"
+    ],
+    "url": "https://doi.org/10.1111/joa.13350",
+    "doi": "10.1111/joa.13350",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "irritator-2020",
+    "titulo": "Neuroanatomy of Irritator challengeri",
+    "instituicao": "Scientific Reports",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "comportamento",
+      "filogenia",
+      "especime",
+      "midia"
+    ],
+    "url": "https://doi.org/10.1038/s41598-020-66261-w",
+    "doi": "10.1038/s41598-020-66261-w",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "berthasaura-2021",
+    "titulo": "A toothless ceratosaur from southern Brazil",
+    "instituicao": "Scientific Reports",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "comportamento",
+      "midia"
+    ],
+    "url": "https://doi.org/10.1038/s41598-021-01312-4",
+    "doi": "10.1038/s41598-021-01312-4",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "austroposeidon-2016",
+    "titulo": "A New Giant Titanosauria from Brazil",
+    "instituicao": "PLOS ONE",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "midia"
+    ],
+    "url": "https://doi.org/10.1371/journal.pone.0163373",
+    "doi": "10.1371/journal.pone.0163373",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "uberabatitan-2008",
+    "titulo": "Uberabatitan ribeiroi, a new titanosaur from Brazil",
+    "instituicao": "Palaeontology",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "filogenia"
+    ],
+    "url": "https://igeo.ufrj.br/inc/isc/3/3_24.pdf",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "sereno-spinosaurus",
+    "titulo": "Spinosaurus aegyptiacus",
+    "instituicao": "University of Chicago Fossil Lab",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "comportamento",
+      "filogenia"
+    ],
+    "url": "https://paulsereno.uchicago.edu/discoveries/spinosaurus_aegyptiacus/",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "smilodon-2020",
+    "titulo": "Occurrence of the sabretooth Smilodon populator in Brazil",
+    "instituicao": "Palaeontologia Electronica",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "comportamento",
+      "filogenia"
+    ],
+    "url": "https://palaeo-electronica.org/content/2020/3045-occurrence-of-the-sabretooth",
+    "acessadoEm": "2026-07-18"
+  },
+  {
+    "id": "smithsonian-human-origins",
+    "titulo": "Human Evolution Timeline Interactive",
+    "instituicao": "Smithsonian Human Origins Program",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "marco"
+    ],
+    "url": "https://humanorigins.si.edu/evidence/human-evolution-interactive-timeline",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Referência institucional para marcos amplos da evolução humana; datas são apresentadas como aproximações."
+  },
+  {
+    "id": "nps-permian-dimetrodon",
+    "titulo": "Permian Period — Rise of Amniotes",
+    "instituicao": "U.S. National Park Service",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "energia",
+      "comportamento"
+    ],
+    "url": "https://www.nps.gov/articles/000/permian-period.htm",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Síntese institucional para a dieta carnívora, a posição pré-dinossauros e as hipóteses sobre a vela dorsal."
+  },
+  {
+    "id": "dimetrodon-life-history-2026",
+    "titulo": "Contrasting life history in the diminutive Dimetrodon species from North America and Germany",
+    "instituicao": "Scientific Reports",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "dimensoes",
+      "filogenia"
+    ],
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13272913/",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Reúne faixas publicadas de comprimento e massa entre espécies do gênero; não representa um único indivíduo."
+  },
+  {
+    "id": "nhm-mosasaur-guide",
+    "titulo": "What is a mosasaur? Facts about Mosasaurus and its relatives",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "energia",
+      "dimensoes",
+      "comportamento"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+    "acessadoEm": "2026-07-18",
+    "observacao": "Expõe explicitamente a divergência entre estimativas de comprimento e a incerteza de massa."
+  },
+  {
+    "id": "open-tree-of-life",
+    "titulo": "Open Tree of Life Web APIs",
+    "instituicao": "Open Tree of Life",
+    "nivel": "B",
+    "tipo": "base-dados",
+    "camposSustentados": [
+      "taxonomia",
+      "filogenia"
+    ],
+    "url": "https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs",
+    "acessadoEm": "2026-07-21",
+    "observacao": "Usada somente como estrutura ampla e reconciliação de nomes; relações fósseis foram confirmadas em literatura específica."
+  },
+  {
+    "id": "dinosauria-phylogeny-2024",
+    "titulo": "Untangling the tree or unravelling the consensus? Recent developments in the quest to resolve the broad-scale relationships within Dinosauria",
+    "instituicao": "Journal of Systematic Palaeontology",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "filogenia"
+    ],
+    "url": "https://doi.org/10.1080/14772019.2024.2345333",
+    "doi": "10.1080/14772019.2024.2345333",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "gnathovorax-2019",
+    "titulo": "Gnathovorax cabreirai: a new early dinosaur and the origin and initial radiation of predatory dinosaurs",
+    "instituicao": "PeerJ",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.7717/peerj.7963",
+    "doi": "10.7717/peerj.7963",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "carnotaurus-1990",
+    "titulo": "Carnotaurus sastrei Bonaparte, the horned, lightly built carnosaur from the Middle Cretaceous of Patagonia",
+    "instituicao": "Natural History Museum of Los Angeles County / BHL",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://www.biodiversitylibrary.org/part/226819",
+    "doi": "10.5962/p.226819",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "carnotaurus-2011",
+    "titulo": "Dinosaur Speed Demon: The Caudal Musculature of Carnotaurus sastrei",
+    "instituicao": "PLOS ONE",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "comportamento",
+      "filogenia",
+      "morfologia",
+      "midia"
+    ],
+    "url": "https://doi.org/10.1371/journal.pone.0025763",
+    "doi": "10.1371/journal.pone.0025763",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "deinonychus-1969",
+    "titulo": "Osteology of Deinonychus antirrhopus, an Unusual Theropod from the Lower Cretaceous of Montana",
+    "instituicao": "Yale University Press / Peabody Museum",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.12987/9781933789408",
+    "doi": "10.12987/9781933789408",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "psittacosaurus-2024",
+    "titulo": "Histological variation of Psittacosaurus mongoliensis",
+    "instituicao": "Mongolian Journal of Paleontology",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "morfologia",
+      "filogenia"
+    ],
+    "url": "https://doi.org/10.5564/mjp.v5i1.4591",
+    "doi": "10.5564/mjp.v5i1.4591",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "amnh-psittacosaurus",
+    "titulo": "Psittacosaurus mongoliensis",
+    "instituicao": "American Museum of Natural History",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "morfologia"
+    ],
+    "url": "https://www.amnh.org/explore/ology/ology-cards/032-psittacosaurus-mongoliensis",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "edmontosaurus-2017",
+    "titulo": "Supplementary cranial description of the types of Edmontosaurus regalis",
+    "instituicao": "PLOS ONE",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "ocorrencias",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1371/journal.pone.0175253",
+    "doi": "10.1371/journal.pone.0175253",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "nhm-edmontosaurus",
+    "titulo": "Edmontosaurus",
+    "instituicao": "Natural History Museum, London",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "morfologia"
+    ],
+    "url": "https://www.nhm.ac.uk/discover/dino-directory/edmontosaurus.html",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "smithsonian-edmontosaurus",
+    "titulo": "Edmontosaurus regalis Lambe, 1917 — NMNH Paleobiology 3440889",
+    "instituicao": "Smithsonian Institution",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "morfologia",
+      "midia"
+    ],
+    "url": "https://www.si.edu/object/nmnhpaleobiology_3440889",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "tapejara-2012",
+    "titulo": "A new specimen of the azhdarchoid pterosaur Tapejara wellnhoferi",
+    "instituicao": "Historical Biology",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1080/08912963.2011.613467",
+    "doi": "10.1080/08912963.2011.613467",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "amnh-pterosaurs",
+    "titulo": "Meet the Pterosaurs",
+    "instituicao": "American Museum of Natural History",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "energia",
+      "dimensoes",
+      "morfologia"
+    ],
+    "url": "https://www.amnh.org/explore/ology/paleontology/pterosaurs-the-card-game/meet-the-pterosaurs",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "pleuromeia-2021",
+    "titulo": "Proliferation of Isoëtalean Lycophytes During the Permo-Triassic Biotic Crises",
+    "instituicao": "Frontiers in Earth Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "midia"
+    ],
+    "url": "https://doi.org/10.3389/feart.2021.615370",
+    "doi": "10.3389/feart.2021.615370",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "dicroidium-1968",
+    "titulo": "Studies on Triassic fossil plants from Argentina IV: the leaf genus Dicroidium",
+    "instituicao": "Palaeontological Association",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://palass.org/publications/palaeontology-journal/archive/11/4/article_pp500-512",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "dicroidium-brasil-1983",
+    "titulo": "Tafoflora triássica da Formação Santa Maria, RS, Brasil: representantes de Pteridospermopsida e Pteridophylla",
+    "instituicao": "Boletim IG-USP",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "intervalo",
+      "ocorrencias",
+      "taxonomia"
+    ],
+    "url": "https://revistas.usp.br/bigsc/article/view/45039",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "araucaria-1978",
+    "titulo": "Morphology and reproductive biology of Cerro Cuadrado fossil conifers",
+    "instituicao": "Botanical Journal of the Linnean Society",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1111/j.1095-8339.1978.tb01504.x",
+    "doi": "10.1111/j.1095-8339.1978.tb01504.x",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "araucaria-2026",
+    "titulo": "Phyllotaxis, ontogeny and CT imaging of Middle Jurassic Araucaria mirabilis cones",
+    "instituicao": "Annals of Botany",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "morfologia",
+      "midia"
+    ],
+    "url": "https://doi.org/10.1093/aob/mcaf325",
+    "doi": "10.1093/aob/mcaf325",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "ginkgo-huttonii-1971",
+    "titulo": "In situ gymnosperm pollen from the Middle Jurassic of Yorkshire",
+    "instituicao": "Acta Botanica Neerlandica",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://natuurtijdschriften.nl/pub/539742",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "archaefructus-2002",
+    "titulo": "Archaefructaceae, a New Basal Angiosperm Family",
+    "instituicao": "Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1126/science.1069439",
+    "doi": "10.1126/science.1069439",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "duartenia-2012",
+    "titulo": "A new drought resistant gymnosperm taxon Duartenia araripensis from the Early Cretaceous of Northern Gondwana",
+    "instituicao": "Palaeontographica Abteilung B",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1127/palb/289/2012/1",
+    "doi": "10.1127/palb/289/2012/1",
+    "acessadoEm": "2026-07-21"
+  },
+  {
+    "id": "duartenia-2021",
+    "titulo": "Fósseis da macroflora do Crato depositados na coleção científica da UFBA",
+    "instituicao": "Scientia Plena / UFBA",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "midia"
+    ],
+    "url": "https://doi.org/10.14808/sci.plena.2021.035301",
+    "doi": "10.14808/sci.plena.2021.035301",
+    "acessadoEm": "2026-07-21",
+    "observacao": "Artigo CC BY; a identificação do exemplar LEG 0031 é indicada como cf. Duartenia e permanece explicitamente incerta."
+  },
+  {
+    "id": "dodd-2017",
+    "titulo": "Evidence for early life in Earth’s oldest hydrothermal vent precipitates",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "marco"
+    ],
+    "url": "https://doi.org/10.1038/nature21377",
+    "doi": "10.1038/nature21377",
+    "acessadoEm": "2026-07-21",
+    "observacao": "Sustenta indícios de atividade biológica antiga; a incerteza permanece explícita no marco."
+  },
+  {
+    "id": "cratonia-2003",
+    "titulo": "Cratonia cotyledon: a unique Cretaceous seedling related to Welwitschia",
+    "instituicao": "Proceedings of the Royal Society B",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1098/rsbl.2003.0044",
+    "doi": "10.1098/rsbl.2003.0044",
+    "acessadoEm": "2026-07-21",
+    "observacao": "Mantida como fonte do ramo amplo de Gnetophyta; a ficha de Cratonia foi retirada por insuficiência de mídia licenciada."
+  },
+  {
+    "id": "endressinia-2004",
+    "titulo": "Endressinia brasiliana: a magnolialean angiosperm from the Lower Cretaceous Crato Formation",
+    "instituicao": "International Journal of Plant Sciences / USP",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://repositorio.usp.br/item/001435260",
+    "doi": "10.1086/423879",
+    "acessadoEm": "2026-07-21",
+    "observacao": "Mantida como fonte do ramo amplo de Magnoliales; a ficha foi retirada por insuficiência de mídia licenciada."
+  },
+  {
+    "id": "mdd-hominidae",
+    "titulo": "Mammal Diversity Database — Hominidae",
+    "instituicao": "American Society of Mammalogists",
+    "nivel": "A",
+    "tipo": "base-dados",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "publicacao"
+    ],
+    "url": "https://www.mammaldiversity.org/family/hominidae/",
+    "acessadoEm": "2026-07-24",
+    "observacao": "Fonte taxonômica para as espécies viventes. Não é usada para inferir a idade de divergência das linhagens."
+  },
+  {
+    "id": "great-ape-phylogenomics-2013",
+    "titulo": "Great ape genetic diversity and population history",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "filogenia",
+      "genetica"
+    ],
+    "url": "https://doi.org/10.1038/nature12228",
+    "doi": "10.1038/nature12228",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "adw-gorilla",
+    "titulo": "Gorilla — Animal Diversity Web",
+    "instituicao": "University of Michigan Museum of Zoology",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "morfologia"
+    ],
+    "url": "https://animaldiversity.org/accounts/Gorilla/",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "adw-pan",
+    "titulo": "Pan — Animal Diversity Web",
+    "instituicao": "University of Michigan Museum of Zoology",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "morfologia"
+    ],
+    "url": "https://animaldiversity.org/accounts/Pan/",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "adw-pongo",
+    "titulo": "Pongo — Animal Diversity Web",
+    "instituicao": "University of Michigan Museum of Zoology",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "morfologia"
+    ],
+    "url": "https://animaldiversity.org/accounts/Pongo/",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "smithsonian-human-species",
+    "titulo": "Early human species",
+    "instituicao": "Smithsonian Human Origins Program",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "publicacao"
+    ],
+    "url": "https://humanorigins.si.edu/evidence/human-fossils/species",
+    "acessadoEm": "2026-07-24",
+    "observacao": "Índice institucional com fichas individuais e faixas dos fósseis conhecidos; divergências taxonômicas permanecem explícitas."
+  },
+  {
+    "id": "smithsonian-human-genetics",
+    "titulo": "Genetic evidence and human evolution",
+    "instituicao": "Smithsonian Human Origins Program",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "filogenia",
+      "genetica",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://humanorigins.si.edu/evidence/genetics",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "homo-sapiens-jebel-irhoud-2017",
+    "titulo": "New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1038/nature22336",
+    "doi": "10.1038/nature22336",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "dickinsonia-biomarker-2018",
+    "titulo": "Ancient steroids establish the Ediacaran fossil Dickinsonia as one of the earliest animals",
+    "instituicao": "Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1126/science.aat7228",
+    "doi": "10.1126/science.aat7228",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "rom-anomalocaris",
+    "titulo": "Anomalocaris canadensis",
+    "instituicao": "Royal Ontario Museum",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "tiktaalik-2006",
+    "titulo": "A Devonian tetrapod-like fish and the evolution of the tetrapod body plan",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1038/nature04639",
+    "doi": "10.1038/nature04639",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "acanthostega-2002",
+    "titulo": "The axial skeleton of the Devonian tetrapod Acanthostega gunnari",
+    "instituicao": "Transactions of the Royal Society of Edinburgh",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://doi.org/10.1017/S0263593300000346",
+    "doi": "10.1017/S0263593300000346",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "aberdeen-rhynie",
+    "titulo": "The Rhynie Chert — early land plants",
+    "instituicao": "University of Aberdeen",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://www.abdn.ac.uk/rhynie/",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "ucmp-calamites",
+    "titulo": "Sphenopsids of the late Paleozoic",
+    "instituicao": "University of California Museum of Paleontology",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://ucmp.berkeley.edu/plants/sphenophyta/sphenophytafr.html",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "nps-glossopteris",
+    "titulo": "Glossopteris and evidence for Gondwana",
+    "instituicao": "U.S. National Park Service",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://www.nps.gov/subjects/nnlandmarks/glossopteris.htm",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "smithsonian-cycadeoidea",
+    "titulo": "Fossil cycadeoids and the Bennettitales",
+    "instituicao": "Smithsonian National Museum of Natural History",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "energia",
+      "dimensoes",
+      "filogenia",
+      "morfologia"
+    ],
+    "url": "https://naturalhistory.si.edu/research/paleobiology/collections-overview",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "smithsonian-human-fossils",
+    "titulo": "Human Fossils",
+    "instituicao": "Smithsonian Human Origins Program",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "especime",
+      "morfologia",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://humanorigins.si.edu/evidence/human-fossils",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "toumai-2002",
+    "titulo": "A new hominid from the Upper Miocene of Chad, Central Africa",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1038/nature00879",
+    "doi": "10.1038/nature00879",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "ardi-2009",
+    "titulo": "Ardipithecus ramidus and the paleobiology of early hominids",
+    "instituicao": "Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1126/science.1175802",
+    "doi": "10.1126/science.1175802",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "lucy-1976",
+    "titulo": "Plio-Pleistocene hominid discoveries in Hadar, Ethiopia",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1038/260293a0",
+    "doi": "10.1038/260293a0",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "taung-1925",
+    "titulo": "Australopithecus africanus: the man-ape of South Africa",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1038/115195a0",
+    "doi": "10.1038/115195a0",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "little-foot-wits",
+    "titulo": "Little Foot hominin skeleton",
+    "instituicao": "University of the Witwatersrand",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "especime",
+      "morfologia",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://www.wits.ac.za/news/latest-news/research-news/2018/2018-12/little-foot.html",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "oh7-1964",
+    "titulo": "A new species of the genus Homo from Olduvai Gorge",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1038/202007a0",
+    "doi": "10.1038/202007a0",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "smithsonian-turkana-boy",
+    "titulo": "KNM-WT 15000 — Turkana Boy",
+    "instituicao": "Smithsonian Human Origins Program",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "especime",
+      "morfologia",
+      "dimensoes",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://humanorigins.si.edu/evidence/human-fossils/fossils/knm-wt-15000",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "dmanisi-5-2013",
+    "titulo": "A complete skull from Dmanisi, Georgia, and the evolutionary biology of early Homo",
+    "instituicao": "Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1126/science.1238484",
+    "doi": "10.1126/science.1238484",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "neanderthal-1-smithsonian",
+    "titulo": "Neanderthal 1",
+    "instituicao": "Smithsonian Human Origins Program",
+    "nivel": "B",
+    "tipo": "museu",
+    "camposSustentados": [
+      "especime",
+      "morfologia",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://humanorigins.si.edu/evidence/human-fossils/fossils/neanderthal-1",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "green-neanderthal-2010",
+    "titulo": "A draft sequence of the Neandertal genome",
+    "instituicao": "Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "filogenia",
+      "conceito",
+      "publicacao",
+      "especime"
+    ],
+    "url": "https://doi.org/10.1126/science.1188021",
+    "doi": "10.1126/science.1188021",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "reich-denisovan-2010",
+    "titulo": "Genetic history of an archaic hominin group from Denisova Cave in Siberia",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "filogenia",
+      "conceito",
+      "publicacao",
+      "especime"
+    ],
+    "url": "https://doi.org/10.1038/nature09710",
+    "doi": "10.1038/nature09710",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "lb1-2004",
+    "titulo": "A new small-bodied hominin from the Late Pleistocene of Flores, Indonesia",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1038/nature02999",
+    "doi": "10.1038/nature02999",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "berger-naledi-2015",
+    "titulo": "Homo naledi, a new species of the genus Homo from the Dinaledi Chamber, South Africa",
+    "instituicao": "eLife",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "taxonomia",
+      "intervalo",
+      "ocorrencias",
+      "dimensoes",
+      "filogenia",
+      "morfologia",
+      "especime",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.7554/eLife.09560",
+    "doi": "10.7554/eLife.09560",
+    "acessadoEm": "2026-07-24",
+    "observacao": "Artigo CC BY; figuras exigem verificação individual de créditos antes de reprodução."
+  },
+  {
+    "id": "naledi-dating-2017",
+    "titulo": "Homo naledi and Pleistocene hominin evolution in subequatorial Africa",
+    "instituicao": "eLife",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "intervalo",
+      "ocorrencias",
+      "morfologia",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.7554/eLife.24234",
+    "doi": "10.7554/eLife.24234",
+    "acessadoEm": "2026-07-24",
+    "observacao": "Sustenta a datação de Homo naledi entre aproximadamente 236 e 335 mil anos."
+  },
+  {
+    "id": "cann-mtdna-1987",
+    "titulo": "Mitochondrial DNA and human evolution",
+    "instituicao": "Nature",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1038/325031a0",
+    "doi": "10.1038/325031a0",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "poznik-y-2013",
+    "titulo": "Sequencing Y chromosomes resolves discrepancy in time to common ancestor of males versus females",
+    "instituicao": "Science",
+    "nivel": "A",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "conceito",
+      "publicacao"
+    ],
+    "url": "https://doi.org/10.1126/science.1237619",
+    "doi": "10.1126/science.1237619",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "frontiers-adna-2019",
+    "titulo": "The Revolution of Ancient DNA—What Does Genetics Tell Us About the Past?",
+    "instituicao": "Frontiers for Young Minds",
+    "nivel": "B",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "conceito",
+      "publicacao",
+      "direitos"
+    ],
+    "url": "https://kids.frontiersin.org/articles/10.3389/frym.2019.00024",
+    "doi": "10.3389/frym.2019.00024",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "frontiers-neanderthal-2019",
+    "titulo": "Why Do Some Humans Have Neanderthal DNA?",
+    "instituicao": "Frontiers for Young Minds",
+    "nivel": "B",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "conceito",
+      "publicacao",
+      "direitos"
+    ],
+    "url": "https://kids.frontiersin.org/articles/10.3389/frym.2019.00104",
+    "doi": "10.3389/frym.2019.00104",
+    "acessadoEm": "2026-07-24"
+  },
+  {
+    "id": "frontiers-dna-history-2020",
+    "titulo": "What Our DNA Can Tell Us About the History of Humans",
+    "instituicao": "Frontiers for Young Minds",
+    "nivel": "B",
+    "tipo": "artigo",
+    "camposSustentados": [
+      "genetica",
+      "conceito",
+      "publicacao",
+      "direitos"
+    ],
+    "url": "https://kids.frontiersin.org/articles/10.3389/frym.2020.00106",
+    "doi": "10.3389/frym.2020.00106",
+    "acessadoEm": "2026-07-24"
+  }
+]

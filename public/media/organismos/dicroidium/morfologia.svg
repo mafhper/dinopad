@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Morfologia esquemática de Dicroidium zuberi</title>
+  <desc id="desc">Diagrama educativo identifica caule, estruturas foliares e estrutura reprodutiva sem reconstruir cores.</desc>
+  <rect width="960" height="560" rx="24" fill="#f1ead7"/>
+  <g fill="none" stroke="#3f4939" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M476 462C472 388 484 301 480 222C477 160 469 109 482 72"/>
+    <path d="M477 260C402 247 354 221 310 181M480 236C551 218 604 185 644 137"/>
+    <path d="M475 327C394 327 344 310 284 271M479 302C560 294 622 266 682 224"/>
+  </g>
+  <g fill="#6f7257" stroke="#3f4939" stroke-width="4">
+    <ellipse cx="293" cy="171" rx="60" ry="22" transform="rotate(24 293 171)"/><ellipse cx="657" cy="125" rx="61" ry="22" transform="rotate(-27 657 125)"/>
+    <ellipse cx="268" cy="261" rx="66" ry="24" transform="rotate(18 268 261)"/><ellipse cx="701" cy="213" rx="66" ry="24" transform="rotate(-18 701 213)"/>
+    <ellipse cx="482" cy="60" rx="29" ry="50"/>
+  </g>
+  <path d="M420 462H542" stroke="#9a5738" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="system-ui, sans-serif" font-size="21" fill="#34362f">
+    <text x="555" y="74">estrutura reprodutiva</text><path d="M545 81L512 72" stroke="#73766d" stroke-width="2"/>
+    <text x="714" y="293">folha ou ramo foliar</text><path d="M706 278L655 258" stroke="#73766d" stroke-width="2"/>
+    <text x="550" y="414">caule ou eixo</text><path d="M544 403L492 381" stroke="#73766d" stroke-width="2"/>
+  </g>
+  <text x="56" y="506" font-family="Georgia, serif" font-size="29" font-style="italic" font-weight="700" fill="#34362f">Dicroidium zuberi</text>
+  <text x="904" y="506" text-anchor="end" font-family="system-ui, sans-serif" font-size="19" fill="#5f6258">comprimento das frondes conhecidas: 8–21 cm</text>
+  <text x="904" y="538" text-anchor="end" font-family="system-ui, sans-serif" font-size="15" fill="#73766d">Forma simplificada; proporções e partes variam conforme a preservação</text>
+</svg>

@@ -1,0 +1,416 @@
+[
+  {
+    "id": "primeiros-indicios-vida",
+    "titulo": "Primeiros indícios de vida",
+    "dataMa": 3700,
+    "periodoId": null,
+    "categoria": "vida",
+    "incerteza": "alta",
+    "descricaoCurta": "Sinais químicos e estruturas em rochas muito antigas podem registrar atividade de seres microscópicos.",
+    "fonteIds": [
+      "dodd-2017"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "grande-oxidacao",
+    "titulo": "Grande Evento de Oxidação",
+    "dataMa": 2400,
+    "fimMa": 2100,
+    "periodoId": null,
+    "categoria": "geologia",
+    "incerteza": "media",
+    "descricaoCurta": "O oxigênio produzido por microrganismos passou a se acumular de forma duradoura na atmosfera.",
+    "fonteIds": [
+      "ics-2026"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "primeiros-eucariontes",
+    "titulo": "Primeiros eucariontes conhecidos",
+    "dataMa": 1800,
+    "periodoId": null,
+    "categoria": "evolucao",
+    "incerteza": "alta",
+    "descricaoCurta": "Células com estruturas internas complexas já aparecem no registro antigo.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "biota-ediacarana",
+    "titulo": "Biota de Ediacara",
+    "dataMa": 575,
+    "fimMa": 538.8,
+    "periodoId": null,
+    "categoria": "vida",
+    "incerteza": "media",
+    "descricaoCurta": "Comunidades de organismos macroscópicos deixaram impressões em antigos fundos marinhos.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "diversificacao-cambriana",
+    "titulo": "Diversificação cambriana",
+    "dataMa": 530,
+    "periodoId": "cambriano",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Muitos planos corporais animais tornam-se abundantes no registro fóssil marinho.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "primeiros-vertebrados",
+    "titulo": "Primeiros vertebrados conhecidos",
+    "dataMa": 518,
+    "periodoId": "cambriano",
+    "categoria": "evolucao",
+    "incerteza": "alta",
+    "descricaoCurta": "Pequenos animais marinhos registram os primeiros capítulos conhecidos da história dos vertebrados.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "plantas-vasculares",
+    "titulo": "Plantas vasculares em terra",
+    "dataMa": 430,
+    "periodoId": "siluriano",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Tecidos para conduzir água ajudaram plantas pequenas a ocupar ambientes terrestres.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "primeiros-tetrapodes",
+    "titulo": "Primeiros tetrápodes conhecidos",
+    "dataMa": 375,
+    "periodoId": "devoniano",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Vertebrados com membros exploravam águas rasas e margens no Devoniano.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "primeiros-amniotas",
+    "titulo": "Primeiros amniotas conhecidos",
+    "dataMa": 320,
+    "periodoId": "carbonifero",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Um novo tipo de ovo permitiu que vertebrados dependessem menos da água para se reproduzir.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "extincao-permiano",
+    "titulo": "Extinção do fim do Permiano",
+    "dataMa": 251.902,
+    "periodoId": "permiano",
+    "categoria": "extincao",
+    "incerteza": "baixa",
+    "descricaoCurta": "A maior extinção em massa conhecida reorganizou profundamente ecossistemas marinhos e terrestres.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "primeiros-dinossauros",
+    "titulo": "Primeiros dinossauros conhecidos",
+    "dataMa": 233,
+    "periodoId": "triassico",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Dinossauros iniciais aparecem em rochas do Triássico, inclusive no sul do Brasil.",
+    "fonteIds": [
+      "pbdb-1-2",
+      "staurikosaurus-2009",
+      "buriolestes-2021"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "primeiros-pterossauros",
+    "titulo": "Primeiros pterossauros conhecidos",
+    "dataMa": 228,
+    "periodoId": "triassico",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Répteis voadores surgem no registro fóssil; são parentes dos dinossauros, não dinossauros.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "primeiros-mamaliaformes",
+    "titulo": "Primeiros mamaliaformes",
+    "dataMa": 225,
+    "periodoId": "triassico",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Pequenos parentes muito próximos dos mamíferos viveram ao lado dos primeiros dinossauros.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "extincao-triassico-jurassico",
+    "titulo": "Extinção do fim do Triássico",
+    "dataMa": 201.4,
+    "periodoId": "triassico",
+    "categoria": "extincao",
+    "incerteza": "baixa",
+    "descricaoCurta": "Uma crise global eliminou muitos grupos e antecedeu a grande diversificação jurássica dos dinossauros.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "fragmentacao-pangeia",
+    "titulo": "Fragmentação de Pangeia",
+    "dataMa": 180,
+    "fimMa": 100,
+    "periodoId": "jurasico",
+    "categoria": "geologia",
+    "incerteza": "media",
+    "descricaoCurta": "O supercontinente se separou gradualmente, abrindo oceanos e isolando populações.",
+    "fonteIds": [
+      "ics-2026"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "primeiros-avialanos",
+    "titulo": "Primeiros avialanos conhecidos",
+    "dataMa": 150,
+    "periodoId": "jurassico-superior",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Fósseis como Archaeopteryx combinam penas de voo com dentes e cauda óssea longa.",
+    "fonteIds": [
+      "pbdb-1-2",
+      "berlin-archaeopteryx"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "plantas-com-flores",
+    "titulo": "Primeiras plantas com flores",
+    "dataMa": 130,
+    "periodoId": "cretaceo",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Angiospermas aparecem e depois se tornam componentes importantes de muitos ecossistemas terrestres.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "diversificacao-titanossauros",
+    "titulo": "Titanossauros em muitos continentes",
+    "dataMa": 100,
+    "fimMa": 66,
+    "periodoId": "cretaceo-superior",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Sauropodes titanossauros se diversificaram, incluindo gigantes que viveram no Brasil.",
+    "fonteIds": [
+      "pbdb-1-2",
+      "austroposeidon-2016",
+      "uberabatitan-2008"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "extincao-k-pg",
+    "titulo": "Extinção K–Pg",
+    "dataMa": 66,
+    "periodoId": "cretaceo-superior",
+    "categoria": "extincao",
+    "incerteza": "baixa",
+    "descricaoCurta": "Um impacto e mudanças ambientais levaram à extinção dos dinossauros não avianos e de muitos outros grupos.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "radiacao-mamiferos",
+    "titulo": "Diversificação de mamíferos",
+    "dataMa": 60,
+    "periodoId": "paleogeno",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "Após o K–Pg, diferentes linhagens de mamíferos ocuparam novos modos de vida.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "expansao-campos",
+    "titulo": "Expansão de campos e savanas",
+    "dataMa": 20,
+    "fimMa": 5,
+    "periodoId": "neogeno",
+    "categoria": "geologia",
+    "incerteza": "alta",
+    "descricaoCurta": "Ambientes abertos se espalharam em ritmos diferentes pelo planeta, influenciando a evolução de muitos animais.",
+    "fonteIds": [
+      "ics-2026",
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-18"
+    }
+  },
+  {
+    "id": "primeiros-homininos",
+    "titulo": "Primeiros homininos conhecidos",
+    "dataMa": 7,
+    "periodoId": "neogeno",
+    "categoria": "humanidade",
+    "incerteza": "alta",
+    "descricaoCurta": "Fósseis africanos registram linhagens próximas à separação entre humanos e chimpanzés.",
+    "fonteIds": [
+      "smithsonian-human-origins"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "intercambio-americano",
+    "titulo": "Grande Intercâmbio Americano",
+    "dataMa": 3,
+    "fimMa": 1,
+    "periodoId": "neogeno",
+    "categoria": "evolucao",
+    "incerteza": "media",
+    "descricaoCurta": "A conexão entre as Américas permitiu que muitos animais migrassem entre norte e sul.",
+    "fonteIds": [
+      "pbdb-1-2"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "megafauna-pleistocenica",
+    "titulo": "Megafauna do Pleistoceno",
+    "dataMa": 2.58,
+    "fimMa": 0.0117,
+    "periodoId": "quaternario",
+    "categoria": "vida",
+    "incerteza": "media",
+    "descricaoCurta": "Grandes mamíferos, incluindo Smilodon populator, ocuparam ecossistemas das Américas.",
+    "fonteIds": [
+      "pbdb-1-2",
+      "smilodon-2020"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  },
+  {
+    "id": "homo-sapiens",
+    "titulo": "Homo sapiens",
+    "dataMa": 0.3,
+    "periodoId": "quaternario",
+    "categoria": "humanidade",
+    "incerteza": "media",
+    "descricaoCurta": "Os fósseis mais antigos atribuídos à nossa espécie têm cerca de 300 mil anos.",
+    "fonteIds": [
+      "smithsonian-human-origins"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-21"
+    }
+  }
+]

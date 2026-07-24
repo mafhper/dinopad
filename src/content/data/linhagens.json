@@ -1,0 +1,72 @@
+[
+  {
+    "id": "denisovanos",
+    "nomePt": "Denisovanos",
+    "nomeEn": "Denisovans",
+    "tipo": "populacao-arcaica",
+    "resumo": "Populações humanas arcaicas reconhecidas primeiro pelo DNA. Ainda não há base suficiente para tratá-las como uma espécie aprovada no atlas.",
+    "intervalo": {
+      "inicioMa": 0.2,
+      "fimMa": 0.04,
+      "incerteza": "alta",
+      "significado": "Janela ampla de evidências genéticas e fósseis atribuídas a populações denisovanas; não é a duração exata de uma espécie.",
+      "fonteIds": [
+        "reich-denisovan-2010"
+      ]
+    },
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "noFilogeneticoIds": [
+      "homo"
+    ],
+    "fonteIds": [
+      "reich-denisovan-2010"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "ancestral-mitocondrial-comum",
+    "nomePt": "Ancestral matrilinear comum mais recente",
+    "nomeEn": "Mitochondrial most recent common ancestor",
+    "tipo": "linhagem-genomica",
+    "resumo": "Ponto de coalescência das linhagens de DNA mitocondrial atuais. Não foi a primeira mulher, a única mulher de seu tempo nem uma folha da árvore de espécies.",
+    "organismoIds": [
+      "homo-sapiens"
+    ],
+    "noFilogeneticoIds": [
+      "homo"
+    ],
+    "fonteIds": [
+      "cann-mtdna-1987"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "ancestral-y-comum",
+    "nomePt": "Ancestral patrilinear comum mais recente do cromossomo Y",
+    "nomeEn": "Y-chromosomal most recent common ancestor",
+    "tipo": "linhagem-genomica",
+    "resumo": "Ponto de coalescência das linhagens atuais do cromossomo Y. Viveu em uma população com muitas outras pessoas e não precisa ser contemporâneo do ancestral mitocondrial comum.",
+    "organismoIds": [
+      "homo-sapiens"
+    ],
+    "noFilogeneticoIds": [
+      "homo"
+    ],
+    "fonteIds": [
+      "poznik-y-2013"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  }
+]

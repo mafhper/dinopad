@@ -1,0 +1,320 @@
+[
+  {
+    "id": "termos-familia-humana",
+    "slug": "termos-familia-humana",
+    "titulo": "Hominídeo, hominíneo, hominínio e humano",
+    "resumo": "Palavras parecidas apontam para ramos diferentes.",
+    "blocos": [
+      {
+        "id": "termos-familia-humana-abertura",
+        "tipo": "destaque",
+        "titulo": "Quatro nomes, quatro grupos",
+        "texto": "Hominídeo inclui os grandes símios e seus parentes. Hominíneo é um ramo interno; hominínio reúne humanos e fósseis mais próximos de nós do que de chimpanzés."
+      },
+      {
+        "id": "termos-familia-humana-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "O que esses nomes não medem",
+        "texto": "Os nomes indicam inclusão em grupos, não graus de inteligência, valor ou progresso. Hominídeo, por exemplo, inclui orangotangos, gorilas, chimpanzés, humanos e seus parentes fósseis."
+      },
+      {
+        "id": "termos-familia-humana-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Como conferir na árvore",
+        "texto": "Comece em Hominidae e siga os grupos aninhados até Hominini e Homo. Cada nome delimita um ramo; nenhum deles representa uma fila de espécies."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens"
+    ],
+    "linhagemIds": [],
+    "fonteIds": [
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "arvore-nao-escada",
+    "slug": "arvore-nao-escada",
+    "titulo": "Árvore, não escada evolutiva",
+    "resumo": "Evolução produz ramificações, não uma fila rumo ao presente.",
+    "blocos": [
+      {
+        "id": "arvore-nao-escada-abertura",
+        "tipo": "destaque",
+        "titulo": "Por que a evolução se ramifica",
+        "texto": "Espécies podem coexistir, extinguir-se ou deixar descendentes. Um fóssil semelhante a nós não precisa ser nosso ancestral direto."
+      },
+      {
+        "id": "arvore-nao-escada-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Parecido não significa ancestral direto",
+        "texto": "Um fóssil pode compartilhar características com nossa linhagem e ainda pertencer a um ramo lateral. Ancestralidade direta exige evidências mais específicas do que semelhança."
+      },
+      {
+        "id": "arvore-nao-escada-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Como a incerteza aparece",
+        "texto": "Galhos tracejados indicam relações prováveis ou debatidas. Quando a ordem das separações não está resolvida, vários galhos partem do mesmo ponto em uma polytomia."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [],
+    "fonteIds": [
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "eva-mitocondrial",
+    "slug": "eva-mitocondrial",
+    "titulo": "“Eva mitocondrial”: significado e limites",
+    "resumo": "Um apelido para um resultado genealógico, não para a primeira mulher.",
+    "blocos": [
+      {
+        "id": "eva-mitocondrial-abertura",
+        "tipo": "destaque",
+        "titulo": "Uma linhagem materna",
+        "texto": "Ao seguir apenas o DNA mitocondrial atual para trás, as linhagens convergem em uma ancestral comum. Outras mulheres viveram no mesmo tempo e também podem ser ancestrais genealógicas nossas."
+      },
+      {
+        "id": "eva-mitocondrial-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Muitas mulheres também deixaram descendentes",
+        "texto": "A ancestral mitocondrial comum não vivia sozinha e não era a primeira mulher. Outras mulheres do mesmo período podem ser ancestrais genealógicas de pessoas atuais, mesmo que suas linhas exclusivamente maternas tenham terminado."
+      },
+      {
+        "id": "eva-mitocondrial-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Cada parte do genoma conta uma história",
+        "texto": "O DNA mitocondrial é apenas uma pequena parte da herança. Outros genes coalescem em pessoas e datas diferentes; por isso não existe uma única “Eva evolutiva” que concentre toda a origem humana."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "ancestral-mitocondrial-comum",
+      "ancestral-y-comum"
+    ],
+    "fonteIds": [
+      "cann-mtdna-1987"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "ancestral-y",
+    "slug": "ancestral-y",
+    "titulo": "Ancestral patrilinear do cromossomo Y",
+    "resumo": "O cromossomo Y também permite seguir uma linha específica de herança.",
+    "blocos": [
+      {
+        "id": "ancestral-y-abertura",
+        "tipo": "destaque",
+        "titulo": "Uma linha paterna específica",
+        "texto": "As linhagens atuais do Y coalescem em um ancestral comum, mas a data estimada depende das amostras, modelos e mutações usadas."
+      },
+      {
+        "id": "ancestral-y-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Não é um casal fundador",
+        "texto": "O ancestral do Y e a ancestral mitocondrial podem ter vivido em épocas diferentes. Eles não precisam ter se encontrado e não concentram o restante da ancestralidade humana."
+      },
+      {
+        "id": "ancestral-y-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Por que a estimativa pode mudar",
+        "texto": "Novas amostras, taxas de mutação e modelos populacionais alteram a data calculada para a coalescência. O conceito permanece, mas o intervalo numérico é revisável."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "ancestral-mitocondrial-comum",
+      "ancestral-y-comum"
+    ],
+    "fonteIds": [
+      "poznik-y-2013"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "coalescencia",
+    "slug": "coalescencia",
+    "titulo": "Coalescência e genealogias diferentes",
+    "resumo": "Cada trecho de DNA pode contar uma genealogia própria.",
+    "blocos": [
+      {
+        "id": "coalescencia-abertura",
+        "tipo": "destaque",
+        "titulo": "Voltar no tempo por um trecho de DNA",
+        "texto": "Recombinação mistura trechos herdados. Ao voltar no tempo, as cópias de um trecho coalescem em ancestrais comuns, em datas que variam de trecho para trecho."
+      },
+      {
+        "id": "coalescencia-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Árvore de gene e árvore de espécies",
+        "texto": "Uma árvore feita com um trecho de DNA não deve ser confundida automaticamente com a história completa das populações ou das espécies."
+      },
+      {
+        "id": "coalescencia-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Por que várias genealogias são necessárias",
+        "texto": "Recombinação e acaso fazem diferentes trechos seguirem caminhos distintos. Pesquisadores comparam muitas regiões do genoma e testam se o conjunto apoia a mesma hipótese."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "ancestral-mitocondrial-comum",
+      "ancestral-y-comum"
+    ],
+    "fonteIds": [
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "origem-africana-dispersoes",
+    "slug": "origem-africana-dispersoes",
+    "titulo": "Origem africana e dispersões de Homo",
+    "resumo": "A história humana envolve múltiplos movimentos, encontros e retornos.",
+    "blocos": [
+      {
+        "id": "origem-africana-dispersoes-abertura",
+        "tipo": "destaque",
+        "titulo": "Origem africana, muitos movimentos",
+        "texto": "Homo sapiens surgiu na África. Populações se dispersaram para fora do continente em ondas, enquanto movimentos de volta e encontros conectaram novamente regiões."
+      },
+      {
+        "id": "origem-africana-dispersoes-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Dispersão não foi uma viagem única",
+        "texto": "Populações avançaram, recuaram, se separaram e voltaram a se encontrar. Uma seta em um mapa resume processos que ocorreram durante muitas gerações."
+      },
+      {
+        "id": "origem-africana-dispersoes-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Como interpretar os mapas",
+        "texto": "Fronteiras atuais não existiam na pré-história. Datas, sítios, fósseis e DNA delimitam rotas possíveis, não trajetos exatos percorridos por uma única família."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [],
+    "fonteIds": [
+      "smithsonian-human-genetics"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "neandertais-denisovanos",
+    "slug": "neandertais-denisovanos",
+    "titulo": "Neandertais, Denisovanos e fluxo gênico",
+    "resumo": "Ramos distintos puderam trocar genes quando populações se encontraram.",
+    "blocos": [
+      {
+        "id": "neandertais-denisovanos-abertura",
+        "tipo": "destaque",
+        "titulo": "O que os genomas revelaram",
+        "texto": "Genomas antigos mostraram que a história não foi substituição total. Segmentos neandertais e denisovanos permanecem em populações atuais em frequências variadas."
+      },
+      {
+        "id": "neandertais-denisovanos-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Ramos distintos ainda podem se encontrar",
+        "texto": "Separação populacional não impede todo contato posterior. As conexões de fluxo gênico aparecem sobre a árvore porque representam encontros, não novos galhos principais."
+      },
+      {
+        "id": "neandertais-denisovanos-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "Um fragmento pode guardar uma população",
+        "texto": "Denisova 3 era apenas parte de uma falange. O DNA preservado permitiu reconhecer uma linhagem antes que houvesse um esqueleto completo associado a ela."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "fonteIds": [
+      "green-neanderthal-2010",
+      "reich-denisovan-2010"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  },
+  {
+    "id": "dna-antigo-metodo",
+    "slug": "dna-antigo-metodo",
+    "titulo": "Recuperação e interpretação de DNA antigo",
+    "resumo": "DNA antigo é fragmentado, raro e vulnerável à contaminação.",
+    "blocos": [
+      {
+        "id": "dna-antigo-metodo-abertura",
+        "tipo": "destaque",
+        "titulo": "Como reconhecer DNA realmente antigo",
+        "texto": "Laboratórios usam salas limpas, controles e padrões de dano molecular para distinguir sequências antigas de DNA moderno."
+      },
+      {
+        "id": "dna-antigo-metodo-cuidado",
+        "tipo": "paragrafo",
+        "titulo": "Uma sequência não fala sozinha",
+        "texto": "Contexto arqueológico, datação, anatomia e modelos populacionais precisam concordar. Um resultado isolado deve sobreviver a controles e tentativas de repetição."
+      },
+      {
+        "id": "dna-antigo-metodo-pergunta",
+        "tipo": "paragrafo",
+        "titulo": "O caminho até uma conclusão",
+        "texto": "Amostragem, extração, sequenciamento, comparação e revisão deixam registros verificáveis. Contaminação e dano molecular são medidos, não apenas mencionados como possibilidades."
+      }
+    ],
+    "organismoIds": [
+      "homo-sapiens",
+      "homo-neanderthalensis"
+    ],
+    "linhagemIds": [
+      "denisovanos"
+    ],
+    "fonteIds": [
+      "green-neanderthal-2010",
+      "reich-denisovan-2010"
+    ],
+    "revisao": {
+      "status": "aprovado",
+      "revisadoEm": "2026-07-24"
+    }
+  }
+]

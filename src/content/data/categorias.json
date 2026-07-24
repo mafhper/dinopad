@@ -1,0 +1,156 @@
+[
+  {
+    "id": "dinossauro",
+    "nomePt": "Dinossauro",
+    "nomeEn": "Dinosaur",
+    "reino": "animalia",
+    "descricao": "Dinossauros avianos e não avianos incluídos no atlas."
+  },
+  {
+    "id": "ave-primitiva",
+    "nomePt": "Avialano inicial",
+    "nomeEn": "Early avialan",
+    "reino": "animalia",
+    "descricao": "Formas próximas à origem e diversificação inicial das aves."
+  },
+  {
+    "id": "pterossauro",
+    "nomePt": "Pterossauro",
+    "nomeEn": "Pterosaur",
+    "reino": "animalia",
+    "descricao": "Répteis voadores, parentes próximos dos dinossauros."
+  },
+  {
+    "id": "reptil-marinho",
+    "nomePt": "Réptil marinho",
+    "nomeEn": "Marine reptile",
+    "reino": "animalia",
+    "descricao": "Répteis secundariamente adaptados à vida marinha."
+  },
+  {
+    "id": "sinapsideo",
+    "nomePt": "Sinapsídeo",
+    "nomeEn": "Synapsid",
+    "reino": "animalia",
+    "descricao": "Ramo de amniotas que inclui mamíferos e seus parentes extintos."
+  },
+  {
+    "id": "mamifero",
+    "nomePt": "Mamífero",
+    "nomeEn": "Mammal",
+    "reino": "animalia",
+    "descricao": "Vertebrados com pelos e glândulas mamárias."
+  },
+  {
+    "id": "primata",
+    "nomePt": "Primata",
+    "nomeEn": "Primate",
+    "reino": "animalia",
+    "descricao": "Mamíferos do ramo que inclui lêmures, macacos e humanos."
+  },
+  {
+    "id": "hominideo",
+    "nomePt": "Hominídeo",
+    "nomeEn": "Hominid",
+    "reino": "animalia",
+    "descricao": "Grandes símios atuais e seus parentes extintos próximos."
+  },
+  {
+    "id": "homininio",
+    "nomePt": "Hominínio",
+    "nomeEn": "Hominin",
+    "reino": "animalia",
+    "descricao": "Humanos e formas fósseis mais próximas de nós do que de chimpanzés."
+  },
+  {
+    "id": "animal-ediacarano",
+    "nomePt": "Animal ediacarano",
+    "nomeEn": "Ediacaran animal",
+    "reino": "animalia",
+    "descricao": "Organismos animais ou prováveis animais do Ediacarano."
+  },
+  {
+    "id": "artropode",
+    "nomePt": "Artrópode",
+    "nomeEn": "Arthropod",
+    "reino": "animalia",
+    "descricao": "Animais segmentados com apêndices articulados."
+  },
+  {
+    "id": "tetrapodomorfo",
+    "nomePt": "Tetrapodomorfo",
+    "nomeEn": "Tetrapodomorph",
+    "reino": "animalia",
+    "descricao": "Vertebrados do ramo que leva aos tetrápodes."
+  },
+  {
+    "id": "tetrapode-inicial",
+    "nomePt": "Tetrápode inicial",
+    "nomeEn": "Early tetrapod",
+    "reino": "animalia",
+    "descricao": "Formas iniciais do ramo dos vertebrados com membros e dedos."
+  },
+  {
+    "id": "licofita",
+    "nomePt": "Licófita",
+    "nomeEn": "Lycophyte",
+    "reino": "plantae",
+    "descricao": "Plantas vasculares de folhas simples chamadas micrófilos."
+  },
+  {
+    "id": "pteridosperma",
+    "nomePt": "Pteridosperma",
+    "nomeEn": "Seed fern",
+    "reino": "plantae",
+    "descricao": "Grupo informal de plantas com sementes e folhas semelhantes a frondes."
+  },
+  {
+    "id": "conifera",
+    "nomePt": "Conífera",
+    "nomeEn": "Conifer",
+    "reino": "plantae",
+    "descricao": "Gimnospermas geralmente lenhosas produtoras de cones."
+  },
+  {
+    "id": "gnetofita",
+    "nomePt": "Gnetófita",
+    "nomeEn": "Gnetophyte",
+    "reino": "plantae",
+    "descricao": "Ramo de gimnospermas com características reprodutivas particulares."
+  },
+  {
+    "id": "angiosperma",
+    "nomePt": "Angiosperma",
+    "nomeEn": "Angiosperm",
+    "reino": "plantae",
+    "descricao": "Plantas com flores e sementes encerradas em frutos."
+  },
+  {
+    "id": "monocotiledonea",
+    "nomePt": "Monocotiledônea",
+    "nomeEn": "Monocot",
+    "reino": "plantae",
+    "descricao": "Grande ramo de angiospermas com um cotilédone."
+  },
+  {
+    "id": "planta-vascular-inicial",
+    "nomePt": "Planta vascular inicial",
+    "nomeEn": "Early vascular plant",
+    "reino": "plantae",
+    "descricao": "Plantas antigas com tecidos especializados para condução."
+  },
+  {
+    "id": "esfenopsida",
+    "nomePt": "Esfenopsida",
+    "nomeEn": "Sphenopsid",
+    "reino": "plantae",
+    "descricao": "Ramo de plantas vasculares articuladas que inclui cavalinhas."
+  },
+  {
+    "id": "bennettital",
+    "nomePt": "Bennettital",
+    "nomeEn": "Bennettitalean",
+    "reino": "plantae",
+    "descricao": "Gimnospermas extintas de troncos robustos e estruturas reprodutivas compactas."
+  }
+]
