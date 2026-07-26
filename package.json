@@ -15,7 +15,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "test:e2e:ci": "playwright test tests/e2e/timeline.spec.ts tests/e2e/arvore.spec.ts tests/e2e/configuracoes.spec.ts tests/e2e/humanidade-biblioteca.spec.ts",
+    "test:e2e:ci": "playwright test tests/e2e/timeline.spec.ts tests/e2e/arvore.spec.ts tests/e2e/configuracoes.spec.ts tests/e2e/humanidade-biblioteca.spec.ts tests/e2e/home-layout.spec.ts",
     "content:import": "tsx scripts/content/import.ts",
     "content:migrate-expansion": "tsx scripts/content/migrate-expansion-model.ts",
     "content:seed-meta72": "tsx scripts/content/seed-meta72.ts",

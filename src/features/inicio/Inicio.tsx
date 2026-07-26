@@ -245,34 +245,36 @@ export default function Inicio() {
         </div>
       </section>
 
-      <section className="home-pathways" aria-labelledby="pathways-title">
-        <div className="home-humanity-copy">
-          <p className="eyebrow">Humanidade</p>
-          <h2 id="pathways-title">O que fósseis e genes contam sobre nós?</h2>
-          <p>Conheça registros como Lucy, Neanderthal 1 e Denisova 3, encontre seus ramos na árvore e veja o que cada evidência permite concluir.</p>
-          <div className="home-humanity-actions">
-            <Link className="button button-primary" to="/humanidade">Explorar Humanidade <IconeSeta size={17} /></Link>
-            <Link className="text-link" to="/arvore?raiz=hominidae&modo=cladograma">Ver o ramo humano <IconeSeta size={16} /></Link>
+      <section className="home-section home-pathways-section" aria-labelledby="pathways-title">
+        <div className="home-pathways">
+          <div className="home-humanity-copy">
+            <p className="eyebrow">Humanidade</p>
+            <h2 id="pathways-title">O que fósseis e genes contam sobre nós?</h2>
+            <p>Conheça registros como Lucy, Neanderthal 1 e Denisova 3, encontre seus ramos na árvore e veja o que cada evidência permite concluir.</p>
+            <div className="home-humanity-actions">
+              <Link className="button button-primary" to="/humanidade">Explorar Humanidade <IconeSeta size={17} /></Link>
+              <Link className="text-link" to="/arvore?raiz=hominidae&modo=cladograma">Ver o ramo humano <IconeSeta size={16} /></Link>
+            </div>
           </div>
+          <aside className="home-humanity-samples" aria-label="Registros em destaque">
+            <h3>Comece por um registro</h3>
+            <ol>
+              {humanitySamples.map((sample) => (
+                <li key={sample.name}>
+                  <Link to={sample.href}>
+                    {sample.image && <img alt="" loading="lazy" src={sample.image.arquivos.src} srcSet={sample.image.arquivos.miniaturaSrcSet ?? sample.image.arquivos.srcSet} />}
+                    <span>
+                      <strong>{sample.name}</strong>
+                      {sample.scientificName && <em>{sample.scientificName}</em>}
+                      {sample.year && <small>Descoberta em {sample.year}</small>}
+                    </span>
+                    <IconeSeta size={17} />
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </aside>
         </div>
-        <aside className="home-humanity-samples" aria-label="Registros em destaque">
-          <h3>Comece por um registro</h3>
-          <ol>
-            {humanitySamples.map((sample) => (
-              <li key={sample.name}>
-                <Link to={sample.href}>
-                  {sample.image && <img alt="" loading="lazy" src={sample.image.arquivos.src} srcSet={sample.image.arquivos.miniaturaSrcSet ?? sample.image.arquivos.srcSet} />}
-                  <span>
-                    <strong>{sample.name}</strong>
-                    {sample.scientificName && <em>{sample.scientificName}</em>}
-                    {sample.year && <small>Descoberta em {sample.year}</small>}
-                  </span>
-                  <IconeSeta size={17} />
-                </Link>
-              </li>
-            ))}
-          </ol>
-        </aside>
       </section>
 
       <section className="time-notebook" aria-labelledby="period-title">

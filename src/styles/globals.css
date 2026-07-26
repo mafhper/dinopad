@@ -4890,7 +4890,6 @@ img {
 
 /* Humanidade, Biblioteca e estudo local */
 
-.home-pathways,
 .home-reading-section,
 .home-personal-section,
 .humanity-hero,
@@ -5188,9 +5187,8 @@ img {
   border-radius: var(--radius-lg);
   display: grid;
   gap: var(--space-8);
-  margin-bottom: var(--space-16);
   padding: var(--space-6);
-  width: min(calc(100% - (var(--space-5) * 2)), 1240px);
+  width: 100%;
 }
 
 .featured-reading {
