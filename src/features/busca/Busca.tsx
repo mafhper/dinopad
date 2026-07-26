@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router';
 import { IconeBusca } from '../../components/Icons';
 import { useAtlas } from '../../hooks/useAtlas';
 import { CartaOrganismo } from '../colecao-cartas/CartaOrganismo';

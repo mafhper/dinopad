@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router';
 import { IconeFiltro } from '../../components/Icons';
 import { formatarEnergia, nomeColecao } from '../../content/format';
 import type { Energia, OrganismoAtlas } from '../../content/types';

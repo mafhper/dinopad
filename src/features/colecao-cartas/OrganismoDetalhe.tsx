@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router';
 import { IconeArvore, IconeBusca, IconeFavorito, IconeSeta, IconeVoltar } from '../../components/Icons';
 import { formatarEnergia, formatarFaixa } from '../../content/format';
 import { useAtlas } from '../../hooks/useAtlas';

@@ -1,5 +1,5 @@
 import { startTransition, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router';
 import { IconeExpandir, IconeFechar, IconeRecolher, IconeSeta, IconeVoltar } from '../../components/Icons';
 import { formatarEnergia } from '../../content/format';
 import type { FonteCientifica, NoFilogenetico } from '../../content/types';

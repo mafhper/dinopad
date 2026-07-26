@@ -1,5 +1,5 @@
 import { type FormEvent, useMemo, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router';
 import logoAvif384 from '../../assets/brand/dinopad-dilophosaurus-home-384.avif';
 import logoAvif768 from '../../assets/brand/dinopad-dilophosaurus-home-768.avif';
 import logoMetadata from '../../assets/brand/dinopad-dilophosaurus.generated.json';
