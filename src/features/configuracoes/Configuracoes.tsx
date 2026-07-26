@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { useAtlas } from '../../hooks/useAtlas';
 import { THEME_OPTIONS, useTheme, type ThemePreference } from '../../theme/theme';
 import { StudyDataControls } from '../estudo/StudyDataControls';

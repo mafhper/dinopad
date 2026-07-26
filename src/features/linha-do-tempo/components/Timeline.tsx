@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion';
 import { scaleLinear } from 'd3-scale';
 import { useCallback, useEffect, useMemo, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router';
 import { IconeFechar, IconeSeta, IconeVoltar } from '../../../components/Icons';
 import type { OrganismoAtlas, Periodo } from '../../../content/types';
 import { useAtlas } from '../../../hooks/useAtlas';

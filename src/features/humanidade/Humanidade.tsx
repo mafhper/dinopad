@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router';
 import { IconeArvore, IconeBiblioteca, IconeSeta } from '../../components/Icons';
 import { useAtlas } from '../../hooks/useAtlas';
 

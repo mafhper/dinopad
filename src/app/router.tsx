@@ -2,7 +2,7 @@
  * router.tsx
  * Configuracao de rotas do Dinopad usando React Router com HashRouter.
  */
-import { createHashRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router';
 import { NavigationShell } from './NavigationShell';
 import { lazy, Suspense } from 'react';
 
