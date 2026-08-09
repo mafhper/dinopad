@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import sharp from 'sharp';
 import type { MediaAsset, OrganismoAtlas } from '../../src/content/schema';
 import { loadCatalog, repoRoot } from './io';
+import { textOnly } from './text-only';
 
 type CommonsMetadata = { value?: string };
 type CommonsImageInfo = {
@@ -113,17 +114,6 @@ const curatedCommonsTitles: Partial<Record<string, Partial<Record<'evidencia' | 
     interpretacao: 'File:Cycadeoidea marylandica - National Museum of Natural History - IMG 1978.JPG',
   },
 };
-
-function textOnly(value = ''): string {
-  return value
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/&nbsp;|&#160;/gi, ' ')
-    .replace(/&amp;/gi, '&')
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;/gi, "'")
-    .replace(/\s+/g, ' ')
-    .trim();
-}
 
 function licenseFrom(metadata: Record<string, CommonsMetadata>): ApprovedLicense | null {
   const raw = textOnly(metadata.LicenseShortName?.value ?? metadata.UsageTerms?.value ?? '').toUpperCase();
