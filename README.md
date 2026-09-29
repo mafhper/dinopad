@@ -76,7 +76,10 @@ npm ci
 npm run dev
 ```
 
-O Vite informa o endereço local no terminal. Para validar o build de produção:
+O `npm run dev` imprime um cabeçalho com o nome, a versão e o estado da
+publicação, e em seguida o Vite informa o endereço local. O cabeçalho some em
+CI, em pipe e sem terminal — ele é leitura humana, e o log de CI é lido por
+ferramenta. Para validar o build de produção:
 
 ```bash
 npm run build
@@ -87,12 +90,19 @@ npm run preview
 
 | Comando | Verificação |
 | --- | --- |
-| `npm run check` | marca, lint, tipagem, testes unitários, conteúdo e build |
+| `npm run check` | dependências, marca, cabeçalho de dev, lint, tipagem, testes unitários, conteúdo e build |
+| `npm run deps:check` | `node_modules` bate com o `package-lock.json` |
 | `npm run brand:validate` | integridade da arte-mestre e das variantes geradas |
+| `npm run dev:check` | o cabeçalho do terminal contra o padrão, em dez larguras |
 | `npm run content:validate` | esquema, relações, evidências, licenças e arquivos locais |
 | `npm run test` | testes unitários e de componentes |
 | `npm run test:e2e:ci` | jornadas estáveis em retrato, paisagem e desktop |
 | `npm run test:e2e` | suíte Playwright completa, incluindo testes visuais |
+| `npm run release:local` | build de release e `release/dinopad.zip`, o artefato publicado |
+
+Depois de um `git pull` que trouxe mudanças de dependência, rode **`npm ci`**:
+com a árvore divergente o `check` reprova, e o cabeçalho do `npm run dev` mostra
+o motivo na linha `DEPS`.
 
 Antes do primeiro teste de navegador:
 
@@ -141,7 +151,10 @@ src/
 └── styles/
 scripts/
 ├── brand/                       # validação e variantes da marca
-└── content/                     # importação, mídia, validação, build e relatório
+├── content/                     # importação, mídia, validação, build e relatório
+├── dev/                         # cabeçalho de terminal e seu verificador
+└── release/                     # empacotamento do artefato publicado
+docs/                           # documentação pública, incluindo a política de release
 public/media/                    # variantes locais e miniaturas
 tests/e2e/                       # jornadas e referências visuais do Playwright
 ```
@@ -160,8 +173,11 @@ As regras de uso da marca aprovada estão em [`src/assets/brand/README.md`](src/
 - O **Dependency Guard** instala com `npm ci --ignore-scripts`, verifica assinaturas do registro, executa `npm audit` e revisa mudanças de dependências.
 - O Dependabot acompanha npm e GitHub Actions com atualizações agrupadas e cooldown para mudanças comuns.
 - Cada push em `main` validado publica automaticamente o diretório `dist/` no GitHub Pages.
+- Cada tag `v*` publicada executa o **Release Core** e cria a Release no GitHub, com a nota da versão, a arte da linha e o `dinopad-v{versão}.zip` do build estático.
 
 O build usa o `base` `/dinopad/` e o roteamento hash para funcionar de forma estática em [mafhper.github.io/dinopad](https://mafhper.github.io/dinopad/).
+
+Como cortar uma release, o que o artefato contém e a política de arte estão em [`docs/release.md`](docs/release.md).
 
 ## Dedicação
 
