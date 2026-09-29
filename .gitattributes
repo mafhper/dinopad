@@ -1,0 +1,56 @@
+# Normalização de fim de linha e de atributos de arquivo.
+#
+# Esta é uma convenção do repositório, não uma proteção do build — e a diferença
+# importa. A hipótese de que CRLF nas fontes mudasse o `dist` foi testada em
+# 2026-09-29 e **refutada**: com 57 arquivos de código convertidos para CRLF, o
+# digest do manifesto de precache e o `sha256` de um chunk saíram idênticos,
+# porque o Vite normaliza fim de linha na entrada.
+#
+# O que este arquivo resolve é o resto:
+#
+#   1. `core.autocrlf` é configuração da MÁQUINA e não se propaga no clone. Sem
+#      este arquivo, o mesmo commit é lido de formas diferentes em máquinas
+#      diferentes, e nada no repositório diz qual delas é a certa.
+#   2. `.github/dependabot.yml` está gravado no índice com finais mistos
+#      (`i/mixed`), que é a condição que produz "a linha alterou numa revisão
+#      que não mudou nada".
+#
+# Medido antes de aplicar: o índice está 100% LF e a árvore de trabalho também,
+# com **zero** arquivos CRLF. Por isso a aplicação **não** gera uma
+# renormalização em massa — o diff deste PR é só este arquivo.
+#
+# Sobre `.github/dependabot.yml`: o blob guardado no histórico tem CRLF, e com
+# este arquivo a árvore de trabalho passa a ser lida em LF sem reescrever o
+# histórico. Ele será normalizado no blob na próxima vez que for modificado de
+# verdade. Registrado aqui porque a intenção é que ninguém "conserte" isso
+# achando que é um efeito colateral — é deliberado, e é a única linha deste
+# arquivo que ainda não teve efeito.
+
+# Normalização padrão: LF no repositório e na árvore de trabalho.
+* text=auto eol=lf
+
+# O que não é texto, e por quê.
+*.webp   binary
+*.avif   binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.woff   binary
+*.woff2  binary
+*.zip    binary
+
+# Diff e merge legíveis para o que é estrutural e revisado à mão.
+*.yml    text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+
+# O manifesto e o lockfile não devem ser filtrados por linha: um CRLF aplicado
+# a eles aparece como mudança real no diff do lockfile.
+package.json      text eol=lf
+package-lock.json text eol=lf diff=lock
+
+# O `.gitattributes` precisa se descrever a si mesmo com LF, senão a regra
+# acima se contradiz no arquivo que a define.
+.gitattributes text eol=lf

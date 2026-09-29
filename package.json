@@ -4,10 +4,16 @@
   "version": "0.1.0",
   "description": "Atlas interativo mobile-first sobre a história da vida, fósseis, fauna e flora",
   "type": "module",
+  "packageManager": "npm@11.6.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "brand:build": "tsx scripts/brand/process-logo.ts",
     "brand:validate": "tsx scripts/brand/process-logo.ts --check",
+    "predev": "tsx scripts/dev/header.ts",
     "dev": "vite",
+    "dev:check": "tsx scripts/dev/header.check.ts",
     "build": "npm run content:validate && npm run content:build && tsc -b && vite build && tsx scripts/build-sw-manifest.ts",
     "preview": "vite preview",
     "lint": "eslint .",
@@ -16,6 +22,9 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:ci": "playwright test tests/e2e/timeline.spec.ts tests/e2e/arvore.spec.ts tests/e2e/configuracoes.spec.ts tests/e2e/humanidade-biblioteca.spec.ts tests/e2e/home-layout.spec.ts",
+    "release:pack": "tsx scripts/release/pack.ts",
+    "release:local": "npm run build && npm run release:pack",
+    "deps:check": "tsx scripts/deps-check.ts",
     "content:import": "tsx scripts/content/import.ts",
     "content:migrate-expansion": "tsx scripts/content/migrate-expansion-model.ts",
     "content:seed-meta72": "tsx scripts/content/seed-meta72.ts",
@@ -26,7 +35,7 @@
     "content:approve-meta72": "tsx scripts/content/approve-meta72.ts",
     "content:build": "tsx scripts/content/build-index.ts",
     "content:report": "tsx scripts/content/report.ts",
-    "check": "npm run brand:validate && npm run lint && npm run type-check && npm run test && npm run build"
+    "check": "npm run deps:check && npm run brand:validate && npm run dev:check && npm run lint && npm run type-check && npm run test && npm run build"
   },
   "dependencies": {
     "d3-hierarchy": "^3.1.2",

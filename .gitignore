@@ -10,6 +10,9 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+# Saída do empacotador de release. Ancorado na raiz de propósito: um `release`
+# sem âncora também casa `scripts/release/`, que é código versionado.
+/release
 *.tsbuildinfo
 *.local
 .env
