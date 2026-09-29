@@ -116,7 +116,7 @@ export async function referenciasPendentes(
 
       let packument: { versions?: Record<string, { dist?: { attestations?: { url?: string } } }> };
       try {
-        const resposta = await buscar(`https://registry.npmjs.org/${nome.replace('/', '%2f')}`);
+        const resposta = await buscar(`https://registry.npmjs.org/${nome.replaceAll('/', '%2f')}`);
         if (!resposta.ok) continue;
         packument = (await resposta.json()) as typeof packument;
       } catch {
