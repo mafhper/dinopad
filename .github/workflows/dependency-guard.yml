@@ -6,6 +6,14 @@ on:
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/**"
+      - "docs/dependency-provenance-exceptions.md"
+      - "scripts/deps-provenance.ts"
+  # A varredura semanal fecha o buraco conhecido do portão de PR: o npm para no
+  # primeiro pacote pendente, então a passagem por PR não enxerga um segundo que
+  # ficasse atrás. Aqui a árvore inteira é enumerada e comparada com a lista.
+  # Segunda, 06:40 UTC.
+  schedule:
+    - cron: "40 6 * * 2"
 
 permissions:
   contents: read
@@ -29,8 +37,13 @@ jobs:
       - name: Install without lifecycle scripts
         run: npm ci --ignore-scripts
 
+      # Wrapper, e não `npm audit signatures` cru: o npm para no primeiro pacote
+      # pendente, então ele não consegue dizer se a falha está contida na lista
+      # de exceções. No PR o wrapper confere a coordenada que o npm nomeou; na
+      # varredura semanal ele enumera a árvore inteira. Falha para o lado
+      # fechado nos dois modos. Ver docs/dependency-provenance-exceptions.md.
       - name: Verify npm registry signatures
-        run: npm audit signatures
+        run: npm run deps:provenance${{ github.event_name == 'schedule' && ' -- --sweep' || '' }}
 
       - name: Audit known vulnerabilities
         run: npm audit --audit-level=high
