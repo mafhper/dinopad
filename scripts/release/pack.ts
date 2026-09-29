@@ -21,7 +21,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { relative, resolve, sep } from 'node:path';
-import { crc32, deflateRawSync } from 'node:zlib';
+import { crc32, deflateRawSync, inflateRawSync } from 'node:zlib';
 
 const root = resolve(import.meta.dirname, '..', '..');
 const dist = resolve(root, 'dist');
@@ -55,12 +55,17 @@ const posix = (caminho: string) => relative(dist, caminho).split(sep).join('/');
 const ASSINATURA_LOCAL = 0x04034b50;
 const ASSINATURA_CENTRAL = 0x02014b50;
 const ASSINATURA_FIM = 0x06054b50;
+const METODO_ARMAZENAR = 0;
 const METODO_DEFLATE = 8;
 
 interface Entrada {
   nome: string;
   bruto: Buffer;
-  comprimido: Buffer;
+  /** Os bytes que vão para o arquivo, e não o original: deflate ou o próprio bruto. */
+  payload: Buffer;
+  /** O método DEVE descrever `payload`. A v1 escrevia sempre DEFLATE — e o `unzip -t` da
+   *  CI reprovou a release v0.1.0 inteira por isso. Ver `conferirZip`. */
+  metodo: number;
   crc: number;
 }
 
@@ -93,11 +98,11 @@ function escreverZip(entradas: Entrada[], relogio: RelogioDos): Buffer {
     cabecalho.writeUInt32LE(ASSINATURA_LOCAL, 0);
     cabecalho.writeUInt16LE(20, 4); // versão necessária
     cabecalho.writeUInt16LE(sinalizadores, 6);
-    cabecalho.writeUInt16LE(METODO_DEFLATE, 8);
+    cabecalho.writeUInt16LE(entrada.metodo, 8);
     cabecalho.writeUInt16LE(relogio.hora, 10);
     cabecalho.writeUInt16LE(relogio.data, 12);
     cabecalho.writeUInt32LE(entrada.crc, 14);
-    cabecalho.writeUInt32LE(entrada.comprimido.length, 18);
+    cabecalho.writeUInt32LE(entrada.payload.length, 18);
     cabecalho.writeUInt32LE(entrada.bruto.length, 22);
     cabecalho.writeUInt16LE(nome.length, 26);
     cabecalho.writeUInt16LE(0, 28); // sem campo extra
@@ -107,11 +112,11 @@ function escreverZip(entradas: Entrada[], relogio: RelogioDos): Buffer {
     registro.writeUInt16LE(20, 4); // versão de criação
     registro.writeUInt16LE(20, 6); // versão necessária
     registro.writeUInt16LE(sinalizadores, 8);
-    registro.writeUInt16LE(METODO_DEFLATE, 10);
+    registro.writeUInt16LE(entrada.metodo, 10);
     registro.writeUInt16LE(relogio.hora, 12);
     registro.writeUInt16LE(relogio.data, 14);
     registro.writeUInt32LE(entrada.crc, 16);
-    registro.writeUInt32LE(entrada.comprimido.length, 20);
+    registro.writeUInt32LE(entrada.payload.length, 20);
     registro.writeUInt32LE(entrada.bruto.length, 24);
     registro.writeUInt16LE(nome.length, 28);
     registro.writeUInt16LE(0, 30); // extra
@@ -121,9 +126,9 @@ function escreverZip(entradas: Entrada[], relogio: RelogioDos): Buffer {
     registro.writeUInt32LE(0, 38); // atributos externos
     registro.writeUInt32LE(deslocamento, 42);
 
-    locais.push(cabecalho, nome, entrada.comprimido);
+    locais.push(cabecalho, nome, entrada.payload);
     central.push(registro, nome);
-    deslocamento += cabecalho.length + nome.length + entrada.comprimido.length;
+    deslocamento += cabecalho.length + nome.length + entrada.payload.length;
   }
 
   const diretorio = Buffer.concat(central);
@@ -140,24 +145,84 @@ function escreverZip(entradas: Entrada[], relogio: RelogioDos): Buffer {
   return Buffer.concat([...locais, diretorio, fim]);
 }
 
-// O ZIP é relido antes de sair daqui. Um arquivo que ninguém descompactou é uma
-// afirmação; um que foi relido é prova — e o custo é uma varredura do arquivo.
-function conferirZip(zip: Buffer, esperado: number): void {
-  // A assinatura é procurada como sequência de 4 bytes: passada como número,
-  // `lastIndexOf` do Buffer reduz o valor a um único byte e acha o lugar errado.
-  const fim = zip.lastIndexOf(Buffer.from([0x50, 0x4b, 0x05, 0x06]), zip.length - 22);
+// O ZIP é relido antes de sair daqui, e cada entrada é **descomprimida**.
+//
+// Esta função não existia na v1, e a ausência é a origem do incidente: a
+// verificação local abria o arquivo com uma reader independente, lia o
+// diretório central, os nomes e o `MANIFEST.json` — e passava. Ela não
+// descomprimia nada. O `unzip -t` do gate descomprime, e reprovou a release
+// v0.1.0 inteira.
+//
+// A lição é a mesma que a do `welcome.check.mjs` da frota: *ler a estrutura não
+// é ler o conteúdo*. Por isso a conferência percorre o **diretório central do
+// arquivo gravado** — não o array que o gerou — e compara byte a byte.
+function conferirZip(zip: Buffer, originais: Entrada[]): { guardadas: number; defladas: number } {
+  const assinatura = Buffer.from([0x50, 0x4b, 0x05, 0x06]);
+  const fim = zip.lastIndexOf(assinatura, zip.length - 22);
   if (fim < 0) throw new Error('O ZIP gerado não tem registro de fim de diretório central.');
-  if (zip.readUInt16LE(fim + 10) !== esperado) {
-    throw new Error(`O diretório central do ZIP declara ${zip.readUInt16LE(fim + 10)} entradas; esperava ${esperado}.`);
+  const total = zip.readUInt16LE(fim + 10);
+  if (total !== originais.length) {
+    throw new Error(`O diretório central declara ${total} entradas; esperava ${originais.length}.`);
   }
-  if (zip.readUInt32LE(fim + 16) + zip.readUInt32LE(fim + 12) !== fim) {
+  const diretorio = zip.readUInt32LE(fim + 16);
+  if (diretorio + zip.readUInt32LE(fim + 12) !== fim) {
     throw new Error('O deslocamento do diretório central não fecha com o fim do arquivo.');
   }
+
+  let cursor = diretorio;
+  let guardadas = 0;
+  let defladas = 0;
+
+  for (const original of originais) {
+    if (zip.readUInt32LE(cursor) !== ASSINATURA_CENTRAL) {
+      throw new Error(`Registro central inválido na entrada "${original.nome}".`);
+    }
+    const metodo = zip.readUInt16LE(cursor + 10);
+    const crc = zip.readUInt32LE(cursor + 16);
+    const comprimido = zip.readUInt32LE(cursor + 20);
+    const tamanhoNome = zip.readUInt16LE(cursor + 28);
+    const extra = zip.readUInt16LE(cursor + 30);
+    const comentario = zip.readUInt16LE(cursor + 32);
+    const local = zip.readUInt32LE(cursor + 42);
+    const nome = zip.toString('utf8', cursor + 46, cursor + 46 + tamanhoNome);
+    if (nome !== original.nome) {
+      throw new Error(`O diretório central lista "${nome}" onde esperava "${original.nome}".`);
+    }
+
+    // O cabeçalho local tem os próprios campos de nome e extra, e eles podem
+    // diferir dos do central — daí a segunda leitura em vez de reusar o tamanho.
+    const inicio = local + 30 + zip.readUInt16LE(local + 26) + zip.readUInt16LE(local + 28);
+    const payload = zip.subarray(inicio, inicio + comprimido);
+    const reconstituido = metodo === METODO_DEFLATE ? inflateRawSync(payload) : payload;
+
+    if (metodo === METODO_DEFLATE) defladas += 1;
+    else if (metodo === METODO_ARMAZENAR) guardadas += 1;
+    else throw new Error(`Método de compressão desconhecido (${metodo}) em "${original.nome}".`);
+
+    if (reconstituido.length !== original.bruto.length || !reconstituido.equals(original.bruto)) {
+      throw new Error(`A entrada "${original.nome}" não volta igual depois de descompactar (${reconstituido.length} bytes contra ${original.bruto.length}).`);
+    }
+    if (crc !== original.crc || crc32(reconstituido) !== original.crc) {
+      throw new Error(`O CRC32 de "${original.nome}" não confere.`);
+    }
+
+    cursor += 46 + tamanhoNome + extra + comentario;
+  }
+
+  return { guardadas, defladas };
 }
 
 // ── O MANIFEST ──────────────────────────────────────────────────────────────
 
-function montar(): { zip: Buffer; tag: string; versao: string; arquivos: number; bytes: number } {
+function montar(): {
+  zip: Buffer;
+  tag: string;
+  versao: string;
+  arquivos: number;
+  bytes: number;
+  guardadas: number;
+  defladas: number;
+} {
   if (!existsSync(dist)) {
     throw new Error('dist/ não existe. Rode `npm run build` antes de empacotar.');
   }
@@ -196,21 +261,27 @@ function montar(): { zip: Buffer; tag: string; versao: string; arquivos: number;
   conteudos.push(['MANIFEST.json', Buffer.from(`${JSON.stringify(manifesto, null, 2)}\n`, 'utf8')]);
   conteudos.sort(([a], [b]) => a.localeCompare(b));
 
+  // O método é decidido **por entrada**, e é ele que vai no cabeçalho. A v1
+  // gravava sempre DEFLATE, e gravava os bytes crus quando o deflate não
+  // ajudava — que é o que acontece com WebP e AVIF, que já vêm comprimidos.
+  // O resultado era um arquivo que abria, listava e só falhava na hora de
+  // descompactar. Foi o que reprovou o `unzip -t` do gate na v0.1.0.
   const entradas: Entrada[] = conteudos.map(([nome, bruto]) => {
     const comprimido = deflateRawSync(bruto, { level: 9 });
+    const compensa = comprimido.length < bruto.length;
     return {
       nome,
       bruto,
-      // Guardado só para a conferência; o ZIP carrega o comprido.
-      comprimido: comprimido.length < bruto.length ? comprimido : bruto,
+      payload: compensa ? comprimido : bruto,
+      metodo: compensa ? METODO_DEFLATE : METODO_ARMAZENAR,
       crc: crc32(bruto),
     };
   });
 
   const zip = escreverZip(entradas, relogio);
-  conferirZip(zip, entradas.length);
+  const conferencia = conferirZip(zip, entradas);
 
-  return { zip, tag, versao, arquivos: arquivos.length, bytes: total };
+  return { zip, tag, versao, arquivos: arquivos.length, bytes: total, ...conferencia };
 }
 
 const resultado = montar();
@@ -219,7 +290,11 @@ writeFileSync(saida, resultado.zip);
 
 console.log(
   `Empacotado ${resultado.versao} (${resultado.tag}): ${resultado.arquivos} arquivos, ` +
-    `${(resultado.bytes / 1024 / 1024).toFixed(1)} MB, ${(resultado.zip.length / 1024 / 1024).toFixed(1)} MB comprimido.`,
+    `${(resultado.bytes / 1024 / 1024).toFixed(1)} MB, ${(resultado.zip.length / 1024 / 1024).toFixed(1)} MB no ZIP.`,
+);
+console.log(
+  `Conferido: ${resultado.defladas} entradas deflate, ${resultado.guardadas} guardadas — ` +
+    `todas descompactadas de volta e comparadas com o original.`,
 );
 console.log(`Artefato: ${relative(root, saida)}`);
 console.log(`Base do Vite: ${baseDoVite} — extrair o ZIP não basta para abrir em file://; sirva sob esse caminho.`);
