@@ -28,12 +28,16 @@ jobs:
           persist-credentials: false
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4.38.0
+        uses: github/codeql-action/init@2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2 # v4.38.2
         with:
           languages: javascript-typescript
           build-mode: none
 
+      # `init` e `analyze` precisam da MESMA versão. O Dependabot abriu a #52
+      # (init) e a #51 (analyze) como PRs separadas, e cada uma sozinha falha com
+      # "Loaded a configuration file for version '4.38.0', but running version
+      # '4.38.2'". Por isso a subida das duas é feita aqui, juntas.
       - name: Analyze
-        uses: github/codeql-action/analyze@b96794f015dfd88f77b49b1c93e0fa7110f94c63 # v4.38.0
+        uses: github/codeql-action/analyze@2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2 # v4.38.2
         with:
           category: /language:javascript-typescript
