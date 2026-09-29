@@ -30,6 +30,7 @@ import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { resumoDependencias } from '../deps-check';
 
 // ─── Configuração ───────────────────────────────────────────────────────────
 // Fica aqui, no topo, e não num arquivo separado: há um consumidor só, e um
@@ -142,6 +143,27 @@ function estadoDaVersao(declarada: string): { texto: string; tom: string } {
   return { texto: `atrás de ${tag}`, tom: T.erro };
 }
 
+/**
+ * A árvore instalada contra o lockfile, em uma linha.
+ *
+ * Devolve `null` — e a seção **não aparece** — quando a leitura falha. Um
+ * cabeçalho não pode mentir dizendo "em dia" sobre uma árvore que ele não
+ * conseguiu ler, e também não pode quebrar o `npm run dev` por causa de um
+ * lockfile ilegível. §8 do padrão: se não se aplica, o bloco não aparece.
+ */
+function estadoDasDependencias(): { texto: string; tom: string } | null {
+  try {
+    const r = resumoDependencias();
+    if (r.estado === 'ok') return { texto: 'em dia com o lockfile', tom: T.estrutura };
+    const n = r.divergentes.length;
+    return r.estado === 'quebrado'
+      ? { texto: `${n} fora da faixa do manifesto | npm ci`, tom: T.erro }
+      : { texto: `${n} atrás do lockfile | npm ci`, tom: T.aviso };
+  } catch {
+    return null;
+  }
+}
+
 // ─── As linhas ──────────────────────────────────────────────────────────────
 // Cada linha é um objeto: `min` é a largura abaixo da qual ela cai, e `0`
 // significa que ela nunca cai. A ordem de sacrifício é a do padrão: dado
@@ -204,6 +226,25 @@ function montar(): Linha[] {
     linhas.push({ min: 66, partes });
   }
 
+  // DEPS: a árvore instalada contra o lockfile.
+  //
+  // Esta linha entrou depois de um incidente medido, e não por moda. A árvore
+  // local estava 16 dependências atrás do `package-lock.json` — duas delas em
+  // **major** errada — e `npm run check` passou inteiro, verde, sem que nada
+  // olhasse. O que sePagava: `tsc` rodava contra tipos de Node 22 num projeto
+  // que pede Node 26, os testes rodavam contra uma major diferente da que a CI
+  // usa, e o mesmo commit produzia bytes diferentes dos dois lados
+  // (precache `789b1254d138456b` local, `2605a2540eb4063a` na CI).
+  //
+  // É o limiar que mais importa e que nenhuma outra linha cobre: as outras
+  // descrevem o ambiente, esta diz se o que você está rodando é o que o
+  // repositório travou. Por isso ela fica acima do NODE, que é informação de
+  // contexto, e não de correção.
+  const arvore = estadoDasDependencias();
+  if (arvore) {
+    linhas.push({ min: 58, partes: [p(T.estrutura, 'DEPS'), p(arvore.tom, '    ' + arvore.texto)] });
+  }
+
   // NODE: o site declara `engines.node`, então o limiar existe e é verificável.
   const engines = (() => {
     try {
@@ -217,7 +258,7 @@ function montar(): Linha[] {
   const atual = Number(process.versions.node.split('.')[0]);
   const desatualizado = minima > 0 && atual < minima;
   linhas.push({
-    min: 58,
+    min: 48,
     partes: [
       p(T.estrutura, 'NODE'),
       p(desatualizado ? T.erro : T.dado, '    ' + process.versions.node),

@@ -27,12 +27,34 @@ ou o workflow falha antes de compilar.
 ## Reproduzir a release localmente
 
 ```bash
+npm ci                      # a árvore tem de ser a do lockfile — ver abaixo
 npm run release:local
 ```
 
 Roda o mesmo `build` que a release roda e produz `release/dinopad.zip` — o
 artefato exato que será publicado. Serve para conferir o que vai sair sem
 esperar o GitHub.
+
+### `npm ci` primeiro, e não é sugestão
+
+O ZIP é construído a partir do `package-lock.json`, com as versões que ele
+trava. Uma `node_modules` divergente **não falha**: ela compila, os testes
+passam, e o resultado é um artefato diferente do que a CI vai publicar.
+
+Isso não é teórico. Em 2026-09-29 a árvore local estava 16 dependências atrás do
+lockfile — `@testing-library/jest-dom` numa **major** errada, `@types/node` três
+majors atrás — e o `npm run check` passou inteiro sem reclamar. O sintoma era o
+`dist` sair com outro hash de precache (`789b1254d138456b` local contra
+`2605a2540eb4063a` na CI) por causa do `zod` instalado ser o 4.4.3 e o do
+lockfile o 4.5.4.
+
+Por isso `npm run check` começa com `npm run deps:check`, que reprova quando a
+árvore não bate com o lockfile, e `npm run dev` mostra a mesma informação na
+linha `DEPS`. Um build local só é um ensaio fiel depois de um `npm ci`.
+
+**`npm install` não resolve.** Ele atualiza o lockfile para casar com a árvore, e
+com isso satisfaz o gate sem trocar nada — que é exatamente o caminho que
+produz o problema.
 
 ## O artefato
 

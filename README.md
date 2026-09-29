@@ -90,7 +90,8 @@ npm run preview
 
 | Comando | Verificação |
 | --- | --- |
-| `npm run check` | marca, cabeçalho de dev, lint, tipagem, testes unitários, conteúdo e build |
+| `npm run check` | dependências, marca, cabeçalho de dev, lint, tipagem, testes unitários, conteúdo e build |
+| `npm run deps:check` | `node_modules` bate com o `package-lock.json` |
 | `npm run brand:validate` | integridade da arte-mestre e das variantes geradas |
 | `npm run dev:check` | o cabeçalho do terminal contra o padrão, em dez larguras |
 | `npm run content:validate` | esquema, relações, evidências, licenças e arquivos locais |
@@ -98,6 +99,10 @@ npm run preview
 | `npm run test:e2e:ci` | jornadas estáveis em retrato, paisagem e desktop |
 | `npm run test:e2e` | suíte Playwright completa, incluindo testes visuais |
 | `npm run release:local` | build de release e `release/dinopad.zip`, o artefato publicado |
+
+Depois de um `git pull` que trouxe mudanças de dependência, rode **`npm ci`**:
+com a árvore divergente o `check` reprova, e o cabeçalho do `npm run dev` mostra
+o motivo na linha `DEPS`.
 
 Antes do primeiro teste de navegador:
 

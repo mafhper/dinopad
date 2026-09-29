@@ -47,6 +47,17 @@ function listar(arquivo: string): string[] {
 
 const posix = (caminho: string) => relative(dist, caminho).split(sep).join('/');
 
+/**
+ * Ordem por ponto de código, e não por collation.
+ *
+ * A ordem das entradas vai para o arquivo ZIP e para o relatório. `localeCompare`
+ * sem locale explícito depende do ICU do runtime — que muda entre versão de Node e
+ * entre plataforma — e o efeito é um artefato cujo conteúdo muda sem que o
+ * conteúdo do projeto mude. Caminhos POSIX são ASCII, então comparar por ponto de
+ * código dá a mesma ordem em qualquer máquina, sem ICU.
+ */
+const porCodigo = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
+
 // ── O ZIP ───────────────────────────────────────────────────────────────────
 // Escrito à mão porque nenhum pacote faz isto melhor do que `node:zlib`. Só o
 // formato que o `unzip` de qualquer plataforma precisa ler: cabeçalhos local e
@@ -235,7 +246,7 @@ function montar(): {
     throw new Error(`A tag ${tag} não corresponde à versão ${versao} do package.json.`);
   }
 
-  const arquivos = listar(dist).sort((a, b) => posix(a).localeCompare(posix(b)));
+  const arquivos = listar(dist).sort((a, b) => porCodigo(posix(a), posix(b)));
   if (arquivos.length === 0) throw new Error('dist/ está vazio: não há nada para empacotar.');
 
   const relogio = paraDos(cmd('git', ['log', '-1', '--format=%cI']));
@@ -259,7 +270,7 @@ function montar(): {
     (caminho): [string, Buffer] => [posix(caminho), readFileSync(caminho)],
   );
   conteudos.push(['MANIFEST.json', Buffer.from(`${JSON.stringify(manifesto, null, 2)}\n`, 'utf8')]);
-  conteudos.sort(([a], [b]) => a.localeCompare(b));
+  conteudos.sort(([a], [b]) => porCodigo(a, b));
 
   // O método é decidido **por entrada**, e é ele que vai no cabeçalho. A v1
   // gravava sempre DEFLATE, e gravava os bytes crus quando o deflate não

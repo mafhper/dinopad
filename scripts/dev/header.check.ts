@@ -15,7 +15,7 @@
    controle. Tira-lo do padrão deixaria a verificação cega justamente no que
    ela existe para provar. */
 import { spawnSync } from 'node:child_process';
-import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
@@ -45,7 +45,8 @@ function ok(cond: boolean, msg: string, detalhe?: string): void {
 }
 
 const TOKENS_PERMITIDOS = ['\x1b[1m', '\x1b[90m', '\x1b[7m', '\x1b[0m', '\x1b[32m', '\x1b[33m', '\x1b[31m'];
-const LARGURAS = [120, 100, 88, 84, 80, 66, 60, 58, 45, 39];
+const LARGURAS = [120, 100, 88, 84, 80, 66, 58, 48, 45, 39];
+const ROTULOS = /^(DEV|DEPS|GIT|NODE)\b/gm;
 
 function rodar(args: string[], env: NodeJS.ProcessEnv, cwd = RAIZ) {
   return spawnSync(process.execPath, ['--import', TSX, ...args], {
@@ -189,13 +190,14 @@ for (const cols of LARGURAS) {
   ok(maisLonga <= cols, `§6  ${cols}: nenhuma linha passa da largura`, 'mais longa=' + maisLonga);
 
   // §4 interface em caixa alta. O herói é dado; os rótulos de seção são interface.
-  const rotulos = (limpo.match(/^(DEV|GIT|NODE)\b/gm) || []).length;
+  const rotulos = (limpo.match(ROTULOS) || []).length;
   ok(rotulos > 0, `§4  ${cols}: rótulos de seção em caixa alta`);
   ok(!/^Dinopad [a-z]/.test(limpo), `§4  ${cols}: o herói (dado) NÃO vai em caixa alta`);
 
   // §6 degradação nos limiares declarados
   ok(cols >= 60 ? soRegua.test(limpo) : !soRegua.test(limpo), `§5  ${cols}: régua no limiar de 60`);
-  ok(cols >= 58 ? /NODE/.test(limpo) : !/NODE/.test(limpo), `§6  ${cols}: NODE no limiar de 58`);
+  ok(cols >= 58 ? /DEPS/.test(limpo) : !/DEPS/.test(limpo), `§6  ${cols}: DEPS no limiar de 58`);
+  ok(cols >= 48 ? /NODE/.test(limpo) : !/NODE/.test(limpo), `§6  ${cols}: NODE no limiar de 48`);
   ok(cols >= 66 ? /GIT/.test(limpo) : !/GIT/.test(limpo), `§6  ${cols}: GIT no limiar de 66`);
   ok(cols >= 88 ? /Atlas interativo/.test(limpo) : !/Atlas interativo/.test(limpo), `§6  ${cols}: descrição no limiar de 88`);
 
@@ -218,6 +220,39 @@ for (const cols of LARGURAS) {
   ];
   const achada = formas.find(([, re]) => re.test(linha));
   ok(!!achada, '§3  a primeira linha diz, em uma das quatro formas, se a versão já foi publicada', JSON.stringify(linha));
+}
+
+// ── §3 status: a árvore instalada contra o lockfile ─────────────────────────
+// A mesma tríade, o segundo limiar de verdade do cabeçalho. Aqui a prova é
+// mais forte: a árvore é de fato quebrada, e a asserção não pode passar por
+// vacuidade — ela exige ver o tom de erro no lugar certo.
+{
+  const { saida } = comTty(120);
+  const linha = semCor(saida).split('\n').find((l) => l.startsWith('DEPS')) ?? '';
+  ok(/em dia com o lockfile/.test(linha), '§3  DEPS diz em que estado a árvore está', JSON.stringify(linha));
+  ok(/npm ci/.test(linha) === /fora da faixa|atrás/.test(linha), '§3  DEPS só sugere `npm ci` quando há o que corrigir');
+  const comProblema = saida.split('\n').find((l) => l.includes('\x1b[31m') && l.includes('DEPS')) ?? '';
+  ok(comProblema === '', '§3  com a árvore em dia, DEPS não usa o tom de erro');
+}
+
+// ── §3 status: `erro` é para o caso em que a verdade está invertida ─────────
+// Um projeto por começar não é erro; uma árvore que viola o próprio manifesto é.
+{
+  const original = join(RAIZ, 'node_modules', 'zod', 'package.json');
+  const bom = readFileSync(original, 'utf8');
+  const falso = JSON.parse(bom) as { version: string };
+  falso.version = '3.0.0'; // fora de `^4.4.3`: major errada, que é o caso medido
+  writeFileSync(original, JSON.stringify(falso, null, 2), 'utf8');
+  try {
+    const { saida } = comTty(120);
+    const linhaANSI = saida.split('\n').find((l) => l.includes('DEPS')) ?? '';
+    const limpo = semCor(linhaANSI);
+    ok(/fora da faixa do manifesto \| npm ci/.test(limpo), '§3  árvore violando o manifesto: DEPS diz o que houve', JSON.stringify(limpo));
+    ok(linhaANSI.includes('\x1b[31m'), '§3  árvore violando o manifesto: DEPS usa o tom de erro');
+    ok(/DEPS[\s\S]*\x1b\[31m/.test(saida), '§3  o tom de erro está na linha do DEPS, não em outra');
+  } finally {
+    writeFileSync(original, bom, 'utf8');
+  }
 }
 
 console.log('\n' + (falhas.length ? `FALHOU (${falhas.length})` : 'TUDO VERDE'));
