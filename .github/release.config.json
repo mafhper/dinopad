@@ -1,0 +1,47 @@
+{
+  "release": {
+    "title": "Dinopad",
+    "tagline": "Atlas interativo mobile-first sobre a história da vida, fósseis, fauna e flora.",
+    "language": "pt-BR",
+    "image": {
+      "path": "docs/images/releases",
+      "required": true,
+      "granularity": "minor",
+      "upload": true,
+      "title_in_body": false
+    },
+    "notes": {
+      "granularity": "tag"
+    },
+    "sections": {
+      "usage": "## Uso\n\nA versão publicada está no ar em **https://mafhper.github.io/dinopad/**, e é atualizada a cada push em `main`.\n\nO arquivo `dinopad-v{version}.zip` desta release é o **mesmo build estático**, pronto para servir fora do GitHub Pages. Para usar:\n\n```bash\nunzip dinopad-v0.1.0.zip -d dinopad\nnpx serve dinopad   # ou qualquer servidor estático\n```\n\n**Atenção ao caminho.** O site é compilado com `base: /dinopad/`, e é por isso que todo asset é referenciado a partir desse prefixo. Abrir `index.html` direto do disco (`file://`) não funciona, e servir a pasta na raiz de um domínio também não. Serve em `/dinopad/`, ou recompile com `vite build --base=/`.\n\nO `MANIFEST.json` na raiz do ZIP diz a versão, a tag, o commit e a data de cada arquivo.",
+      "extra": "## O que esta release contém\n\n- A nota de cada tag, gerada a partir dos commits.\n- A arte da linha `major.minor`. Entrar numa linha nova exige uma arte nova, e o workflow falha se ela faltar — é o que impede a release de repetir a imagem da versão anterior.\n- O `dinopad-v{version}.zip`, com o site estático completo e o `MANIFEST.json`.\n\n## Release e deploy são separados\n\nUma tag `vX.Y.Z` executa este protocolo e produz a Release. Um push em `main` executa o deploy e atualiza o site. Os dois partem do mesmo código e respondem a perguntas diferentes — *\"qual versão foi construída e validada?\"* e *\"o que está publicado agora?\"*.\n\nO `npm run build` abaixo não é redundante: ele valida o commit exato que a tag aponta, que não é necessariamente o último `main` que fez deploy. E ele não é um `build` genérico — a validação de conteúdo (`content:validate`) acontece antes de compilar, e ela é o que impede que um índice quebrado seja publicado como versão.\n\n## Corrigir a arte depois da tag\n\nA tag não se move. Para corrigir a arte de uma release já publicada, commite `release-vX.Y.Z-new.webp` em `main` e re-rode o workflow daquela tag pelo `workflow_dispatch`. O asset é reenviado e o corpo passa a apontar para ele — sem perder o ZIP já publicado."
+    }
+  },
+  "build": {
+    "package_manager": "npm",
+    "node": "22",
+    "gates": [
+      "npm run brand:validate",
+      "npm run lint",
+      "npm run type-check",
+      "npm run test"
+    ],
+    "command": "npm run release:local"
+  },
+  "artifact": {
+    "enabled": true,
+    "path": "release/dinopad.zip",
+    "release_name": "dinopad-v{version}.zip",
+    "validate": [
+      "unzip -t \"$1\"",
+      "unzip -l \"$1\" | grep -q 'MANIFEST.json'",
+      "unzip -l \"$1\" | grep -q 'index.html'",
+      "! unzip -l \"$1\" | grep -q '\\.map$'",
+      "! unzip -l \"$1\" | grep -q 'node_modules/'"
+    ]
+  },
+  "versions": {
+    "files": []
+  }
+}
