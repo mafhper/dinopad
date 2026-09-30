@@ -1,7 +1,7 @@
 {
   "name": "dinopad",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Atlas interativo mobile-first sobre a história da vida, fósseis, fauna e flora",
   "type": "module",
   "packageManager": "npm@11.6.0",
