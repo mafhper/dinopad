@@ -115,10 +115,10 @@ npm run test:e2e:ci
 
 | Comando | Função |
 | --- | --- |
-| `npm run content:import -- [ids]` | importa dados brutos para `.dev/content-imports` |
+| `npm run content:import -- [ids]` | importa dados brutos para `.content/imports` |
 | `npm run content:media` | processa mídias aprovadas e gera variantes AVIF/WebP |
 | `npm run content:build` | gera o catálogo e os índices estáticos consumidos pelo app |
-| `npm run content:report` | grava o relatório editorial em `.dev/content-health` |
+| `npm run content:report` | grava o relatório editorial em `.content/health` |
 | `npm run content:report -- --milestone meta-72` | verifica a cobertura do checkpoint Meta 72 |
 | `npm run content:report -- --check-links` | testa links editoriais sem bloquear o build |
 

@@ -19,10 +19,17 @@ dist-ssr
 .env.*
 !.env.example
 
-# Contexto privado de agentes e importações editoriais brutas
+# Contexto privado de agentes
 .dev/
 _dev/
 .codex/
+
+# Curadoria editorial: importações brutas, relatórios de saúde e candidatos.
+# Fica NA RAIZ do projeto, e não dentro de `.dev/`, porque `.dev/` é o workspace
+# do dev-dashboard (ADR-001: local-only, gerenciado por outro repositório). Com a
+# saída aqui dentro, os scripts versionados gravavam no workspace de outro
+# sistema — e qualquer doc honesta tinha que citar `.dev`, que é privado.
+.content/
 .agents/
 .gemini/
 .gemini-clipboard/

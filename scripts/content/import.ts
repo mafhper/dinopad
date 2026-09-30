@@ -11,7 +11,7 @@ const organismos = catalogo.organismos.filter((organismo) =>
 );
 
 const stamp = new Date().toISOString().slice(0, 10);
-const outputDir = resolve(repoRoot, '.dev/content-imports', stamp);
+const outputDir = resolve(repoRoot, '.content/imports', stamp);
 mkdirSync(outputDir, { recursive: true });
 
 async function importarOrganismo(organismo: typeof catalogo.organismos[number]) {

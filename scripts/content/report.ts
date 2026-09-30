@@ -41,10 +41,10 @@ const totais = {
   publicacoes: catalogo.publicacoes.length,
 };
 console.log('Totais —', totais);
-const reportDir = resolve(repoRoot, '.dev/content-health');
+const reportDir = resolve(repoRoot, '.content/health');
 mkdirSync(reportDir, { recursive: true });
 writeFileSync(resolve(reportDir, 'cobertura.json'), `${JSON.stringify({ geradoEm: new Date().toISOString(), totais, organismos: linhas }, null, 2)}\n`, 'utf8');
-console.log('Relatório salvo em .dev/content-health/cobertura.json.');
+console.log('Relatório salvo em .content/health/cobertura.json.');
 
 if (milestoneId) {
   if (milestoneId !== meta72.id) throw new Error(`Checkpoint desconhecido: ${milestoneId}`);
@@ -95,5 +95,5 @@ if (process.argv.includes('--check-links')) {
     resultados.push(...await Promise.all(catalogo.fontes.slice(index, index + 6).map(verificar)));
   }
   writeFileSync(resolve(reportDir, 'links.json'), `${JSON.stringify({ verificadoEm: new Date().toISOString(), resultados }, null, 2)}\n`, 'utf8');
-  console.log(`Saúde de ${resultados.length} URLs salva em .dev/content-health/links.json (${resultados.filter(({ ok }) => ok).length} acessíveis nesta verificação).`);
+  console.log(`Saúde de ${resultados.length} URLs salva em .content/health/links.json (${resultados.filter(({ ok }) => ok).length} acessíveis nesta verificação).`);
 }
