@@ -5,7 +5,7 @@ import milestone from '../../src/content/milestones/meta-72.json';
 import { loadCatalog, repoRoot } from './io';
 
 const catalog = loadCatalog();
-const outputDir = resolve(repoRoot, '.dev/content-health/media-audit');
+const outputDir = resolve(repoRoot, '.content/health/media-audit');
 mkdirSync(outputDir, { recursive: true });
 const initialIds = new Set(milestone.organismoIds.slice(0, 36));
 const organisms = catalog.organismos.filter(({ id }) => milestone.organismoIds.includes(id) && !initialIds.has(id));
