@@ -30,7 +30,11 @@ import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { resumoDependencias } from '../deps-check';
+// A extensão é explícita porque o Vite carrega este arquivo como config, e o
+// `configLoader: 'native'` — que é o default em breve — recusa import sem
+// extensão. Sem ela, cada `npm run dev` imprime um aviso de depreciação.
+import { resumoDependencias } from '../deps-check.ts';
+import { portaPreferida } from './portas.ts';
 
 // ─── Configuração ───────────────────────────────────────────────────────────
 // Fica aqui, no topo, e não num arquivo separado: há um consumidor só, e um
@@ -38,10 +42,15 @@ import { resumoDependencias } from '../deps-check';
 const CONFIG = {
   // O nome que a pessoa diz em voz alta, que não é o `name` do npm.
   rotulo: 'Dinopad',
-  // Dado declarado e estático: a porta vem do ambiente, com o padrão do
-  // Vite. O `base` é lido do vite.config.ts porque é ele que decide a URL —
-  // declarar ao lado do que serve é mais difícil de errar do que repetir.
-  porta: Number(process.env.DINOPAD_DEV_PORT) || 5173,
+  // A porta **nomeada** vem do registro, e não deste arquivo. Ficava 5173
+  // aqui — o default do Vite, o mesmo de mais quatro projetos da frota. Um
+  // número de porta repetido em cinco `vite.config` não é coincidência: é o
+  // defaultializer, e a colisão da §4 do documento de porta da frota.
+  //
+  // Este valor é o **fallback**: quem imprime a linha DEV é o plugin, com a
+  // porta que o servidor escutou. O número de aqui só entra quando não há
+  // servidor — que é o caminho do verificador. Ver `portas.ts`.
+  porta: portaPreferida('dinopad-web', 'DINOPAD_DEV_PORT'),
 };
 
 const raiz = resolve(import.meta.dirname, '..', '..');
@@ -180,7 +189,7 @@ interface Linha {
 
 const p = (tom: string, texto: string): Parte => ({ tom, texto });
 
-function montar(): Linha[] {
+function montar(porta: number): Linha[] {
   const manifesto = lerManifesto();
   const linhas: Linha[] = [];
 
@@ -207,10 +216,15 @@ function montar(): Linha[] {
   // DEV: o dado que a pessoa vai usar agora. O `base` vem do Vite, e sem ele
   // a URL devolveria 404 em toda rota menos a raiz — que é a pegadinha que
   // este cabeçalho existe para eliminar.
+  //
+  // A porta é o ARGUMENTO, e a fonte dela é o servidor que escutou — nunca a
+  // que foi pedida. Ver `principal()` e `header-plugin.ts`: quando o Vite
+  // incrementa (strictPort false, o default), a declarada e a real divergem, e
+  // o cabeçalho tem que mostrar a real.
   const base = /base:\s*'([^']*)'/.exec(readFileSync(join(raiz, 'vite.config.ts'), 'utf8'))?.[1] ?? '/';
   linhas.push({
     min: 0,
-    partes: [p(T.estrutura, 'DEV'), p(T.dado, '    '), p(T.foco, `http://localhost:${CONFIG.porta}${base}`)],
+    partes: [p(T.estrutura, 'DEV'), p(T.dado, '    '), p(T.foco, `http://localhost:${porta}${base}`)],
   });
 
   // GIT: cor de status só onde há LIMIAR real.
@@ -270,8 +284,8 @@ function montar(): Linha[] {
 }
 
 // ─── Desenho ────────────────────────────────────────────────────────────────
-export function renderizar(): string {
-  return montar()
+export function renderizar(porta: number = CONFIG.porta): string {
+  return montar(porta)
     .map((l) => l.partes.map((x) => (x.tom ? x.tom + x.texto + T.reset : x.texto)).join(''))
     .join('\n');
 }
@@ -279,10 +293,15 @@ export function renderizar(): string {
 // ─── Ponto de saída ─────────────────────────────────────────────────────────
 // Falha no limite, nunca no meio: um cabeçalho quebrado não pode quebrar o
 // prompt de quem roda. Tudo aqui é engolido de propósito.
-export function principal(): void {
+//
+// A porta é parâmetro porque a **fonte** dela mudou: quem passa é o plugin do
+// Vite, que lê `address().port` do servidor que escutou. Sem argumento, cai na
+// declarada — que é o fallback honesto para um terminal sem servidor (o
+// verificador usa exatamente esse caminho).
+export function principal(porta: number = CONFIG.porta): void {
   if (!deveImprimir()) return;
   try {
-    const texto = renderizar();
+    const texto = renderizar(porta);
     if (texto) process.stdout.write(texto + '\n');
   } catch {
     // silencioso, de propósito — ver acima
