@@ -12,7 +12,23 @@ import { PORTAS } from './scripts/dev/portas';
 // Ler o registro aqui e o que mantem uma fonte so. Um literal nos dois lados
 // funciona ate alguem trocar um deles.
 const PREVIEW = PORTAS['dinopad-preview'];
-const BASE = `http://127.0.0.1:${PREVIEW}/dinopad/`;
+
+// **O comando invoca o Vite direto, e nao `npm run preview`. Deliberado.**
+//
+// `npm run preview` e o launcher, e o launcher sobe o Vite como filho. Isso
+// coloca tres processos entre o Playwright e o servidor — `npm`, o launcher, o
+// Vite — e o `webServer` encerra **um** processo, o primeiro. O Vite sobrevive
+// com o pipe de saida aberto, o Playwright espera o fim do pipe, e o job fica
+// pendurado sem erro: foi o que aconteceu na CI, 25 min contra 2,6 de base.
+//
+// Um comando com wrapper dentro de `webServer` e armadilha conhecida. O numero
+// vem do registro (fonte unica) e o `--strictPort` mantem a falha alta, que e o
+// que substitui o launcher aqui: se algo Changed a porta entre a leitura e o
+// bind, o processo morre em vez de servir em outro lugar.
+//
+// Nao trocar por `npm run preview` sem medir o tempo do job.
+const VITE_BIN = 'node_modules/vite/bin/vite.js';
+const COMANDO = `node ${VITE_BIN} preview --port ${PREVIEW} --strictPort --host 127.0.0.1`;
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -20,7 +36,7 @@ export default defineConfig({
   outputDir: '.dev/playwright/test-results',
   reporter: [['html', { outputFolder: '.dev/playwright/report', open: 'never' }], ['list']],
   use: {
-    baseURL: BASE,
+    baseURL: `http://127.0.0.1:${PREVIEW}/dinopad/`,
     serviceWorkers: 'block',
     trace: 'retain-on-failure',
   },
@@ -31,9 +47,7 @@ export default defineConfig({
     { name: 'visual', testMatch: /visual\.spec\.ts/, use: { viewport: { width: 1440, height: 900 } } },
   ],
   webServer: {
-    // Sem `--host`: o launcher ja passa `--host 127.0.0.1` ao Vite, e um
-    // argumento extra aqui seria lido por ninguem.
-    command: 'npm run preview',
+    command: COMANDO,
     port: PREVIEW,
     reuseExistingServer: false,
   },
