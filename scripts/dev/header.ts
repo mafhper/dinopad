@@ -34,6 +34,7 @@ import { pathToFileURL } from 'node:url';
 // `configLoader: 'native'` — que é o default em breve — recusa import sem
 // extensão. Sem ela, cada `npm run dev` imprime um aviso de depreciação.
 import { resumoDependencias } from '../deps-check.ts';
+import { portaPreferida } from './portas.ts';
 
 // ─── Configuração ───────────────────────────────────────────────────────────
 // Fica aqui, no topo, e não num arquivo separado: há um consumidor só, e um
@@ -41,10 +42,15 @@ import { resumoDependencias } from '../deps-check.ts';
 const CONFIG = {
   // O nome que a pessoa diz em voz alta, que não é o `name` do npm.
   rotulo: 'Dinopad',
-  // Dado declarado e estático: a porta vem do ambiente, com o padrão do
-  // Vite. O `base` é lido do vite.config.ts porque é ele que decide a URL —
-  // declarar ao lado do que serve é mais difícil de errar do que repetir.
-  porta: Number(process.env.DINOPAD_DEV_PORT) || 5173,
+  // A porta **nomeada** vem do registro, e não deste arquivo. Ficava 5173
+  // aqui — o default do Vite, o mesmo de mais quatro projetos da frota. Um
+  // número de porta repetido em cinco `vite.config` não é coincidência: é o
+  // defaultializer, e a colisão da §4 do documento de porta da frota.
+  //
+  // Este valor é o **fallback**: quem imprime a linha DEV é o plugin, com a
+  // porta que o servidor escutou. O número de aqui só entra quando não há
+  // servidor — que é o caminho do verificador. Ver `portas.ts`.
+  porta: portaPreferida('dinopad-web', 'DINOPAD_DEV_PORT'),
 };
 
 const raiz = resolve(import.meta.dirname, '..', '..');

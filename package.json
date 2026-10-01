@@ -14,7 +14,7 @@
     "dev": "tsx scripts/dev/dev.ts",
     "dev:check": "tsx scripts/dev/header.check.ts",
     "build": "npm run content:validate && npm run content:build && tsc -b && vite build && tsx scripts/build-sw-manifest.ts",
-    "preview": "vite preview",
+    "preview": "tsx scripts/dev/preview.ts",
     "lint": "eslint .",
     "type-check": "tsc -b",
     "test": "vitest run",

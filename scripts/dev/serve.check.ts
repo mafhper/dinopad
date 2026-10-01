@@ -41,11 +41,21 @@ function ok(cond: boolean, msg: string, detalhe = ''): void {
   }
 }
 
-/** Carrega `serve.ts` num processo limpo e devolve o que o corpo imprimiu. */
-function comModulo(corpo: string, env: NodeJS.ProcessEnv = {}): { json?: any; stderr: string } {
+/**
+ * Carrega um módulo num processo limpo e devolve o que o corpo imprimiu.
+ *
+ * O `alvo` é parâmetro porque as asserções do registro de portas carregam
+ * `portas.ts`, e não `serve.ts`. Sem o parâmetro, testar o registro exigiria
+ * duplicar a carga — e a cópia é que envelhece.
+ */
+function comModulo(
+  corpo: string,
+  env: NodeJS.ProcessEnv = {},
+  alvo: string = ALVO_SERVE,
+): { json?: any; stderr: string } {
   const dir = mkdtempSync(join(tmpdir(), 'dinopad-serve-'));
   const stub = join(dir, 'stub.mjs');
-  writeFileSync(stub, `const m = await import(${JSON.stringify(ALVO_SERVE)});\n${corpo}\n`, 'utf8');
+  writeFileSync(stub, `const m = await import(${JSON.stringify(alvo)});\n${corpo}\n`, 'utf8');
   const r = spawnSync(process.execPath, ['--import', TSX, stub], {
     cwd: RAIZ,
     encoding: 'utf8',
@@ -102,7 +112,97 @@ ok(
   'p=' + preferidaProibida.json?.p,
 );
 
-// ── 4-5. o prazo, e onde ele existe ─────────────────────────────────────────
+// ── 4. o registro de portas nomeadas ───────────────────────────────────────
+// O conserto certo da colisão é *nomear* a porta por projeto, e nomear tem
+// uma asserção própria: a porta nomeada tem que estar FORA das faixas em que o
+// Vite incrementa. Se ela morasse em 5173-5175, um servidor caindo ali seria
+// indistinguível de um incremento — que é o defeito que a DNP10 conserta.
+console.log('\n── portas nomeadas ──');
+
+const ALVO_PORTAS = pathToFileURL(join(RAIZ, 'scripts', 'dev', 'portas.ts')).href;
+const registro = comModulo(`console.log(JSON.stringify({ P: m.PORTAS }));`, {}, ALVO_PORTAS);
+
+const P: Record<string, number> = registro.json?.P ?? {};
+const FAIXA_DEV_DO_VITE = [5173, 5175];
+const FAIXA_PREVIEW_DO_VITE = [4173, 4175];
+const naFaixa = (p: number, [a, b]: number[]) => p >= a && p <= b;
+
+ok(
+  Object.keys(P).length > 0 &&
+    Object.keys(P).every((k) => k.startsWith('dinopad-')) &&
+    Object.values(P).every((p) => typeof p === 'number' && p > 0 && p < 65536),
+  'o registro declara portas por NOME de projeto',
+  'nomes=' + Object.keys(P).join(','),
+);
+
+ok(
+  typeof P['dinopad-web'] === 'number',
+  'dinopad-web existe no registro',
+  'p=' + P['dinopad-web'],
+);
+
+ok(
+  typeof P['dinopad-preview'] === 'number',
+  'dinopad-preview existe no registro',
+  'p=' + P['dinopad-preview'],
+);
+
+// A asserção que carrega o conserto: as duas fora das faixas do Vite.
+ok(
+  typeof P['dinopad-web'] === 'number' && !naFaixa(P['dinopad-web'], FAIXA_DEV_DO_VITE),
+  `dinopad-web NAO esta na faixa de incremento do Vite (${FAIXA_DEV_DO_VITE[0]}-${FAIXA_DEV_DO_VITE[1]})`,
+  'p=' + P['dinopad-web'],
+);
+
+ok(
+  typeof P['dinopad-preview'] === 'number' && !naFaixa(P['dinopad-preview'], FAIXA_PREVIEW_DO_VITE),
+  `dinopad-preview NAO esta na faixa de incremento do Vite (${FAIXA_PREVIEW_DO_VITE[0]}-${FAIXA_PREVIEW_DO_VITE[1]})`,
+  'p=' + P['dinopad-preview'],
+);
+
+// A centena separa dev de preview: quem lê o número na tela sabe qual é.
+ok(
+  typeof P['dinopad-web'] === 'number' &&
+    typeof P['dinopad-preview'] === 'number' &&
+    P['dinopad-preview'] === P['dinopad-web'] - 1000,
+  'a centena separa dev de preview (preview = dev - 1000)',
+  `web=${P['dinopad-web']} preview=${P['dinopad-preview']}`,
+);
+
+// Nenhuma porta nomeada pode colidir com o que a frota já usa. Os números foram
+// medidos nos repos da maquina antes da escolha — se algum deles mudar, esta
+// assercao e a que acusa.
+const EM_USE = [3000, 4173, 4175, 4273, 4300, 4321, 5173, 5174, 8080];
+ok(
+  Object.values(P).every((p) => !EM_USE.includes(p)),
+  'nenhuma porta nomeada colide com uma porta ja usada na frota',
+  'em uso=' + EM_USE.join(','),
+);
+
+// A sobrescrita por ambiente continua valendo: o registro e preferencia, nao decree.
+const sobrescrita = comModulo(
+  `console.log(JSON.stringify({ p: m.portaPreferida('dinopad-web', 'DINOPAD_DEV_PORT') }));`,
+  { DINOPAD_DEV_PORT: '45999' },
+  ALVO_PORTAS,
+);
+ok(
+  sobrescrita.json?.p === 45999,
+  'a porta nomeada aceita sobrescrita pelo ambiente',
+  'p=' + sobrescrita.json?.p,
+);
+
+const semSobrescrita = comModulo(
+  `console.log(JSON.stringify({ p: m.portaPreferida('dinopad-web', 'DINOPAD_DEV_PORT') }));`,
+  {},
+  ALVO_PORTAS,
+);
+ok(
+  semSobrescrita.json?.p === P['dinopad-web'],
+  'sem sobrescrita, a porta e a do registro',
+  'p=' + semSobrescrita.json?.p,
+);
+
+// ── 5-6. o prazo, e onde ele existe ─────────────────────────────────────────
 console.log('\n── prazo de vida ──');
 
 const emDev = comModulo(

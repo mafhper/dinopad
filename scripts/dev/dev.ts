@@ -6,14 +6,17 @@
 //
 // O cabeçalho em si é impresso pelo plugin do Vite, depois do `listening`,
 // com a porta que o servidor escutou (DNP9). Aqui o que se anuncia é a
-// **decisão**: "vou usar 5173" ou "5173 está ocupada, vou usar 5184".
+// **decisão**: "vou usar a porta nomeada" ou "a nomeada está ocupada, vou
+// usar a seguinte".
 
 import { createRequire } from 'node:module';
 import { dirname, join } from 'node:path';
 import { findSafePort, prazoDeVida, servir } from './serve.ts';
 import { derrubarArvore } from './matar.ts';
+import { portaPreferida, PORTAS } from './portas.ts';
 
-const PREFERIDA = Number(process.env.DINOPAD_DEV_PORT) || 5173;
+const NOME = 'dinopad-web';
+const PREFERIDA = portaPreferida(NOME, 'DINOPAD_DEV_PORT');
 const HOST = '127.0.0.1';
 
 // O executável do Vite resolvido direto, sem passar pelo `npm exec`. Um
@@ -32,9 +35,13 @@ const VITE = join(dirname(VITE_MANIFESTO), VITE_BIN);
 async function principal(): Promise<void> {
   const porta = await findSafePort(PREFERIDA, HOST);
 
+  // A mensagem diz o **nome** e o número. Quem lê `5180` não sabe de que
+  // projeto é; quem lê `dinopad-web 5180` sabe, e é isso que a porta nomeada
+  // compra. Quando a nomeada está ocupada, o número da seguinte vem junto — sem
+  // ele, a pessoa procura um servidor que não sabe onde está.
   const aviso = porta === PREFERIDA
-    ? `porta ${porta}`
-    : `porta ${porta}  (${PREFERIDA} estava ocupada)`;
+    ? `${NOME}  porta ${porta}`
+    : `${NOME}  porta ${porta}  (${PORTAS[NOME]} estava ocupada)`;
   process.stdout.write(`Dinopad  dev  ${aviso}\n`);
 
   const prazo = prazoDeVida();
