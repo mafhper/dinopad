@@ -103,22 +103,62 @@ for (const [nome, env] of SILENCIOS) {
   }
 }
 
-// ── §7 o gancho sai com 0 ─────────────────────────────────────────────────
-// No Windows `npm` é `npm.cmd`. Duas correções são precisas aqui, e nas duas a
-// prova estava errada e não o gancho:
-//   1. sem `shell`, `spawnSync` não acha `npm.cmd` (status null, ENOENT);
-//   2. com `shell: true`, o Node >= 18.20/20.12/21.7 recusa `.cmd` com EINVAL
-//      (a correção de CVE-2024-27980). Os argumentos são literais fixos deste
-//      arquivo, então não há superfície de injeção.
+// ── §7 o caminho de render sai com 0 ───────────────────────────────────────
+// O que este bloco mede mudou com a DNP9. Antes era `npm run predev`: um
+// gancho à parte, executado antes do Vite, que portanto imprimia a porta
+// *pedida*. Agora o cabeçalho é um plugin do Vite e imprime depois do
+// `listening`, com a porta que o servidor *escutou* — e o `predev` saiu do
+// manifesto (o `npm run dev` voltou a ser `npm → vite`, um processo a menos).
+//
+// O que este bloco mede agora é a mesma garantia: **o caminho de render não
+// quebra o prompt de quem roda**. Ele importa `principal()` e chama com um
+// terminal sem TTY, que é o caso em que ele decide não imprimir nada.
 {
-  const npmCmd = process.platform === 'win32' ? 'npm.cmd' : 'npm';
-  const r = spawnSync(npmCmd, ['run', 'predev'], {
+  const dir = mkdtempSync(join(tmpdir(), 'dinopad-header-'));
+  const stub = join(dir, 'sem-tty.mjs');
+  writeFileSync(
+    stub,
+    `const m = await import(${JSON.stringify(pathToFileURL(ALVO).href)});\n` + 'm.principal();\n',
+    'utf8',
+  );
+  const r = spawnSync(process.execPath, ['--import', TSX, stub], {
     cwd: RAIZ,
     encoding: 'utf8',
-    shell: true,
     env: { ...process.env, CI: '1' },
   });
-  ok(r.status === 0, 'o gancho predev sai com código 0', 'status=' + r.status + ' err=' + String(r.error ?? ''));
+  rmSync(dir, { recursive: true, force: true });
+  ok(r.status === 0, 'o caminho de render sai com código 0', 'status=' + r.status + ' err=' + String(r.error ?? ''));
+}
+
+// ── DNP9: a porta que sai é a que foi passada, não a declarada ────────────
+// Esta é a prova de que o defeito da DNP9 está fechado. Ela falharia contra o
+// `header.ts` de antes, que ignorava qualquer porta e imprimia a do
+// `CONFIG` — porque 7311 e 9999 são portas que aquele arquivo nunca conhecia,
+// e ele as imprimiria igualmente como 5173.
+{
+  const dir = mkdtempSync(join(tmpdir(), 'dinopad-header-'));
+  const stub = join(dir, 'com-tty.mjs');
+  writeFileSync(
+    stub,
+    'process.stdout.isTTY = true;\n' +
+      'process.stderr.isTTY = true;\n' +
+      'Object.defineProperty(process.stdout, "columns", { value: 100 });\n' +
+      `const m = await import(${JSON.stringify(pathToFileURL(ALVO).href)});\n` +
+      'm.principal(7311);\n',
+    'utf8',
+  );
+  const r = spawnSync(process.execPath, ['--import', TSX, stub], {
+    cwd: RAIZ,
+    encoding: 'utf8',
+    env: { ...process.env, CI: '', NO_COLOR: '', TERM: 'xterm-256color' },
+  });
+  rmSync(dir, { recursive: true, force: true });
+  const saida = semCor(r.stdout || '');
+  ok(
+    /localhost:7311/.test(saida) && !/localhost:5173/.test(saida),
+    'DNP9: a linha DEV mostra a porta EM ESCUTA, não a declarada',
+    'saida=' + JSON.stringify(saida.split('\n').find((l) => l.includes('DEV')) ?? ''),
+  );
 }
 
 // ── conteúdo, com TTY simulado ─────────────────────────────────────────────
@@ -253,6 +293,58 @@ for (const cols of LARGURAS) {
   } finally {
     writeFileSync(original, bom, 'utf8');
   }
+}
+
+// ── DNP9: o plugin passa a porta que o servidor ESCUTOU ───────────────────
+// A prova de execução (subir o Vite e ler o terminal) exige um TTY de verdade,
+// e no Windows não há TTY nativo sem dependência. O que está sob teste não é o
+// terminal: é **a ligação**. O plugin lê `address().port` e passa para
+// `principal()`. Isso é medido com um servidor falso que devolve uma porta
+// conhecida — e reprova se o plugin ler qualquer outra coisa, ou se voltar a
+// ler a declarada.
+{
+  const dir = mkdtempSync(join(tmpdir(), 'dinopad-header-'));
+  const stub = join(dir, 'plugin.mjs');
+  const alvoPlugin = pathToFileURL(join(RAIZ, 'scripts', 'dev', 'header-plugin.ts')).href;
+  writeFileSync(
+    stub,
+    [
+      'const { EventEmitter } = await import("node:events");',
+      'const linhas = [];',
+      'const escreve = process.stdout.write.bind(process.stdout);',
+      'process.stdout.write = (t) => { linhas.push(String(t)); return true; };',
+      'process.stdout.isTTY = true;',
+      'process.stderr.isTTY = true;',
+      'Object.defineProperty(process.stdout, "columns", { value: 100 });',
+      `const { cabecalho } = await import(${JSON.stringify(alvoPlugin)});`,
+      'const http = new EventEmitter();',
+      'http.address = () => ({ port: 5187, address: "127.0.0.1", family: "IPv4" });',
+      'cabecalho().configureServer({ httpServer: http });',
+      'http.emit("listening");',
+      'await new Promise((r) => setTimeout(r, 80));',
+      'process.stdout.write = escreve;',
+      'const txt = linhas.join("").replace(/\\x1b\\[[0-9;]*m/g, "");',
+      'console.log(JSON.stringify({ temEscuta: /localhost:5187/.test(txt), temDeclarada: /localhost:5173/.test(txt) }));',
+    ].join('\n'),
+    'utf8',
+  );
+  const r = spawnSync(process.execPath, ['--import', TSX, stub], {
+    cwd: RAIZ,
+    encoding: 'utf8',
+    env: { ...process.env, CI: '', NO_COLOR: '', TERM: 'xterm-256color' },
+  });
+  rmSync(dir, { recursive: true, force: true });
+  let leitura: { temEscuta?: boolean; temDeclarada?: boolean };
+  try {
+    leitura = JSON.parse((r.stdout || '').trim().split('\n').filter(Boolean).pop() ?? '{}');
+  } catch {
+    leitura = {};
+  }
+  ok(
+    leitura.temEscuta === true && leitura.temDeclarada !== true,
+    'DNP9: o plugin passa ao cabecalho a porta que o servidor escutou',
+    'saida=' + (r.stdout || '').slice(-140),
+  );
 }
 
 console.log('\n' + (falhas.length ? `FALHOU (${falhas.length})` : 'TUDO VERDE'));

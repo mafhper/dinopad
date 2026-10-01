@@ -11,8 +11,7 @@
   "scripts": {
     "brand:build": "tsx scripts/brand/process-logo.ts",
     "brand:validate": "tsx scripts/brand/process-logo.ts --check",
-    "predev": "tsx scripts/dev/header.ts",
-    "dev": "vite",
+    "dev": "tsx scripts/dev/dev.ts",
     "dev:check": "tsx scripts/dev/header.check.ts",
     "build": "npm run content:validate && npm run content:build && tsc -b && vite build && tsx scripts/build-sw-manifest.ts",
     "preview": "vite preview",
@@ -36,7 +35,8 @@
     "content:approve-meta72": "tsx scripts/content/approve-meta72.ts",
     "content:build": "tsx scripts/content/build-index.ts",
     "content:report": "tsx scripts/content/report.ts",
-    "check": "npm run deps:check && npm run brand:validate && npm run dev:check && npm run lint && npm run type-check && npm run test && npm run build"
+    "check": "npm run deps:check && npm run brand:validate && npm run dev:check && npm run dev:serve:check && npm run lint && npm run type-check && npm run test && npm run build",
+    "dev:serve:check": "tsx scripts/dev/serve.check.ts"
   },
   "dependencies": {
     "d3-hierarchy": "^3.1.2",
